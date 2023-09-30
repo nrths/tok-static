@@ -1,4 +1,5 @@
-import mailer from 'nodemailer';
+// import mailer from 'nodemailer';
+const mailer = require('nodemailer');
 
 const smtpTransport = mailer.createTransport({
 	host: 'smtp.yandex.com',
@@ -14,7 +15,7 @@ const smtpTransport = mailer.createTransport({
 });
 
 const sendEmail = (message: any) => {
-    smtpTransport.sendMail(message, function (error, info) {
+    smtpTransport.sendMail(message, function (error: any, info: any) {
         if (error) {
             console.log(error);
         } else {
