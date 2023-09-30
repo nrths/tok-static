@@ -1,0 +1,61 @@
+.container {
+    position: relative;
+    /* max-width: 50%; */
+    width: 100%;
+}
+
+.container>div {
+    position: unset !important;
+}
+
+.title {
+    padding: 0 0 0 60px;
+    font-size: 40px;
+    color: var(--baseTextColor);
+    font-weight: 600;
+}
+
+.city {
+    padding: 0 0 40px 60px;
+    font-size: 24px;
+    color: var(--baseTextColor);
+    font-weight: 300;
+}
+
+.img {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: auto !important;
+    opacity: 0.8;
+    filter: grayscale(100%);
+}
+
+.contactImg {
+    object-fit: contain;
+    width: 100% !important;
+    max-width: 308px;
+    position: relative !important;
+    height: auto !important;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .title {
+        padding: 0 0 0 0;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .city {
+        padding: 0 0 20px 0;
+        font-size: 10px;
+    }
+    .img {
+        object-fit: cover;
+    }
+}

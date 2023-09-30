@@ -1,0 +1,31 @@
+.container {
+    color: var(--baseTextColor);
+    margin: 40px auto;
+    padding: 0 20px;
+    max-width: 1400px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.h3 {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.link {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 1.5;
+    cursor: pointer;
+}

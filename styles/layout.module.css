@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 25px 40px 25px;
+    max-width: 2560px;
+    position: relative;
+    /* background-color: antiquewhite; */
+}
+
+@media (max-width: 1000px) {
+    .container {
+        padding: 25px 0 0px;
+    }
+}

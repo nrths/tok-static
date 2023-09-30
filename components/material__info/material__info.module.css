@@ -1,0 +1,152 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    /* padding: 30px 40px; */
+    width: 100%;
+}
+
+.column {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.span {
+    position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+    ;
+    padding: 30px 60px;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 200;
+    color: #fff;
+    background-color: rgba(56, 56, 56, 0.50);
+}
+
+.title {
+    padding: 90px 0 40px 70px;
+    color: var(--baseTextColor);
+    font-weight: 200;
+    font-size: 48px;
+}
+
+.materials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 0 0 55px 70px;
+}
+
+.heading {
+    color: var(--baseTextColor);
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0 0 13px 70px;
+}
+
+.text {
+    color: var(--baseTextColor);
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 105px 25px;
+}
+
+.text__lined {
+    text-decoration: underline;
+}
+
+.info {
+    padding-bottom: 60px;
+}
+
+.caption {
+    display: inline-block;
+    color: var(--baseTextColor);
+    font-size: 14px;
+    font-weight: 200;
+    font-style: italic;
+    padding: 0 0 90px 105px;
+    max-width: 400px;
+}
+
+@media (max-width: 1280px) {
+    .title {
+        padding: 40px 0 20px 50px;
+        font-size: 36px;
+    }
+    
+    .materials {
+        padding: 0 0 35px 50px;
+    }
+
+    .heading {
+        font-size: 16px;
+        padding: 0 0 13px 50px;
+    }
+    
+    .text {
+        font-size: 12px;
+        padding: 0 0 15px 85px;
+    }
+    .info {
+        padding-bottom: 40px;
+    }
+    
+    .caption {
+        font-size: 12px;
+        padding: 0 0 70px 85px;
+    }
+    
+}
+
+/* @media (max-width: 769px) {
+    .title {
+        padding: 0px 0 20px 0px;
+        font-size: 36px;
+    }
+    
+    .materials {
+        padding: 0 0 35px 25px;
+    }
+
+    .heading {
+        padding: 0 0 13px 25px;
+    }
+    
+    .text {
+        padding: 0 0 15px 55px;
+    }
+    .info {
+        padding-bottom: 20px;
+    }
+    
+    .caption {
+        padding: 0 0 20px 25px;
+    } 
+} */
+
+@media (max-width: 769px) {
+    .container {
+        /* padding: 10px 0px; */
+        flex-direction: column;
+    }
+    .column {
+        /* width: 90%; */
+        height: 50%;
+    } 
+    /*.column:last-child {
+        width: 90%;
+    } */
+    .title {
+        padding: 40px 0 20px 0px;
+        font-size: 36px;
+    }
+    .span {
+        padding: 20px 40px;
+        text-align: right;
+        font-size: 24px;
+    }
+}

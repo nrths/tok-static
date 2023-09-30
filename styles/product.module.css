@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /* gap: 60px; */
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdowns {
+    padding-bottom: 90px;
+}
+
+/* models slider and product info section styles */
+.slider {
+    margin-bottom: 20px;
+}
+
+
+/* dropdowns section styles */
+.heading {
+    color: var(--baseTextColor);
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.terms {
+    padding: 50px 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.block {
+    padding: 40px 30px 30px 40px;
+    width: 306px;
+    height: 200px;
+}
+
+.details {
+    color: var(--baseTextColor);
+    font-size: 12px;
+    font-weight: 200;
+}
+
+@media (min-width: 1600px) {
+    .section {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 50px;
+        padding: 0 0 20px;
+    }
+
+    .slider {
+        max-width: 60%;
+    }
+
+}
+
+@media ((min-width: 769px) and (max-width: 1599px)) {
+    .descriptionWrapper {
+        padding: 40px 0 60px;
+        display: flex;
+    }
+}
+
+@media ((min-width: 769px) and (max-width: 1000px)) {
+    .descriptionWrapper {
+        padding: 40px 25px 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dropdowns {
+        padding-bottom: 70px;
+    }
+
+    .detailsMobile {
+        padding: 0 0 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .terms {
+        padding: 50px 0 50px;
+    }
+    
+    .block {
+        padding: 0 25px 30px;
+        width: 100%;
+        height: auto;
+    }
+}

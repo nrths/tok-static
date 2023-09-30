@@ -1,0 +1,23 @@
+.button {
+    padding: 14px 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    min-width: 100%;
+    color: var(--baseTextColor);
+    text-transform: uppercase;
+    display: flex;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.nav__button {
+    transition: transform 0.4s ease-out;
+}
+
+.nav__button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}

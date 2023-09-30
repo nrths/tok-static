@@ -1,0 +1,26 @@
+.custom404 {
+    margin: 5rem auto;
+    padding: 0 25px;
+    color: var(--baseTextColor);
+}
+
+.title {
+    font-weight: 400;
+    text-align: center;
+}
+
+.text {
+    padding: 3rem 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    gap: 3rem;
+    margin: 0 auto;
+}
+
+.button {
+    min-width: 25% !important;
+}

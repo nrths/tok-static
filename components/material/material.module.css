@@ -1,0 +1,45 @@
+.material__wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5px;
+}
+
+.material {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.material:hover .material__image {
+    outline: 4px solid var(--headersColor);
+    outline-offset: -4px;
+}
+
+.material:hover .material__span {
+    visibility: visible;
+}
+
+.material__image {
+    border-radius: 50%;
+}
+
+.material__span {
+    visibility: hidden;
+    color: var(--baseTextColor);
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.material__span.metallic {
+    font-size: 8px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 50px;
+}
+
+.white {
+    border: 0.5px solid #BFBABA;
+}

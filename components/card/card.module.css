@@ -1,0 +1,109 @@
+.card {
+    max-width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card.bed {
+    max-width: 100%;
+}
+
+.card.dinner {
+    max-width: 50%;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardImage {
+    min-width: 30%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.cardInfoWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+}
+
+.cardTitle {
+    font-size: 16px;
+    /* 12px layout */
+    font-weight: 300;
+    text-align: center;
+}
+
+.price {
+    color: var(--productCostColor);
+    font-size: 16px;
+    /* 12px layout */
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.new {
+    background-color: #94A072;
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.new.new__homepage {
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+@media (max-width: 1400px) {
+    .new {
+        padding: 3px 8px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        max-width: 50%;
+    }
+
+    .card.bed {
+        max-width: 100%;
+    }
+
+    .card.dinner {
+        max-width: 100%;
+    }
+
+    .cardTitle {
+        font-size: 12px;
+    }
+
+    .price {
+        font-size: 12px;
+    }
+
+    .new {
+        padding: 5px 10px;
+        font-size: 8px;
+    }
+
+    .new.new__homepage {
+        padding: 3px 6px;
+        font-size: 8px;
+        top: -20px;
+    }
+}

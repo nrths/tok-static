@@ -1,0 +1,62 @@
+.container {
+    padding: 0 10px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.city {
+    text-transform: none;
+    color: var(--headersColor);
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.text {
+    color: var(--baseTextColor);
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 30px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.backCallButton {
+    width: 100%;
+    background-color: var(--headersColor);
+}
+
+.buttonText {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.hidden {
+    visibility: hidden;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border: 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 0 auto;
+        max-width: 80%;
+    }
+}

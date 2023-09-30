@@ -1,0 +1,229 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headingWrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.heading {
+    color: var(--headersColor);
+    font-size: 56px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    text-align: right;
+    min-width: 50%;
+}
+
+.headingMobile {
+    display: none;
+}
+
+.section {
+    /* padding: 30px 0 0 0; */
+    position: relative;
+}
+
+.section.dignitys {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.section.places {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 70px;
+}
+
+.section.manufacture {
+    padding: 30px 0 0;
+}
+
+.section.news {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section.publications {
+    margin-top: 90px;
+}
+
+.heading2 {
+    color: var(--baseTextColor);
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.heading2.green {
+    color: #94A072;
+    font-weight: 200;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 60px;
+    max-width: 85%;
+    gap: 15%;
+}
+
+.column {
+    width: 30%;
+}
+
+
+.dignityItem {
+    padding: 20px 0 0;
+}
+
+.newsContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.publicationsContainer {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin: 40px 0 0 0;
+    overflow-x: hidden;
+    gap: 2px;
+}
+
+.publLink {
+    text-transform: uppercase;
+    color: var(--baseTextColor);
+    text-align: right;
+    font-size: 24px;
+    font-weight: 300;
+    border-bottom: 1px solid var(--dropdownBorderColor);
+    padding: 30px 0 30px 0;
+    display: block;
+    min-width: 100%;
+}
+
+@media (min-width: 1281px) {
+    .list {
+        max-width: 95%;
+    }
+    .column {
+        width: 40%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .heading {
+        max-width: 80%;
+    }
+
+    .list {
+        gap: 0;
+    }
+
+    .column {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1220px) {
+    .heading {
+        max-width: 100%;
+        padding-right: 10px;
+        font-size: 40px;
+    }
+
+    .heading2 {
+        padding-left: 1rem;
+    }
+
+    .newsContainer {
+        padding: 0 25px;
+    }
+}
+
+
+@media (max-width: 870px) {
+    .newsContainer {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading {
+        display: none;
+    }
+
+    .headingMobile {
+        color: var(--headersColor);
+        font-weight: 100;
+        margin-bottom: 30px;
+        max-width: 100%;
+        font-size: 32px;
+        margin: 0;
+        display: none;
+        padding: 25px 0 0 25px;
+        text-align: left;
+        display: block;
+    }
+
+    .heading2 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .list {
+        margin: 40px auto 40px;
+        flex-direction: column;
+        max-width: 95%;
+        border-top: 0.5px solid var(--borderlinesColor);
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .dignityItem {
+        /* min-width: -webkit-fill-available; */
+        border-bottom: 0.5px solid var(--borderlinesColor);
+        padding-left: 15px;
+    }
+
+    .section.newProducts {
+        padding: 30px 0 0 0;
+    }
+
+    .section.places {
+        margin: 0 40px;
+        padding-top: 0px;
+    }
+
+    .newsContainer {
+        padding-top: 40px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* .section.publications {
+        display: none;
+    } */
+    /* если оставляем секцию с публикациями на мобильном разрешении */
+    .publicationsContainer {
+        margin: 15px 0;
+    }
+
+    .publLink {
+        font-size: 16px;
+        font-weight: 300;
+        padding: 0 0 15px 0;
+        min-width: 90%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,73 @@
+export const slot = {
+  id: 52,
+  title: "slot",
+  modelsSlider: [
+    "/images/products/slot/models/1.jpg",
+    "/images/products/slot/models/2.jpg",
+    "/images/products/slot/models/3.jpg",
+    "/images/products/slot/models/4.jpg",
+    "/images/products/slot/models/5.jpg",
+    "/images/products/slot/models/6.jpg",
+    "/images/products/slot/models/7.jpg",
+    "/images/products/slot/models/8.jpg",
+  ],
+  description:
+    "Обеденный стол из серии СЛОТ на ножках из цельного дерева обладает отличными пропорциями и отлично смотрится как в небольших, так и в более габаритных размерах. Столешница выполнена из массива дуба. Отличное сочетание современного дизайна и первоклассного исполнения.",
+  designer: "Сергей Беляков",
+  dateOfCreation: 2020,
+  countertop: ["массив дуба"],
+  underframe: ["массив дуба"],
+  sizesSlider: [
+    "/images/products/slot/sizes/1.jpg",
+    "/images/products/slot/sizes/2.jpg",
+  ],
+  visualisations: [
+    "/images/products/slot/interior/1.jpg",
+    "/images/products/slot/interior/2.jpg",
+    "/images/products/slot/interior/3.jpg",
+    "/images/products/slot/interior/4.jpg",
+  ],
+  designersProjects: [
+    {
+      img: "/images/products/slot/projects/1.jpg",
+      author: "Телегина Полина",
+    },
+    {
+      img: "/images/products/slot/projects/2.jpg",
+      author: "Телегина Полина",
+    },
+    {
+      img: "/images/products/slot/projects/3.jpg",
+      author: "Телегина Полина",
+    },
+    {
+      img: "/images/products/slot/projects/4.jpg",
+      author: "Мария Санина",
+    },
+    {
+      img: "/images/products/slot/projects/5.jpg",
+      author: "Мария Санина",
+    },
+    {
+      img: "/images/products/slot/projects/6.jpg",
+      author: "Анастасия Оверина",
+    },
+  ],
+  price: [86600],
+  params: {
+    "массив дуба": {
+      "1250Х 750 Х 750": 86600,
+      "1400 Х 800 Х 750": 93900,
+      "1800 Х 800 Х 750": 112200,
+      "2000 Х 900 Х 750": 118200,
+    },
+  },
+  category: "TABLE_DINNER STEAL",
+  name: "слот",
+  previewImg: "/images/products/slot/preview.jpg",
+  position: 23,
+  sortedPosition: 28,
+  mobilePosition: 36,
+  model: "https://disk.yandex.ru/d/NhIofTt03uNSVQ",
+  tags: ["стол", "обеденный"],
+};

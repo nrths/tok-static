@@ -1,0 +1,18 @@
+.downloadButtonsWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 60px 60px 80px;
+}
+
+.downloadButton {
+    padding: 14px 20px;
+    font-weight: 300;
+    cursor: pointer;
+    color: var(--baseTextColor);
+    text-transform: uppercase;
+    display: block;
+    min-width: max-content;
+    font-size: 16px;
+}

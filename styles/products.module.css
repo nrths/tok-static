@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-items: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.menuList {
+    /* padding: 20px 0 0 0; */
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.empty { 
+    width: 100%;
+    height: 34px;
+}
+
+.menuItem {
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #CBCBCB;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.menuItem:not([disabled]):hover {
+    color: #94A072;
+    transform: scale(1.1);
+}
+
+.active {
+    color: #808080;
+}
+
+@media (max-width: 768px) {
+    .container {
+        row-gap: 10px;
+    }
+
+    .menuList {
+        gap: 15px;
+    }
+
+    .menuItem {
+        padding: 5px 0;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,19 @@
+.arrow {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    fill: transparent;
+    cursor: pointer;
+  }
+  
+  .arrow__left {
+    left: 35%;
+  }
+  
+  .arrow__right {
+    left: auto;
+    right: 35%;
+  }

@@ -1,0 +1,67 @@
+export const homie = {
+  id: 11,
+  title: "homie",
+  modelsSlider: [
+    "/images/products/homie/models/1.jpg",
+    "/images/products/homie/models/2.jpg",
+    "/images/products/homie/models/3.jpg",
+    "/images/products/homie/models/4.jpg",
+    "/images/products/homie/models/5.jpg",
+    "/images/products/homie/models/6.jpg",
+    "/images/products/homie/models/7.jpg",
+    "/images/products/homie/models/8.jpg",
+  ],
+  description:
+    "Кровать ХОУМИ с мягкой текстильной обивкой. Ее дизайн отличается слегка скругленной формой каркаса. Лаконичность основных элементов этой кровати подчеркивается вертикальными декоративными вставками. Высокое изголовье демонстрирует одновременно удобство и элегантность.  В отделке данной модели использованы различные виды ткани и натуральной кожи.",
+  designer: "Сергей Беляков",
+  dateOfCreation: 2023,
+  countertop: [
+    "ткань категория 1",
+    "ткань категория 2",
+    "кожа категория 1",
+    "кожа категория 2",
+  ],
+  sizesSlider: [
+    "/images/products/homie/sizes/1.jpg",
+    "/images/products/homie/sizes/2.jpg",
+  ],
+  visualisations: [
+    "/images/products/homie/interior/1.jpg",
+    "/images/products/homie/interior/2.jpg",
+  ],
+  designersProjects: [],
+  price: [121000],
+  params: {
+    "ткань категория 1": {
+      "1900 Х 2200 Х 1100": 121000,
+      "2100 Х 2200 Х 1100": 132300,
+      "2300 Х 2200 Х 1100": 143000,
+      "2500 Х 2200 Х 1100": 154500,
+    },
+    "ткань категория 2": {
+      "1900 Х 2200 Х 1100": 142500,
+      "2100 Х 2200 Х 1100": 155300,
+      "2300 Х 2200 Х 1100": 167500,
+      "2500 Х 2200 Х 1100": 180000,
+    },
+    "кожа категория 1": {
+      "1900 Х 2200 Х 1100": 156000,
+      "2100 Х 2200 Х 1100": 170000,
+      "2300 Х 2200 Х 1100": 189000,
+      "2500 Х 2200 Х 1100": 210000,
+    },
+    "кожа категория 2": {
+      "1900 Х 2200 Х 1100": 196000,
+      "2100 Х 2200 Х 1100": 215000,
+      "2300 Х 2200 Х 1100": 237000,
+      "2500 Х 2200 Х 1100": 260000,
+    },
+  },
+  category: "BED",
+  name: "хоуми",
+  previewImg: "/images/products/homie/preview.jpg",
+  position: 13,
+  mobilePosition: 40,
+  model: "https://disk.yandex.ru/d/O44JbcRLq8RVvg",
+  tags: ["кровать"],
+};
