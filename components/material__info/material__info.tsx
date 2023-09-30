@@ -47,7 +47,7 @@ const MaterialInfo: FC<MaterialsInfoProps> = ({ material, category }) => {
       )}
       <div className={styles.column}>
         <h1 className={styles.title}>
-          {category.title} {category.title === "ткани" && material.type}
+          {category.title} {category.title.includes("ткань") && material.type}
         </h1>
         <div className={styles.materials}>
           {activeCategory &&

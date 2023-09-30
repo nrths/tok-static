@@ -49,7 +49,7 @@ const footerProductsList: TListItem[] = [
   },
   {
     name: "аксессуары",
-    link: "accessories",
+    link: "/accessories",
   },
   {
     name: "в наличии",

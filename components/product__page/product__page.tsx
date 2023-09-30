@@ -15,13 +15,6 @@ import dynamic from "next/dynamic";
 import DetailsWithUnderframe from "../product__info/details/details__underframe";
 import ModelsSlider from "../sliders/models/slider__models";
 
-const DynamicModelsSlider = dynamic(
-  () => import("../sliders/models/slider__models"),
-  {
-    loading: () => <p>Loading...</p>,
-  }
-);
-
 export type TProductPageProps = {
   product: TProduct;
 };
@@ -34,9 +27,9 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
       <Header />
 
       <div className={styles.container}>
-        <section className={styles.section}>
+        {product !== undefined && <section className={styles.section}>
           <div className={styles.slider}>
-            <DynamicModelsSlider product={product} />
+            <ModelsSlider product={product} />
           </div>
           {/* <div className={styles.main}> */}
           {product.title === "altay" || product.title === "konus" ? (
@@ -51,7 +44,7 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
             />
           )}
           {/* </div> */}
-        </section>
+        </section>}
 
         <section className={styles.dropdowns}>
           <div className={styles.descriptionWrapper}>

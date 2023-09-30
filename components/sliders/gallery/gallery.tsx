@@ -32,6 +32,7 @@ const Gallery: FC = () => {
             <div className={`keen-slider__slide number-slide1 ${styles.imageContainer}`}>
               <Image
                 fill
+                priority
                 className={`${styles.imageProjects} ${styles.border}`}
                 unoptimized
                 src={"/images/other/about2.jpg"}
@@ -41,6 +42,7 @@ const Gallery: FC = () => {
             <div className={`keen-slider__slide number-slide2 ${styles.imageContainer}`}>
               <Image
                 fill
+                priority
                 className={`${styles.imageProjects} ${styles.border}`}
                 unoptimized
                 src={"/images/other/about3.jpg"}
@@ -50,6 +52,7 @@ const Gallery: FC = () => {
             <div className={`keen-slider__slide number-slide3 ${styles.imageContainer}`}>
               <Image
                 fill
+                priority
                 className={styles.imageProjects}
                 unoptimized
                 src={"/images/other/about4.jpg"}

@@ -18,7 +18,8 @@ export type TMaterialGroup = {
     | "архитектурный бетон"
     | "кожа категория 1"
     | "кожа категория 2"
-    | "ткани";
+    | "ткань категория 1"
+    | "ткань категория 2";
   furnish: string;
   base?: string;
   hem?: string;
@@ -740,7 +741,7 @@ export const Leather_cat2: TMaterialGroup = {
 
 export const Fabrics_Austin: TMaterialGroup = {
   id: 11,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -878,7 +879,7 @@ export const Fabrics_Austin: TMaterialGroup = {
 
 export const Fabrics_Clarins: TMaterialGroup = {
   id: 12,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -974,7 +975,7 @@ export const Fabrics_Clarins: TMaterialGroup = {
 
 export const Fabrics_Crown: TMaterialGroup = {
   id: 13,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -1106,7 +1107,7 @@ export const Fabrics_Crown: TMaterialGroup = {
 
 export const Fabrics_Laki: TMaterialGroup = {
   id: 14,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -1226,7 +1227,7 @@ export const Fabrics_Laki: TMaterialGroup = {
 
 export const Fabrics_Lanvin: TMaterialGroup = {
   id: 15,
-  title: "ткани",
+  title: "ткань категория 2",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -1316,7 +1317,7 @@ export const Fabrics_Lanvin: TMaterialGroup = {
 
 export const Fabrics_Missoni: TMaterialGroup = {
   id: 16,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -1406,7 +1407,7 @@ export const Fabrics_Missoni: TMaterialGroup = {
 
 export const Fabrics_Mys: TMaterialGroup = {
   id: 17,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -1496,7 +1497,7 @@ export const Fabrics_Mys: TMaterialGroup = {
 
 export const Fabrics_Oscar: TMaterialGroup = {
   id: 18,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -1604,7 +1605,7 @@ export const Fabrics_Oscar: TMaterialGroup = {
 
 export const Fabrics_Trumph: TMaterialGroup = {
   id: 19,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -1766,7 +1767,7 @@ export const Fabrics_Trumph: TMaterialGroup = {
 
 export const Fabrics_Wellton: TMaterialGroup = {
   id: 20,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -1856,7 +1857,7 @@ export const Fabrics_Wellton: TMaterialGroup = {
 
 export const Fabrics_Dallas_Georgi: TMaterialGroup = {
   id: 21,
-  title: "ткани",
+  title: "ткань категория 2",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -1880,7 +1881,7 @@ export const Fabrics_Dallas_Georgi: TMaterialGroup = {
 
 export const Fabrics_Elegant: TMaterialGroup = {
   id: 22,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -2012,7 +2013,7 @@ export const Fabrics_Elegant: TMaterialGroup = {
 
 export const Fabrics_EnjoyLux: TMaterialGroup = {
   id: 23,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -2132,7 +2133,7 @@ export const Fabrics_EnjoyLux: TMaterialGroup = {
 
 export const Fabrics_Glamour: TMaterialGroup = {
   id: 24,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -2210,7 +2211,7 @@ export const Fabrics_Glamour: TMaterialGroup = {
 
 export const Fabrics_Jazz: TMaterialGroup = {
   id: 25,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -2354,7 +2355,7 @@ export const Fabrics_Jazz: TMaterialGroup = {
 
 export const Fabrics_Luna: TMaterialGroup = {
   id: 26,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -2474,7 +2475,7 @@ export const Fabrics_Luna: TMaterialGroup = {
 
 export const Fabrics_Marin: TMaterialGroup = {
   id: 27,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -2612,7 +2613,7 @@ export const Fabrics_Marin: TMaterialGroup = {
 
 export const Fabrics_Matrix: TMaterialGroup = {
   id: 28,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -2708,7 +2709,7 @@ export const Fabrics_Matrix: TMaterialGroup = {
 
 export const Fabrics_Rio: TMaterialGroup = {
   id: 29,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -2816,7 +2817,7 @@ export const Fabrics_Rio: TMaterialGroup = {
 
 export const Fabrics_Sky: TMaterialGroup = {
   id: 30,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -2948,7 +2949,7 @@ export const Fabrics_Sky: TMaterialGroup = {
 
 export const Fabrics_Luca: TMaterialGroup = {
   id: 31,
-  title: "ткани",
+  title: "ткань категория 2",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -3098,7 +3099,7 @@ export const Fabrics_Luca: TMaterialGroup = {
 
 export const Fabrics_Puffy: TMaterialGroup = {
   id: 32,
-  title: "ткани",
+  title: "ткань категория 2",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -3236,7 +3237,7 @@ export const Fabrics_Puffy: TMaterialGroup = {
 
 export const Fabrics_Retro: TMaterialGroup = {
   id: 33,
-  title: "ткани",
+  title: "ткань категория 2",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -3374,7 +3375,7 @@ export const Fabrics_Retro: TMaterialGroup = {
 
 export const Fabrics_Salvador: TMaterialGroup = {
   id: 34,
-  title: "ткани",
+  title: "ткань категория 2",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -3650,7 +3651,7 @@ export const Fabrics_Salvador: TMaterialGroup = {
 
 export const Fabrics_Talia: TMaterialGroup = {
   id: 35,
-  title: "ткани",
+  title: "ткань категория 2",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -3722,7 +3723,7 @@ export const Fabrics_Talia: TMaterialGroup = {
 
 export const Fabrics_Teddy: TMaterialGroup = {
   id: 36,
-  title: "ткани",
+  title: "ткань категория 2",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -3872,7 +3873,7 @@ export const Fabrics_Teddy: TMaterialGroup = {
 
 export const Fabrics_Nola: TMaterialGroup = {
   id: 37,
-  title: "ткани",
+  title: "ткань категория 1",
   furnish: "ткани",
   base: "",
   hem: "",
