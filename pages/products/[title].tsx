@@ -4,13 +4,40 @@ import ProductDetails from "@/components/product__page/product__page";
 import Head from "next/head";
 import { Metadata, NextPage } from "next";
 
-const ProductPage:NextPage = ({ item }: any) => {
+const ProductPage: NextPage = ({ item }: any) => {
   const router = useRouter();
-//  const seoTitle = `${item.name.toUpperCase()} | TOK - Фабрика мебели`
-  
+
+  const switchSeoTitle = (category: string) => {
+    let seoTitle;
+    if (category === "CHAIR") {
+      seoTitle = `Стул ${item.name.toUpperCase()} | TOK`;
+    } else if (category === "BED") {
+      seoTitle = `Кровать ${item.name.toUpperCase()} | TOK`;
+    } else if (category === "SOFA") {
+      seoTitle = `Диван ${item.name.toUpperCase()} | TOK`;
+    } else if (category.includes("TABLE_CIRCLE")) {
+      seoTitle = `Круглый стол ${item.name.toUpperCase()} | TOK`;
+    } else if (category.includes("TABLE_DINNER")) {
+      seoTitle = `Обеденный стол ${item.name.toUpperCase()} | TOK`;
+    } else if (category.includes("COFFEE_TABLE")) {
+      seoTitle = `Журнальный стол ${item.name.toUpperCase()} | TOK`;
+    } else {
+      seoTitle = `Cтол ${item.name.toUpperCase()} | TOK`;
+    }
+    return seoTitle;
+  };
+
   return (
     <>
-      {item !== undefined && <ProductDetails product={item} />}
+      {item !== undefined && (
+        <>
+          <Head>
+            <title>{switchSeoTitle(item.category)}</title>
+            <meta name='description' content={item.description} />
+          </Head>
+          <ProductDetails product={item} />
+        </>
+      )}
     </>
   );
 };
@@ -40,4 +67,3 @@ export async function getStaticProps(context: any) {
 }
 
 export default ProductPage;
-

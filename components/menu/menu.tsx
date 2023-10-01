@@ -21,6 +21,7 @@ const Menu = () => {
                   width={46}
                   height={46}
                   className={styles.icon__image}
+                  priority
                 />
                 <span className={styles.caption}>{item.name}</span>
               </Link>

@@ -1,5 +1,7 @@
 import { TMaterialGroup } from "@/assets/materials";
 import { useState } from "react";
+import ym from 'react-yandex-metrika';
+import { enableYM } from "./YandexMetrica";
 
 export default function useModal() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -50,3 +52,11 @@ export const findMaterial = (
     (material) => material.name === name && material.type === type
   );
 };
+
+export const pointYandexGoal = (goal: string) => {
+  if (!enableYM) {
+    console.log(`%c[YandexMetrika](GOAL)`, `color: orange`, goal)
+    return
+  }
+  ym('reachGoal', goal)
+}

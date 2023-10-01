@@ -11,6 +11,7 @@ import Menu from "../menu/menu";
 import Backcall from "../backcall/backcall";
 import { useRouter } from "next/router";
 import { useFormState } from "../form/formContext";
+import { pointYandexGoal } from "@/lib/utils";
 
 // type headerProps = {
 //   products?: boolean;
@@ -29,6 +30,7 @@ const Header = () => {
     if (name === 'backCall') {
       setFormData(undefined)
       setStep(1)
+      pointYandexGoal('открыли окно обратного звонка')
     }
     // console.log(clickedButton)
   }

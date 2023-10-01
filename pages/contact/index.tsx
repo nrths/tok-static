@@ -73,9 +73,9 @@ const ContactsPage: NextPage = () => {
                   <br />
                   с&nbsp;10:00 до&nbsp;20:00
                   <br />
-                  Телефон: +7 (812) 920-04-99
+                  <a href="tel:+78129200499">Телефон: +7 (812) 920-04-99</a>
                   <br />
-                  e-mail: <span className={styles.email}>tokmebel@mail.ru</span>
+                  e-mail: <a className={styles.email} href="mailto:tokmebel@mail.ru">tokmebel@mail.ru</a>
                 </p>
                 <Link
                 href={"https://yandex.ru/maps/-/CDU4UB62"}
@@ -137,9 +137,9 @@ const ContactsPage: NextPage = () => {
                   <br />
                   с&nbsp;10:00 до&nbsp;20:00
                   <br />
-                  Телефон: +7 (911) 100-37-77
+                  <a href="tel:+79111003777">Телефон: +7 (911) 100-37-77</a>
                   <br />
-                  e-mail: <span className={styles.email}>tokmebel@mail.ru</span>
+                  e-mail: <a className={styles.email} href="mailto:tokmebel@mail.ru">tokmebel@mail.ru</a>
                 </p>
                 <Link
                 href={"https://yandex.ru/maps/-/CDU4UB62"}

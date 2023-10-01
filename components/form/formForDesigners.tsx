@@ -5,6 +5,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
 import { FC, useState } from "react";
 import axios from "axios";
+import { pointYandexGoal } from "@/lib/utils";
 
 type TFormValues = {
   name: string;
@@ -52,6 +53,7 @@ const FormForDesigners:FC<TFormProps> = ({ id, mobile }) => {
     sendForm(data);
     setSuccess(true);
     // console.log(data);
+    pointYandexGoal('отправлен запрос на сотрудничество')
     reset();
     setTimeout(() => setSuccess(false), 1000)
   };

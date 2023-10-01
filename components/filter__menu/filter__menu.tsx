@@ -2,6 +2,7 @@ import Link from "next/link";
 import styles from "./filter__menu.module.css";
 import { useRouter } from "next/router";
 import { FC } from "react";
+import { pointYandexGoal } from "@/lib/utils";
 
 type MenuItemProps = {
   disable: boolean;
@@ -21,6 +22,7 @@ const MenuItem: FC<MenuItemProps> = ({ disable, href, title }) => {
       }
       // @ts-ignore
       disabled={disable}
+      onClick={() => pointYandexGoal("использована фильтрация")}
     >
       {title}
     </div>

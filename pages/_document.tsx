@@ -4,7 +4,8 @@ import { Head, Html, Main, NextScript } from "next/document";
 
 export const metadata: Metadata = {
   title: "ТОК - Фабрика мебели",
-  description: "ТОК - Фабрика мебели",
+  description:
+    "ТОК - Фабрика мебели, дизайнерская мебель, Москва, Санкт-Петербург",
   icons: [
     {
       rel: "icon",

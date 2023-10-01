@@ -7,6 +7,7 @@ import { series } from "@/assets/series";
 import { useState } from "react";
 import FilterMenu from "@/components/filter__menu/filter__menu";
 import Head from "next/head";
+import { pointYandexGoal } from "@/lib/utils";
 
 const ProductsPage = ({ products }: any) => {
   const result = products.sort(
@@ -21,12 +22,14 @@ const ProductsPage = ({ products }: any) => {
     if (id === "all") {
       setProductsList(result);
       setActive("all");
+      pointYandexGoal("использована внутренняя фильтрация столов")
     } else {
       const updatedList = result.filter((product: { category: string }) =>
         product.category.includes(value)
       );
       setProductsList(updatedList);
       setActive(id);
+      pointYandexGoal("использована внутренняя фильтрация столов")
     }
   };
 

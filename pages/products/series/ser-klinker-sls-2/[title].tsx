@@ -4,11 +4,11 @@ import Head from "next/head";
 
 const SPage = ({ item }: any) => {
   // const router = useRouter();
-
+  const seoTitle = `${item.name.toUpperCase()} | ТОК-Мебель`
   return (
     <>
       <Head>
-        <title>{item.name.toUpperCase()} | ТОК-Мебель</title>
+        <title>{seoTitle}</title>
         <meta name="description" content={item.description} />
       </Head>
       <ProductDetails product={item} />

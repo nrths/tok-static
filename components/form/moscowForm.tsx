@@ -4,7 +4,7 @@ import styles from "./cityForm.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "../buttons/button";
-import { useState } from "react";
+import { pointYandexGoal } from "@/lib/utils";
 
 type TFormValues = {
   where: any;
@@ -39,7 +39,7 @@ const MoscowForm = () => {
                 Московская область:
               </h3>
               <div className={styles.contacts}>
-                <div className={styles.phone}>
+                <a href="tel:+79111003777" className={styles.phone} onClick={() => pointYandexGoal('клик по номеру телефона МСК')}>
                   <Image
                     src={"/images/backCall.svg"}
                     alt={""}
@@ -47,9 +47,9 @@ const MoscowForm = () => {
                     height={22}
                   />
                   <p className={styles.text}>+7 (911) 100-37-77</p>
-                </div>
+                </a>
                 <div className={styles.socials}>
-                  <Link href={"https://t.me/tokmsk"} target='_blank'>
+                  <Link href={"https://t.me/tokmsk"} target='_blank' onClick={() => pointYandexGoal('переход в Telegram МСК')}>
                     <Image
                       src={"/images/socials/telegram.svg"}
                       alt={""}
@@ -60,6 +60,7 @@ const MoscowForm = () => {
                   <Link
                     href={"https://api.whatsapp.com/send/?phone=79111003777"}
                     target='_blank'
+                    onClick={() => pointYandexGoal('переход в Whatsapp МСК')}
                   >
                     <Image
                       src={"/images/socials/whattsup.svg"}
