@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/layout";
+import { YandexMetrica } from "@/lib/YandexMetrica";
 import { Metadata } from "next";
 import { Head, Html, Main, NextScript } from "next/document";
 
@@ -22,9 +23,12 @@ export default function Document() {
       <Head>
         <meta name='description' content='ТОК - Фабрика мебели' />
       </Head>
+
       <body className='custom-scroll'>
-        <Main />
-        <NextScript />
+        <YandexMetrica>
+          <Main />
+          <NextScript />
+        </YandexMetrica>
       </body>
     </Html>
   );

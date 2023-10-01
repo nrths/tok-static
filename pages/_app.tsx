@@ -5,7 +5,6 @@ import { Roboto_Flex } from "next/font/google";
 import styles from "../styles/layout.module.css";
 import { AppProps } from "next/app";
 import { FormProvider } from "@/components/form/formContext";
-import { YandexMetrica } from "@/lib/YandexMetrica";
 
 export const roboto_flex = Roboto_Flex({
   subsets: ["cyrillic", "latin"],
@@ -22,13 +21,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       </Head>
 
       <main className={`${roboto_flex.className} ${styles.container}`}>
-        <YandexMetrica>
           <FormProvider>
             <Component {...pageProps} />
           </FormProvider>
           <Footer />
           <div id='modal-root'></div>
-        </YandexMetrica>
       </main>
     </>
   );
