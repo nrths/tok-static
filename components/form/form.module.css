@@ -8,7 +8,7 @@
 }
 
 .form {
-    padding: 100px 15px 150px 15px;
+    padding: 50px 15px 0 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -59,6 +59,7 @@
     color: var(--baseTextColor);
     font-size: 14px;
     font-weight: 300;
+    max-width: max-content;
 }
 
 .textarea {
@@ -164,23 +165,36 @@
     .commentWrapperDesktopDesigners {
         display: block;
         margin-top: 54px;
-        width: 150%;
+        width: 137%;
+        max-width: 902px;
     }
 
     .textarea {
         margin: 0.5em 0 0;
         width: 100%;
-        max-width: 610px;
+        /* max-width: 610px; */
         height: 164px;
     }
 
     .textarea[data-id='designers'] {
-        width: 85%;
+        /* width: 120%; */
         height: 303px;
     }
 
     .buttonContainer.contactButtonContainer {
         margin-top: 33px;
         height: max-content;
+    }
+}
+
+@media ((min-width: 900px) and (max-width: 1280px)) {
+    .commentWrapperDesktopDesigners {
+        width: 133%;
+    }
+}
+
+@media ((min-width: 822px) and (max-width: 899px)) {
+    .commentWrapperDesktopDesigners {
+        width: 130%;
     }
 }

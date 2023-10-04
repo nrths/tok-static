@@ -15,7 +15,8 @@ const SeriesCard: FC<TSeriesCard> = ({ series, id, homepage }) => {
   const router = useRouter();
   if (
     series.title === "ser-klinker-ov" ||
-    series.title === "ser-klinker-sls-2"
+    series.title === "ser-klinker-sls-2" ||
+    series.title === "ser-klinker-f-r"
   ) {
     return (
       <>
@@ -43,8 +44,8 @@ const SeriesCard: FC<TSeriesCard> = ({ series, id, homepage }) => {
                   новинка
                 </span>
               )}
-              <h3 className={styles.cardTitle}>{series.name}</h3>
-              <span className={styles.price}>
+              <h3 className={homepage ? `${styles.cardTitleHomepage} ${styles.cardTitle}` : `${styles.cardTitle}`}>{series.name}</h3>
+              <span className={homepage ? `${styles.price} ${styles.priceHomepage}` : `${styles.price}`}>
                 {/* [3] потому что рельеф п-50 с самой низкой ценой */}
                 от {maskPrice(series.products[3].price)} &#8381;
               </span>
@@ -82,8 +83,8 @@ const SeriesCard: FC<TSeriesCard> = ({ series, id, homepage }) => {
                   новинка
                 </span>
               )}
-              <h3 className={styles.cardTitle}>{series.name}</h3>
-              <span className={styles.price}>
+              <h3 className={homepage ? `${styles.cardTitleHomepage} ${styles.cardTitle}` : `${styles.cardTitle}`}>{series.name}</h3>
+              <span className={homepage ? `${styles.price} ${styles.priceHomepage}` : `${styles.price}`}>
                 от {maskPrice(series.products[3].price)} &#8381;
               </span>
             </div>

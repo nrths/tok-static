@@ -904,29 +904,31 @@ const DeliveryPage: NextPage = () => {
         <br />
         <p className={styles.text}>e-mail: tokmebel@mail.&nbsp;ru</p>
         <br />
-        <Link
-          href={"https://disk.yandex.ru/i/OqTxIcv6IMiC2A"}
-          className={styles.link}
-          target="_blank"
-        >
-          договор оферты на поставку товара ип василевский
-        </Link>
-        <br />
-        <Link
-          href={"https://disk.yandex.ru/i/wSwjdz7TU0KZNA"}
-          className={styles.link}
-          target="_blank"
-        >
-          договор оферты на поставку товара ип федорынич
-        </Link>
-        <br />
-        <Link
-          href={"https://disk.yandex.ru/i/orZ8WPTq6ljRQQ"}
-          className={styles.link}
-          target="_blank"
-        >
-          договор оферты на поставку товара ооо ток-мебель
-        </Link>
+        <div className={styles.linksContainer}>
+          <Link
+            href={"https://disk.yandex.ru/i/OqTxIcv6IMiC2A"}
+            className={styles.link}
+            target='_blank'
+          >
+            договор оферты на поставку товара ип василевский
+          </Link>
+
+          <Link
+            href={"https://disk.yandex.ru/i/wSwjdz7TU0KZNA"}
+            className={styles.link}
+            target='_blank'
+          >
+            договор оферты на поставку товара ип федорынич
+          </Link>
+
+          <Link
+            href={"https://disk.yandex.ru/i/orZ8WPTq6ljRQQ"}
+            className={styles.link}
+            target='_blank'
+          >
+            договор оферты на поставку товара ооо ток-мебель
+          </Link>
+        </div>
       </div>
     </>
   );

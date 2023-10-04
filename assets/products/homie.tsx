@@ -60,7 +60,7 @@ export const homie = {
   category: "BED",
   name: "хоуми",
   previewImg: "/images/products/homie/preview.jpg",
-  position: 13,
+  position: 15,
   mobilePosition: 40,
   model: "https://disk.yandex.ru/d/O44JbcRLq8RVvg",
   tags: ["кровать"],

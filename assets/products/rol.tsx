@@ -114,9 +114,9 @@ export const rol = {
   category: "COFFEE_TABLE",
   name: "рол",
   previewImg: "/images/products/rol/preview.jpg",
-  position: 21,
+  position: 23,
   sortedPosition: 20,
-  mobilePosition: 25,
+  mobilePosition: 11,
   model: "https://disk.yandex.ru/d/TyM2SaWV3S6Jjg",
   tags: ["стол", "журнальный"],
 };

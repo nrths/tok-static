@@ -134,7 +134,7 @@
     .title {
         color: var(--headingTextColor);
         font-size: 48px;
-        font-weight: 200;
+        font-weight: 100;
         text-align: right;
         padding-bottom: 20px;
     }

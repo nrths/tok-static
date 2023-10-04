@@ -94,9 +94,9 @@ export const hameleon = {
   category: "COFFEE_TABLE STEAL",
   name: "хамелеон",
   previewImg: "/images/products/hameleon/preview.jpg",
-  position: 24,
+  position: 26,
   sortedPosition: 24,
-  mobilePosition: 15,
+  mobilePosition: 14,
   model: "https://disk.yandex.ru/d/JoVrlvwUavirlQ",
   tags: ["стол", "журнальный"],
 };

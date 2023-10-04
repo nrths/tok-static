@@ -38,7 +38,7 @@ const NewVisualsSlider: FC<TvisualsSliderProps> = ({ visuals }) => {
 
   return (
     <div className='navigation-wrapper'>
-      <div ref={ref} className='keen-slider'>
+      <div ref={ref} className='keen-slider new-models-homepage'>
         {visuals.map((item: any, idx: number) => {
           if (item.title.startsWith("ser")) {
             return (

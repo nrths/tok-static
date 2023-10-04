@@ -30,6 +30,7 @@ import { velvet_oval_fl } from "./products/velvet_oval_fl";
 import { velvet_sl } from "./products/velvet_sl";
 import { velvet_sl_2 } from "./products/velvet_sl_2";
 import { velvet_sl_fl } from "./products/velvet_sl_fl";
+import { velvet } from "./products/velvet";
 import {
   klinker,
   klinker_b,
@@ -39,6 +40,7 @@ import {
   klinker_oval,
   klinker_sls,
 } from "./series";
+import { altay_razdvij } from "./products/altay-razdvij";
 
 export type TProject = {
   img: string;
@@ -77,6 +79,7 @@ export type TProduct = {
 
 export const products = [
   altay,
+  altay_razdvij,
   baikal,
   baikal_mt,
   baul,
@@ -102,6 +105,7 @@ export const products = [
   velvet_krug_fl,
   velvet_krug_ju,
   velvet_krug_razdvij,
+  velvet,
   velvet_oval,
   velvet_oval_2,
   velvet_oval_fl,

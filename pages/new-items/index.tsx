@@ -8,15 +8,18 @@ import Head from "next/head";
 
 const NewItemsPage = ({ products }: any) => {
   const circle = products.filter((product: { category: string | string[] }) =>
-    product.category.includes("TABLE_CIRCLE")
+    product.category.includes("CIRCLE")
   );
   const dinner = products.filter((product: { category: string | string[] }) =>
-    product.category.includes("TABLE_DINNER")
+    product.category.includes("LONG")
+  );
+  const sliding = products.filter((product: { category: string | string[] }) =>
+    product.category.includes("TABLE_SLIDING")
   );
   const bed = products.filter((product: { category: string | string[] }) =>
     product.category.includes("BED")
   );
-  const result = [...circle, ...dinner, ...bed];
+  const result = [...sliding, ...dinner, ...circle, ...bed];
 
   return (
     <>

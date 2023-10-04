@@ -117,9 +117,9 @@ export const velvet_krug_ju = {
   category: "COFFEE_TABLE STEAL",
   name: "вельвет журнальный",
   previewImg: "/images/products/velvet-krug-ju/preview.jpg",
-  position: 34,
+  position: 36,
   sortedPosition: 36,
-  mobilePosition: 28,
+  mobilePosition: 27,
   model: "https://disk.yandex.ru/d/2eDU-ZUq0wcqEw",
   tags: ["стол", "журнальный"],
 };

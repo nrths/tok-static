@@ -107,3 +107,13 @@
         top: -20px;
     }
 }
+
+@media (max-width: 440px) {
+    .cardTitle.cardTitleHomepage {
+        font-size: 11px;
+    }
+
+    .price.priceHomepage {
+        font-size: 11px;
+    }
+}

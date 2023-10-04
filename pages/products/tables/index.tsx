@@ -4,32 +4,54 @@ import Card from "@/components/card/card";
 import SeriesCard from "@/components/card/card__series";
 import { products } from "@/assets/products";
 import { series } from "@/assets/series";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import FilterMenu from "@/components/filter__menu/filter__menu";
 import Head from "next/head";
 import { pointYandexGoal } from "@/lib/utils";
 
 const ProductsPage = ({ products }: any) => {
-  const result = products.sort(
-    (a: { sortedPosition: number }, b: { sortedPosition: number }) =>
-      a.sortedPosition - b.sortedPosition
+  const dinnerTables = products.filter(
+    (product: { category: string | string[] }) =>
+      product.category.includes("TABLE_DINNER")
   );
+  const result = dinnerTables.sort(
+      (a: { sortedPosition: number }, b: { sortedPosition: number }) =>
+        a.sortedPosition - b.sortedPosition
+    );
+
   const [productsList, setProductsList] = useState(result);
   const [active, setActive] = useState("all");
 
   const handleClick = (event: any, value: string, id: string) => {
     event.stopPropagation();
     if (id === "all") {
-      setProductsList(result);
+      setProductsList(dinnerTables);
       setActive("all");
-      pointYandexGoal("использована внутренняя фильтрация столов")
+      pointYandexGoal("использована внутренняя фильтрация столов");
+    } else if (id === "dinner") {
+      const list = result.filter((product: { category: string }) =>
+        product.category.includes(value)
+      );
+      const circle = list.filter((product: { category: string }) =>
+        product.category.includes("CIRCLE")
+      );
+      const long = list.filter((product: { category: string }) =>
+        product.category.includes("LONG")
+      );
+      const bar = list.filter((product: { category: string }) =>
+        product.category.includes("BAR")
+      );
+      const updatedList = [...circle, ...bar, ...long];
+      setProductsList(updatedList);
+      setActive(id);
+      pointYandexGoal("использована внутренняя фильтрация столов");
     } else {
       const updatedList = result.filter((product: { category: string }) =>
         product.category.includes(value)
       );
       setProductsList(updatedList);
       setActive(id);
-      pointYandexGoal("использована внутренняя фильтрация столов")
+      pointYandexGoal("использована внутренняя фильтрация столов");
     }
   };
 
@@ -58,30 +80,16 @@ const ProductsPage = ({ products }: any) => {
 
           <div
             className={
-              active === "coffee"
+              active === "dinner"
                 ? `${styles.menuItem} ${styles.active}`
                 : `${styles.menuItem}`
             }
-            id='coffee'
-            onClick={(e) => handleClick(e, "COFFEE_TABLE", "coffee")}
+            id='dinner'
+            onClick={(e) => handleClick(e, "TABLE_DINNER", "dinner")}
             // @ts-ignore
-            disabled={active === "coffee"}
+            disabled={active === "dinner"}
           >
-            {"журнальные"}
-          </div>
-
-          <div
-            className={
-              active === "circle"
-                ? `${styles.menuItem} ${styles.active}`
-                : `${styles.menuItem}`
-            }
-            id='circle'
-            onClick={(e) => handleClick(e, "TABLE_CIRCLE", "circle")}
-            // @ts-ignore
-            disabled={active === "circle"}
-          >
-            {"круглые"}
+            {"нераздвижные"}
           </div>
 
           <div
@@ -96,20 +104,6 @@ const ProductsPage = ({ products }: any) => {
             disabled={active === "sliding"}
           >
             {"раздвижные"}
-          </div>
-
-          <div
-            className={
-              active === "dinner"
-                ? `${styles.menuItem} ${styles.active}`
-                : `${styles.menuItem}`
-            }
-            id='dinner'
-            onClick={(e) => handleClick(e, "TABLE_DINNER", "dinner")}
-            // @ts-ignore
-            disabled={active === "dinner"}
-          >
-            {"обеденные"}
           </div>
         </div>
       </div>

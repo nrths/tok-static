@@ -113,9 +113,9 @@ export const nori = {
   category: "COFFEE_TABLE",
   name: "нори",
   previewImg: "/images/products/nori/preview.jpg",
-  position: 19,
+  position: 21,
   sortedPosition: 18,
-  mobilePosition: 12,
+  mobilePosition: 10,
   model: "https://disk.yandex.ru/d/W8qhkTn7L6CR1A",
   tags: ["стол", "журнальный"],
 };

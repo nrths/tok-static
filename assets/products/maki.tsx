@@ -33,9 +33,9 @@ export const maki = {
   category: "COFFEE_TABLE STEAL",
   name: "маки",
   previewImg: "/images/products/maki/preview.jpg",
-  position: 16,
+  position: 17,
   sortedPosition: 40,
-  mobilePosition: 35,
+  mobilePosition: 28,
   model: "https://disk.yandex.ru/d/NJWejk2kyV5d3w",
   tags: ["стол", "журнальный"],
 };

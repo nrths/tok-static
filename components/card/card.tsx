@@ -57,7 +57,9 @@ const Card: FC<TCard> = ({ product, id, seriesTitle, homepage }) => {
     product.title === "velvet-oval-fl" ||
     product.title === "velvet-sl" ||
     product.title === "velvet-sl-2" ||
-    product.title === "velvet-sl-fl"
+    product.title === "velvet-sl-fl" ||
+    product.title === "velvet-krug-razdvij" ||
+    product.title === "altay-razdvij"
   ) {
     return (
       <>
@@ -85,8 +87,8 @@ const Card: FC<TCard> = ({ product, id, seriesTitle, homepage }) => {
                   новинка
                 </span>
               )}
-              <h3 className={styles.cardTitle}>{product.name}</h3>
-              <span className={styles.price}>
+              <h3 className={homepage ? `${styles.cardTitleHomepage} ${styles.cardTitle}` : `${styles.cardTitle}`}>{product.name}</h3>
+              <span className={homepage ? `${styles.price} ${styles.priceHomepage}` : `${styles.price}`}>
                 от {maskPrice(product.price)} &#8381;
               </span>
             </div>
@@ -125,8 +127,8 @@ const Card: FC<TCard> = ({ product, id, seriesTitle, homepage }) => {
                   новинка
                 </span>
               )}
-              <h3 className={styles.cardTitle}>{product.name}</h3>
-              <span className={styles.price}>
+              <h3 className={homepage ? `${styles.cardTitleHomepage} ${styles.cardTitle}` : `${styles.cardTitle}`}>{product.name}</h3>
+              <span className={homepage ? `${styles.price} ${styles.priceHomepage}` : `${styles.price}`}>
                 от {maskPrice(product.price)} &#8381;
               </span>
             </div>

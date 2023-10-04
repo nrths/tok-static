@@ -75,9 +75,9 @@ export const orbita_m = {
   category: "COFFEE_TABLE STEAL",
   name: "орбита-м",
   previewImg: "/images/products/orbita-m/preview.jpg",
-  position: 15,
+  position: 17,
   sortedPosition: 15,
-  mobilePosition: 31,
+  mobilePosition: 30,
   model: "https://disk.yandex.ru/d/GKkBshdfs-1A_Q",
   tags: ["стол", "журнальный"],
 };

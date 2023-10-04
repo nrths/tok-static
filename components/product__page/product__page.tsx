@@ -32,7 +32,7 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
             <ModelsSlider product={product} />
           </div>
           {/* <div className={styles.main}> */}
-          {product.title === "altay" || product.title === "konus" ? (
+          {product.title === "altay" || product.title === "altay-razdvij"|| product.title === "konus" ? (
             <DetailsWithUnderframe
               product={product}
               className={`displayMobileFlex  displayNone`}
@@ -49,7 +49,7 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
         <section className={styles.dropdowns}>
           <div className={styles.descriptionWrapper}>
             <Description product={product} />
-            {product.title === "altay" || product.title === "konus" ? (
+            {product.title === "altay" || product.title === "altay-razdvij"|| product.title === "konus" ? (
               <DetailsWithUnderframe
                 product={product}
                 className={`displayMobileFlex  displayFlex`}
@@ -141,7 +141,7 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
           </DropdownBlock>
         </section>
         <section className={styles.detailsMobile}>
-          {product.title === "altay" || product.title === "konus" ? (
+          {product.title === "altay" || product.title === "altay-razdvij"|| product.title === "konus" ? (
             <DetailsWithUnderframe
               product={product}
               className={`displayDesktopFlex`}

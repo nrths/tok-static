@@ -22,10 +22,29 @@
     font-weight: 200;
 }
 
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+}
+
 .link {
     text-transform: uppercase;
     font-size: 24px;
     font-weight: 200;
     line-height: 1.5;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .heading {
+        text-align: left;
+    }
+
+    .linksContainer {
+        gap: 20px;
+    }
+
+    .link {
+        font-size: 18px;
+    }
 }

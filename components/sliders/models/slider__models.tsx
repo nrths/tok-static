@@ -29,9 +29,6 @@ const ModelsSlider: FC<TModelsSliderProps> = ({ product }) => {
 
   useEffect(() => {
     product.title.startsWith("baikal") ? setControls(false) : setControls(true);
-    product.title.includes("velvet-krug-razdvij")
-      ? setControls(false)
-      : setControls(true);
   }, [product.title]);
 
   return (

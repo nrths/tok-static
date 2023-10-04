@@ -33,3 +33,9 @@
 .active {
     color: #808080;
 }
+
+@media (max-width: 768px) {
+    .menuList {
+        padding-top: 20px;
+    }
+}

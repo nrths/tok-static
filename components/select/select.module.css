@@ -45,14 +45,20 @@
 
 .placeholder[data-selected="true"] {
     color: var(--baseTextColor);
-    background-color: #F5F5F5;
     border: 1px solid #D9D9D9;
+}
+
+.placeholder[data-selected="true"]:hover {
+    background-color: #F5F5F5;
 }
 
 .placeholder[data-selected="false"] {
     color: var(--baseTextColor);
-    background-color: #F5F5F5;
     border: 1px solid #CE6F00;
+}
+
+.placeholder[data-selected="false"]:hover {
+    background-color: #F5F5F5;
 }
 
 .selectWrapper[data-is-active="true"] .arrow {

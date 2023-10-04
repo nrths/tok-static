@@ -24,7 +24,6 @@
 }
 
 .block {
-    width: 100%;
     padding: 40px 40px;
 }
 
@@ -51,6 +50,10 @@
 @media (max-width: 768px) {
     .title {
         font-size: 40px;
+    }
+
+    .content {
+        align-items: flex-start;
     }
 
     .heading {

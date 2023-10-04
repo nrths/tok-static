@@ -24,14 +24,14 @@ export type TProductSeries = {
 export const klinker = {
   id: 1,
   title: "ser-klinker",
-  position: 20,
-  sortedPosition: 19,
-  mobilePosition: 22,
+  position: 22,
+  sortedPosition: 15,
+  mobilePosition: 21,
   previewImg: "/images/products/klinker/preview.jpg",
   name: "клинкер",
   products: [klinker_k25, klinker_k50, klinker_p25, klinker_p50],
   tags: ['стол', 'круглый'],
-  category: 'TABLE_CIRCLE',
+  category: 'TABLE_DINNER CIRCLE',
 };
 
 export const klinker_b = {
@@ -39,7 +39,7 @@ export const klinker_b = {
   title: "ser-klinker-b",
   position: 2,
   sortedPosition: 2,
-  mobilePosition: 7,
+  mobilePosition: 2,
   previewImg: "/images/products/klinker-b/preview.jpg",
   name: "клинкер-б журнальный",
   products: [klinker_b_k25, klinker_b_k50, klinker_b_p25, klinker_b_p50],
@@ -50,9 +50,9 @@ export const klinker_b = {
 export const klinker_oval = {
   id: 3,
   title: "ser-klinker-ov",
-  position: 5,
-  sortedPosition: 8,
-  mobilePosition: 14,
+  position: 10,
+  sortedPosition: 9,
+  mobilePosition: 13,
   previewImg: "/images/products/klinker-oval/preview.jpg",
   name: "клинкер овал",
   products: [
@@ -62,15 +62,15 @@ export const klinker_oval = {
     klinker_ov_f_p50,
   ],
   tags: ['стол', 'обеденный'],
-  category: 'TABLE_DINNER',
+  category: 'TABLE_DINNER LONG',
 };
 
 export const klinker_c = {
   id: 4,
   title: "ser-klinker-c",
-  position: 28,
+  position: 30,
   sortedPosition: 60,
-  mobilePosition: 18,
+  mobilePosition: 17,
   previewImg: "/images/products/klinker-s/preview.jpg",
   name: "клинкер-с журнальный",
   products: [klinker_c_k25, klinker_c_k50, klinker_c_p25, klinker_c_p50],
@@ -81,9 +81,9 @@ export const klinker_c = {
 export const klinker_sls = {
   id: 5,
   title: "ser-klinker-sls-2",
-  position: 18,
-  sortedPosition: 21,
-  mobilePosition: 30,
+  position: 20,
+  sortedPosition: 19,
+  mobilePosition: 29,
   previewImg: "/images/products/klinker-sls-2/preview.jpg",
   name: "клинкер слс-2",
   products: [
@@ -93,28 +93,28 @@ export const klinker_sls = {
     klinker_sls_p50,
   ],
   tags: ['стол', 'обеденный'],
-  category: 'TABLE_DINNER',
+  category: 'TABLE_DINNER LONG',
 };
 
 export const klinker_f = {
   id: 6,
   title: "ser-klinker-f",
-  position: 38,
-  sortedPosition: 35,
-  mobilePosition: 34,
+  position: 1,
+  sortedPosition: 1,
+  mobilePosition: 1,
   previewImg: "/images/products/klinker-f/preview.jpg",
   name: "клинкер-ф",
   products: [klinker_f_k25, klinker_f_k50, klinker_f_p25, klinker_f_p50],
   tags: ['стол', 'круглый'],
-  category: 'TABLE_CIRCLE',
+  category: 'TABLE_DINNER CIRCLE',
 };
 
 export const klinker_f_r = {
   id: 7,
   title: "ser-klinker-f-r",
-  position: 1,
-  sortedPosition: 1,
-  mobilePosition: 1,
+  position: 39,
+  sortedPosition: 25,
+  mobilePosition: 33,
   previewImg: "/images/products/klinker-f-r/preview.jpg",
   name: "клинкер-ф раздвижной",
   products: [
@@ -124,7 +124,7 @@ export const klinker_f_r = {
     klinker_f_r_p50,
   ],
   tags: ['стол', 'круглый', 'раздвижной'],
-  category: 'TABLE_CIRCLE TABLE_SLIDING',
+  category: 'TABLE_DINNER TABLE_SLIDING',
 };
 
 export const series = [klinker, klinker_b, klinker_c, klinker_oval, klinker_sls, klinker_f, klinker_f_r];

@@ -77,8 +77,8 @@ export const baikal_mt = {
   category: "CHAIR",
   name: "байкал мт",
   previewImg: "/images/products/baikal-mt/preview.jpg",
-  position: 9,
-  mobilePosition: 10,
+  position: 11,
+  mobilePosition: 8,
   model: "https://disk.yandex.ru/d/YeghFNMIWAhmsQ",
   tags: ["стул"],
 };

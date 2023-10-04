@@ -133,6 +133,10 @@ button {
   border-bottom: 1px solid var(--dropdownBorderColor);;
 }
 
+.keen-slider:not([data-keen-slider-disabled]).new-models-homepage {
+  align-items: flex-end;
+}
+
 .navigation-wrapper {
   position: relative;
   display: block;

@@ -61,9 +61,9 @@ export const nimb = {
   category: "COFFEE_TABLE STEAL",
   name: "нимб",
   previewImg: "/images/products/nimb/preview.jpg",
-  position: 27,
+  position: 29,
   sortedPosition: 39,
-  mobilePosition: 38,
+  mobilePosition: 34,
   model: "https://disk.yandex.ru/d/o-GPTbTwfQza-Q",
   tags: ["стол", "журнальный"],
 };

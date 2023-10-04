@@ -36,7 +36,7 @@ export const gliba = {
   category: "COFFEE_TABLE",
   name: "глыба",
   previewImg: "/images/products/gliba/preview.jpg",
-  position: 32,
+  position: 34,
   sortedPosition: 33,
   mobilePosition: 24,
   model: "https://disk.yandex.ru/d/Ws42_OO9ThD9Rg",

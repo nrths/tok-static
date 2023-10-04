@@ -51,7 +51,7 @@ const NewModelsSlider: FC<TNewModelsSliderProps> = ({ models }) => {
   return (
     <div className={styles.modelsSliderWrapper}>
       <div className='navigation-wrapper'>
-        <div ref={sliderRef} className='keen-slider'>
+        {<div ref={sliderRef} className='keen-slider'>
           <div className={`keen-slider__slide number-slide1 `}>
             <Image
               fill
@@ -78,7 +78,8 @@ const NewModelsSlider: FC<TNewModelsSliderProps> = ({ models }) => {
               src={models[1].img}
               alt={models[1].name}
               priority
-              // style={{ objectFit: "contain" }}
+              placeholder="blur"
+              blurDataURL={models[1].img}
               className={styles.imageHomepage}
             />
             <div className={styles.patch}>
@@ -97,7 +98,8 @@ const NewModelsSlider: FC<TNewModelsSliderProps> = ({ models }) => {
               src={models[2].img}
               alt={models[2].name}
               priority
-              // style={{ objectFit: "contain" }}
+              placeholder="blur"
+              blurDataURL={models[2].img}
               className={styles.imageHomepage}
             />
             <div className={styles.patch}>
@@ -116,7 +118,8 @@ const NewModelsSlider: FC<TNewModelsSliderProps> = ({ models }) => {
               src={models[3].img}
               alt={models[3].name}
               priority
-              // style={{ objectFit: "contain" }}
+              placeholder="blur"
+              blurDataURL={models[3].img}
               className={styles.imageHomepage}
             />
             <div className={styles.patch}>
@@ -135,7 +138,8 @@ const NewModelsSlider: FC<TNewModelsSliderProps> = ({ models }) => {
               src={models[4].img}
               alt={models[4].name}
               priority
-              // style={{ objectFit: "contain" }}
+              placeholder="blur"
+              blurDataURL={models[4].img}
               className={styles.imageHomepage}
             />
             <div className={styles.patch}>
@@ -154,7 +158,8 @@ const NewModelsSlider: FC<TNewModelsSliderProps> = ({ models }) => {
               src={models[5].img}
               alt={models[5].name}
               priority
-              // style={{ objectFit: "contain" }}
+              placeholder="blur"
+              blurDataURL={models[5].img}
               className={styles.imageHomepage}
             />
             <div className={styles.patch}>
@@ -173,7 +178,8 @@ const NewModelsSlider: FC<TNewModelsSliderProps> = ({ models }) => {
               src={models[6].img}
               alt={models[6].name}
               priority
-              // style={{ objectFit: "contain" }}
+              placeholder="blur"
+              blurDataURL={models[6].img}
               className={styles.image}
             />
             <div className={styles.patch}>
@@ -185,7 +191,7 @@ const NewModelsSlider: FC<TNewModelsSliderProps> = ({ models }) => {
               </div>
             </div>
           </div>
-        </div>
+        </div>}
         {loaded && instanceRef.current && (
           <div className='dots dots__homepage'>
             {[
