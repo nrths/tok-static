@@ -3,7 +3,6 @@ import ProductDetails from "@/components/product__page/product__page";
 import Head from "next/head";
 
 const SPage = ({ item }: any) => {
-  // const router = useRouter();
   const seoTitle = `${item.name.toUpperCase()} | ТОК-Мебель`
   return (
     <>

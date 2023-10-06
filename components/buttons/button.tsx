@@ -16,7 +16,6 @@ const Button = ({ loading, type, children, onClick, className }: ButtonProps) =>
     type={type}
     onClick={onClick}
   >
-    {/* {loading ? <Loader /> : children} */}
     {children}
   </button>
 );

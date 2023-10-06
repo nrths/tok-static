@@ -29,13 +29,13 @@ const Popup = ({ active, setActive, title, children }: TPopup) => {
     return () => {
       window.removeEventListener("keydown", closeModalOnEsc);
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [setActive]);
 
   const handleClose = () => {
     // @ts-ignore
     if (children?.id === "backcall") {
       setFormData(undefined);
-      // setStep(1)
       setActive(false);
       _document?.body.classList.remove("modal");
     } else {
@@ -74,7 +74,6 @@ const Popup = ({ active, setActive, title, children }: TPopup) => {
           </button>
           <h3 className={styles.title}>{title}</h3>
           <div
-            // className={styles.children}
             onClick={(e) => {
               e.stopPropagation();
             }}

@@ -12,7 +12,6 @@ const NewModelsSlider: FC<TNewModelsSliderProps> = ({ models }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loaded, setLoaded] = useState(false);
   const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>(
-    // initial: 0,
     { loop: true },
     [
       (slider) => {

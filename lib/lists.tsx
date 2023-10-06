@@ -33,7 +33,7 @@ const footerProductsList: TListItem[] = [
   },
   {
     name: "столики",
-    link: "/products/coffee-tables", // just for example, sorted list by size?
+    link: "/products/coffee-tables",
   },
   {
     name: "стулья",
@@ -68,7 +68,7 @@ const footerInfoList: TListItem[] = [
   },
   {
     name: "доставка",
-    link: "/delivery", // now: dogovor (offer argeement page?)
+    link: "/delivery",
   },
   {
     name: "конкурс",
@@ -76,7 +76,7 @@ const footerInfoList: TListItem[] = [
   },
   {
     name: "покупателям",
-    link: "/for-buyers", // doesn't exist now
+    link: "/for-buyers",
   },
   {
     name: "дизайнерам",

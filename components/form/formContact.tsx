@@ -103,7 +103,6 @@ const FormContact: FC<TFormProps> = ({ id, mobile }) => {
               id='comment'
               {...register("comment")}
               className={`${styles.input} ${styles.textarea}`}
-              // placeholder='Комментарий'
             />
           </div>}
         </div>
@@ -128,7 +127,6 @@ const FormContact: FC<TFormProps> = ({ id, mobile }) => {
               id='comment'
               {...register("comment")}
               className={`${styles.input} ${styles.textarea}`}
-              // placeholder='Комментарий'
             />
           </div>}
       </form>

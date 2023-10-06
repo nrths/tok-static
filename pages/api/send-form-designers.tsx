@@ -16,7 +16,7 @@ export default async function handlerSendDesigner(req: any, res: any) {
         `,
 	};
 	sendEmail(message);
-    // console.log(req.body)
-	// console.log(message);
+    console.log(req.body)
+	console.log(message);
 	res.send(`Спасибо за заявку!`);
 }

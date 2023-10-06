@@ -62,7 +62,6 @@ const CenteredPopup = ({ active, setActive, title, children }: TPopup) => {
             className={styles.button__close}
             onClick={() => handleClose()}
           >
-            {/* TODO: переписать в отдельный компонент, нужна смена цвета */}
             <Image
               src={closeButtonColor}
               alt='Закрыть'

@@ -31,7 +31,6 @@ const NewItemsPage = ({ products }: any) => {
         />
       </Head>
       <Header />
-      {/* <FilterMenu /> */}
       <div className={styles.container}></div>
       {result !== undefined && (
         <div className={styles.container}>

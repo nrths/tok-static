@@ -46,8 +46,8 @@ const ModelsSlider: FC<TModelsSliderProps> = ({ product }) => {
                   alt={`${product.name}: в интерьере`}
                   priority
                   className={`${styles.imageProjects}`}
-                  // placeholder="blur"
-                  // blurDataURL={src}
+                  placeholder="blur"
+                  blurDataURL={src}
                 />
               </div>
             </div>

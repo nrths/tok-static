@@ -16,7 +16,6 @@ const NewVisualsSlider: FC<TvisualsSliderProps> = ({ visuals }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [ref, instanceRef] = useKeenSlider<HTMLDivElement>({
     slides: { number: images.length, perView: perView },
-    // mode: "free",
     slideChanged(slider) {
       setCurrentSlide(slider.track.details.rel);
     },

@@ -4,14 +4,12 @@ import styles from "./cityForm.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "../buttons/button";
-import { useState } from "react";
 import { pointYandexGoal } from "@/lib/utils";
 
 type TFormValues = {
   where: any;
 };
 const SpbForm = () => {
-  // const [checked, setChecked] = useState(false);
   const { onHandleNext, setFormData, formData } = useFormState();
   const { register, handleSubmit } = useForm<TFormValues>({
     defaultValues: formData,

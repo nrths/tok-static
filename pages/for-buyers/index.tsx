@@ -8,7 +8,6 @@ const ForBuyersPage: NextPage = () => {
     <>
       <Head>
         <title>Покупателям | ТОК-Мебель</title>
-        {/* <meta name='description' content='' /> */}
       </Head>
       <Header />
       <div className={styles.container}>

@@ -37,10 +37,6 @@ export const orbita = {
     "/images/products/orbita/interior/2.jpg",
   ],
   designersProjects: [
-    // {
-    //   img: "/images/products/orbita/projects/1.jpg",
-    //   author: "IMPETUS",
-    // },
     {
       img: "/images/products/orbita/projects/2.jpg",
       author: "IMPETUS",

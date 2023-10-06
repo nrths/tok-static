@@ -6,7 +6,6 @@ const ArrowWhite = (props: {
   onClick: (e: any) => void;
   className?: string;
 }): JSX.Element => {
-//   const disabeld = props.disabled ? " arrow--disabled" : "";
   return (
     
     <svg
@@ -27,7 +26,7 @@ const ArrowWhite = (props: {
         <path
           d='M1 15L7.43431 8.56569C7.74673 8.25327 7.74673 7.74673 7.43431 7.43431L1 1'
           stroke='#fff'
-          // strokeLinecap='round'
+          strokeLinecap='round'
           fillRule='evenodd'
         />
       )}

@@ -10,7 +10,6 @@ type TFormValues = {
   where: any;
 };
 const MoscowForm = () => {
-  // const [checked, setChecked] = useState(false);
   const { onHandleNext, setFormData, formData } = useFormState();
   const { register, handleSubmit } = useForm<TFormValues>({
     defaultValues: formData,

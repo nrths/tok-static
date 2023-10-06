@@ -83,7 +83,6 @@ const VisualSlider: FC<TVisualsSliderProps> = ({ product }) => {
                   e.stopPropagation() || instanceRef.current?.prev()
                 }
                 className={styles.whiteArrow}
-                // disabled={currentSlide === 0}
               />
             </div>
           </div>
@@ -96,10 +95,6 @@ const VisualSlider: FC<TVisualsSliderProps> = ({ product }) => {
                 onClick={(e) =>
                   e.stopPropagation() || instanceRef.current?.next()
                 }
-                // disabled={
-                //   currentSlide ===
-                //   instanceRef.current.track.details.slides.length - 1
-                // }
               />
             </div>
           </div>

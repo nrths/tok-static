@@ -27,7 +27,7 @@ const MaterialInfo: FC<MaterialsInfoProps> = ({ material, category }) => {
     e.stopPropagation();
     setActiveMaterial(material);
   };
-  // console.log(activeCategory);
+  
   return (
     <div className={`${styles.container}`}>
       {activeMaterial && (

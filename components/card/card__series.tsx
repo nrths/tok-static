@@ -3,9 +3,10 @@ import styles from "./card.module.css";
 import Link from "next/link";
 import { maskPrice } from "@/lib/utils";
 import { useRouter } from "next/router";
+import { TProductSeries } from "@/assets/series";
 
 export type TSeriesCard = {
-  series: any;
+  series: TProductSeries;
   id?: string;
   homepage?: boolean;
 };
@@ -44,8 +45,22 @@ const SeriesCard: FC<TSeriesCard> = ({ series, id, homepage }) => {
                   новинка
                 </span>
               )}
-              <h3 className={homepage ? `${styles.cardTitleHomepage} ${styles.cardTitle}` : `${styles.cardTitle}`}>{series.name}</h3>
-              <span className={homepage ? `${styles.price} ${styles.priceHomepage}` : `${styles.price}`}>
+              <h3
+                className={
+                  homepage
+                    ? `${styles.cardTitleHomepage} ${styles.cardTitle}`
+                    : `${styles.cardTitle}`
+                }
+              >
+                {series.name}
+              </h3>
+              <span
+                className={
+                  homepage
+                    ? `${styles.price} ${styles.priceHomepage}`
+                    : `${styles.price}`
+                }
+              >
                 {/* [3] потому что рельеф п-50 с самой низкой ценой */}
                 от {maskPrice(series.products[3].price)} &#8381;
               </span>
@@ -83,8 +98,23 @@ const SeriesCard: FC<TSeriesCard> = ({ series, id, homepage }) => {
                   новинка
                 </span>
               )}
-              <h3 className={homepage ? `${styles.cardTitleHomepage} ${styles.cardTitle}` : `${styles.cardTitle}`}>{series.name}</h3>
-              <span className={homepage ? `${styles.price} ${styles.priceHomepage}` : `${styles.price}`}>
+              <h3
+                className={
+                  homepage
+                    ? `${styles.cardTitleHomepage} ${styles.cardTitle}`
+                    : `${styles.cardTitle}`
+                }
+              >
+                {series.name}
+              </h3>
+              <span
+                className={
+                  homepage
+                    ? `${styles.price} ${styles.priceHomepage}`
+                    : `${styles.price}`
+                }
+              >
+                {/* [3] потому что рельеф п-50 с самой низкой ценой */}
                 от {maskPrice(series.products[3].price)} &#8381;
               </span>
             </div>

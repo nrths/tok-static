@@ -6,19 +6,12 @@ import styles from "./header.module.css";
 import NavButton from "../buttons/button__nav";
 import Popup from "../popup/popup";
 import { useState } from "react";
-// import useModal from "../../lib/utils";
 import Menu from "../menu/menu";
 import Backcall from "../backcall/backcall";
-import { useRouter } from "next/router";
 import { useFormState } from "../form/formContext";
 import { pointYandexGoal } from "@/lib/utils";
 
-// type headerProps = {
-//   products?: boolean;
-// };
-
 const Header = () => {
-  const router = useRouter();
   const [popupActive, setPopupActive] = useState(false);
   const [clickedButton, setClickedButton] = useState('');
   const { setFormData, setStep } = useFormState();
@@ -32,7 +25,6 @@ const Header = () => {
       setStep(1)
       pointYandexGoal('открыли окно обратного звонка')
     }
-    // console.log(clickedButton)
   }
 
   return (
@@ -49,13 +41,11 @@ const Header = () => {
           />
         </Link>
         <div className={styles.navigation}>
-          {/* {router.pathname === '/products' && <NavButton name='filter' onClick={(e) => handleClick(e)} />} */}
           <NavButton name='backCall' onClick={(e) => handleClick(e)} />
           <NavButton name='burger' onClick={(e) => handleClick(e)} />
           <Popup active={popupActive} setActive={setPopupActive}>
             {clickedButton === 'burger' ? <Menu /> : null}
             {clickedButton === 'backCall' ? <Backcall /> : null} 
-            {/* {clickedButton === 'filter' ? <p>filter</p> : null}  */}
           </Popup>
         </div>
       </header>

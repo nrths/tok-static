@@ -40,7 +40,6 @@ const ProductsPage = ({ products }: any) => {
       <Header />
       <FilterMenu />
       <div className={styles.empty}></div>
-      {/* {result !== undefined && ( */}
         <div className={styles.container}>
           {productsList.map((item: any) => {
             if (item.title.startsWith("ser")) {
@@ -50,7 +49,6 @@ const ProductsPage = ({ products }: any) => {
             }
           })}
         </div>
-      {/* )} */}
     </>
   );
 };

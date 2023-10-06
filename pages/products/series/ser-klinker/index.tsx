@@ -5,7 +5,6 @@ import SeriesPage from "@/components/series__page/series__page";
 import Head from "next/head";
 
 const SPage = ({ item }: any) => {
-  //   const router = useRouter();
   const seoTitle = `Серия столов ${item.name.toUpperCase()} | ТОК-Мебель`
   return (
     <>

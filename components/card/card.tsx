@@ -1,6 +1,5 @@
 import { FC } from "react";
 import styles from "./card.module.css";
-// import Image from "next/image";
 import { maskPrice } from "@/lib/utils";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -15,37 +14,6 @@ export type TCard = {
 const Card: FC<TCard> = ({ product, id, seriesTitle, homepage }) => {
   const router = useRouter();
   
-  // if (product.category === "BED") {
-  //   return (
-  //     <>
-  //       <div className={`${styles.card} ${styles.bed}`} id={id}>
-  //         <Link
-  //           href={`/products/${product.title}`}
-  //           className={styles.link}
-  //           target='_blank'
-  //         >
-  //           {/* eslint-disable-next-line @next/next/no-img-element */}
-  //           <img
-  //             src={product.previewImg}
-  //             alt={product.name}
-  //             className={styles.cardImage}
-  //           />
-  //           <div className={styles.cardInfoWrapper}>
-  //             {
-  //               (product.dateOfCreation = "2023" ? (
-  //                 <span className={router.pathname === '/' ? `${styles.new} ${styles.new__homepage}` : `${styles.new}`}>новинка</span>
-  //               ) : null)
-  //             }
-  //             <h3 className={styles.cardTitle}>{product.name}</h3>
-  //             <span className={styles.price}>
-  //               от {maskPrice(product.price)} &#8381;
-  //             </span>
-  //           </div>
-  //         </Link>
-  //       </div>
-  //     </>
-  //   );
-  // } else
   if (
     product.title === "homie" ||
     product.title === "baul" ||
@@ -106,7 +74,6 @@ const Card: FC<TCard> = ({ product, id, seriesTitle, homepage }) => {
           <Link
             href={seriesTitle ? `/products/series/${seriesTitle}/${product.title}` : `/products/${product.title}`}
             className={styles.link}
-            // target={seriesTitle ? '_self' : '_blank'}
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img

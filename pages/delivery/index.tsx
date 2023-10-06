@@ -9,7 +9,6 @@ const DeliveryPage: NextPage = () => {
     <>
       <Head>
         <title>Договор оферты на поставку товара | ТОК-Мебель</title>
-        {/* <meta name='description' content='' /> */}
       </Head>
       <Header />
       <div className={styles.container}>

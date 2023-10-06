@@ -10,7 +10,6 @@ import Link from "next/link";
 const Gallery: FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loaded, setLoaded] = useState(false);
-//   const [perView, setPerView] = useState(2);
   const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
     initial: 0,
     loop: true,

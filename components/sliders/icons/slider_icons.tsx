@@ -2,7 +2,7 @@ import styles from "../slider.module.css";
 import Image from "next/image";
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
-import { FC, useEffect, useState } from "react";
+import { FC, useState } from "react";
 import Arrow from "@/components/arrow/arrow";
 import { TListItem } from "@/lib/lists";
 import Link from "next/link";
@@ -14,7 +14,6 @@ type TIconsSliderProps = {
 const IconsSlider: FC<TIconsSliderProps> = ({ icons }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loaded, setLoaded] = useState(false);
-  const [perView, setPerView] = useState(2);
   const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
     initial: 0,
     loop: true,
@@ -27,18 +26,6 @@ const IconsSlider: FC<TIconsSliderProps> = ({ icons }) => {
     },
     slides: { perView: 5 },
   });
-
-  // useEffect(() => {
-  //   const windowInnerWidth = window.innerWidth;
-
-  //   if (windowInnerWidth <= 600) {
-  //     const perView = 3;
-  //     setPerView(perView);
-  //   } else {
-  //     const perView = 5;
-  //     setPerView(perView);
-  //   }
-  // }, [perView]);
 
   return (
     <>

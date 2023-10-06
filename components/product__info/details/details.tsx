@@ -93,7 +93,6 @@ const Details: FC<TDetailsProps> = ({ product, className }) => {
           )}
           {price === 0 && (
             <span className={`${styles.price} ${styles.priceZero}`}>
-              {/* от {maskPrice(product.price)} &#8381; */}
             </span>
           )}
         </h2>

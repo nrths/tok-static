@@ -130,7 +130,6 @@ const FormForDesigners:FC<TFormProps> = ({ id, mobile }) => {
               id='comment'
               {...register("comment")}
               className={`${styles.input} ${styles.textarea}`}
-              // placeholder='Комментарий'
             />
           </div>}
         </div>
@@ -147,7 +146,6 @@ const FormForDesigners:FC<TFormProps> = ({ id, mobile }) => {
               data-id='designers'
               {...register("comment")}
               className={`${styles.input} ${styles.textarea}`}
-              // placeholder='Комментарий'
             />
           </div>}
       </form>

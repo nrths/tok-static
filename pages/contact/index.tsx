@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import Place from "@/components/place/place";
-// import Form from "@/components/form/form";
 import FormContact from "@/components/form/formContact";
 import Head from "next/head";
 

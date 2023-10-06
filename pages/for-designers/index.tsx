@@ -20,7 +20,6 @@ const ForDesignersPage: NextPage = () => {
     <>
       <Head>
         <title>Дизайнерам | ТОК-Мебель</title>
-        {/* <meta name='description' content='' /> */}
       </Head>
       <Header />
       <div className={styles.container}>

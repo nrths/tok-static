@@ -22,7 +22,6 @@ export const maskPrice = (price: number) => {
 
 export const switchCategory = (productCategory: string) => {
   let category = "";
-  // productCategory.includes("TABLE") ? category = "столы" : category = ''
   switch (productCategory) {
     case "CHAIR":
       category = "стулья";

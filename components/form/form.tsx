@@ -45,8 +45,6 @@ const Form: FC<TFormProps> = ({ id }) => {
   function sendForm(data: any) {
     try {
       axios.post("https://tok-mebel.ru/api/send-form", data);
-
-      // setFormData({});
     } catch (error) {
       console.log("Sending error", error);
     }
@@ -107,7 +105,6 @@ const Form: FC<TFormProps> = ({ id }) => {
             id='comment'
             {...register("comment")}
             className={`${styles.input} ${styles.textarea}`}
-            // placeholder='Комментарий'
           />
         </div>
 

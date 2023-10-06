@@ -26,7 +26,6 @@ const ProjectSlider: FC<TProjectSliderProps> = ({ product }) => {
       const new_opacities = s.track.details.slides.map(
         (slide) => slide.portion
       );
-      // console.log(s.track.details.slides)
       setOpacities(new_opacities);
     },
     slideChanged(slider) {
@@ -43,7 +42,6 @@ const ProjectSlider: FC<TProjectSliderProps> = ({ product }) => {
     if (images.length <= 2 || windowInnerWidth <= 860) {
       setPerView(1)
       setInitialSlide(1)
-      // setControls(false);
     } else if (windowInnerWidth > 2100) {
       setPerView(3.5)
       setInitialSlide(3)
