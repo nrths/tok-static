@@ -80,20 +80,6 @@ const ProductsPage = ({ products }: any) => {
 
           <div
             className={
-              active === "dinner"
-                ? `${styles.menuItem} ${styles.active}`
-                : `${styles.menuItem}`
-            }
-            id='dinner'
-            onClick={(e) => handleClick(e, "TABLE_DINNER", "dinner")}
-            // @ts-ignore
-            disabled={active === "dinner"}
-          >
-            {"нераздвижные"}
-          </div>
-
-          <div
-            className={
               active === "sliding"
                 ? `${styles.menuItem} ${styles.active}`
                 : `${styles.menuItem}`
@@ -105,11 +91,24 @@ const ProductsPage = ({ products }: any) => {
           >
             {"раздвижные"}
           </div>
+
+          <div
+            className={
+              active === "dinner"
+                ? `${styles.menuItem} ${styles.active}`
+                : `${styles.menuItem}`
+            }
+            id='dinner'
+            onClick={(e) => handleClick(e, "TABLE_DINNER", "dinner")}
+            // @ts-ignore
+            disabled={active === "dinner"}
+          >
+            {"нераздвижные"}
+          </div>
         </div>
       </div>
-      <div className={styles.container}></div>
       {result !== undefined && (
-        <div className={styles.container}>
+        <div className={`${styles.container} ${styles.tables}`}>
           {productsList.map((item: any) => {
             if (item.title.startsWith("ser")) {
               return <SeriesCard series={item} key={item.id} />;

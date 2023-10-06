@@ -2,8 +2,11 @@
     display: flex;
     justify-items: center;
     align-items: flex-end;
-    justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.container.tables {
+    justify-content: space-between;
 }
 
 .menuList {

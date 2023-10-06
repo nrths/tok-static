@@ -44,7 +44,7 @@ const Form: FC<TFormProps> = ({ id }) => {
 
   function sendForm(data: any) {
     try {
-      axios.post("http://localhost:3000/api/send-form", data);
+      axios.post("https://tok-mebel.ru/api/send-form", data);
 
       // setFormData({});
     } catch (error) {

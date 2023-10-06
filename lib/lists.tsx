@@ -44,14 +44,6 @@ const footerProductsList: TListItem[] = [
     link: "/products/beds",
   },
   {
-    name: "диваны",
-    link: "/sofas",
-  },
-  {
-    name: "аксессуары",
-    link: "/accessories",
-  },
-  {
     name: "в наличии",
     link: "/in-stock",
   },

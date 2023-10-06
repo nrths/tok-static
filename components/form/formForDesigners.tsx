@@ -41,7 +41,7 @@ const FormForDesigners:FC<TFormProps> = ({ id, mobile }) => {
   
   async function sendForm(data: any) {
     try {
-      await axios.post("http://localhost/api/send-form-designers", data);
+      await axios.post("https://tok-mebel.ru/api/send-form-designers", data);
     } catch (error) {
       console.log("Sending error", error);
     }
@@ -66,7 +66,7 @@ const FormForDesigners:FC<TFormProps> = ({ id, mobile }) => {
         id={id}
       >
         <h3 className={styles.formTitle}>форма заявки</h3>
-        <div className={styles.inputsContainer}>
+        <div>
           <input
             id='firstName'
             {...register("firstName")}

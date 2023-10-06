@@ -31,7 +31,6 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
           <div className={styles.slider}>
             <ModelsSlider product={product} />
           </div>
-          {/* <div className={styles.main}> */}
           {product.title === "altay" || product.title === "altay-razdvij"|| product.title === "konus" ? (
             <DetailsWithUnderframe
               product={product}
@@ -43,7 +42,6 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
               className={`displayMobileFlex displayNone`}
             />
           )}
-          {/* </div> */}
         </section>}
 
         <section className={styles.dropdowns}>
@@ -86,11 +84,7 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
                 <h3 className={styles.heading}>доставка</h3>
                 <p className={styles.details}>
                   Компания ТОК предоставляет услуги по&nbsp;ДОСТАВКЕ
-                  и&nbsp;СБОРКЕ товара. Бесплатная Доставка по&nbsp;г.
-                  Санкт-Петербург до&nbsp;парадной при&nbsp;заказе от
-                  80&nbsp;000&nbsp;руб., ниже:
-                  от&nbsp;20&nbsp;000&nbsp;руб.&nbsp;в&nbsp;зависимости
-                  от&nbsp;зоны доставки. Доставка по&nbsp;России осуществляется
+                  и&nbsp;СБОРКЕ товара. Доставка по&nbsp;России осуществляется
                   транспортной компанией. Точные сроки указываются при
                   подтверждении заказа. Доставка по&nbsp;России осуществляется
                   при 100% оплате товара.

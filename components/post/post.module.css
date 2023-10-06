@@ -9,7 +9,7 @@
     filter: grayscale(1);
     opacity: 0.8;
     transition: 0.5s;
-    height: 130px;
+    height: 98%;
 }
 
 .listItem:hover {

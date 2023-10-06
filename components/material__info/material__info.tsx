@@ -46,6 +46,7 @@ const MaterialInfo: FC<MaterialsInfoProps> = ({ material, category }) => {
         </div>
       )}
       <div className={styles.column}>
+        <div className={styles.columnItem}>
         <h1 className={styles.title}>
           {category.title} {category.title.includes("ткань") && material.type}
         </h1>
@@ -64,8 +65,6 @@ const MaterialInfo: FC<MaterialsInfoProps> = ({ material, category }) => {
         <div className={styles.description}>
           <h2 className={styles.heading}>описание:</h2>
           <p className={styles.text}>
-            {/* <span className={`${styles.text__lined}`}>
-            </span> */}
             {category.description}
           </p>
         </div>
@@ -82,6 +81,7 @@ const MaterialInfo: FC<MaterialsInfoProps> = ({ material, category }) => {
           <h2 className={styles.heading}>
             производство: {category.manufacturer}
           </h2>
+        </div>
         </div>
         <span className={styles.caption}>
           * цвета образцов на&nbsp;вашем экране могут отличаться

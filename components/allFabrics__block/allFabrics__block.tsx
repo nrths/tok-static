@@ -20,7 +20,7 @@ const AllFabricsBlock: FC<FabricsGroupProps> = ({ fabrics, handleClick }) => {
   const cat2 = fabrics.filter((fabric) => fabric.title === "ткань категория 2");
   return (
     <div className={styles.wrapper_inside}>
-      <DropdownBlock loading={false} title={"ткани категория 1"} materials>
+      <DropdownBlock loading={false} title={"ткани категория 1"} >
       <div className={styles.wrapper_inside}>
         {cat1.map((fabric) => (
           <FabricGroup
@@ -31,7 +31,7 @@ const AllFabricsBlock: FC<FabricsGroupProps> = ({ fabrics, handleClick }) => {
         ))}
         </div>
       </DropdownBlock>
-      <DropdownBlock loading={false} title={"ткани категория 2"} materials>
+      <DropdownBlock loading={false} title={"ткани категория 2"} >
       <div className={styles.wrapper_inside}>
         {cat2.map((fabric) => (
           <FabricGroup

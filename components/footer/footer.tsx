@@ -16,7 +16,7 @@ const Footer = () => {
   const [caption, setCaption] = useState(false)
 
   useEffect(() => {
-    if (router.pathname === '/' || router.pathname.includes('/products') || router.pathname === '/about' ) {
+    if (router.pathname === '/' || router.pathname.includes('/products') || router.pathname === '/about' || router.pathname === '/new-items') {
       setCaption(true)
     } else {
       setCaption(false)

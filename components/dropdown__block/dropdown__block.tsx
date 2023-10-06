@@ -21,7 +21,7 @@ const DropdownBlock: FC<DropdownProps> = ({
   className,
   materials,
 }) => {
-  const [showBlock, setShowBlock] = useState(false);
+  const [showBlock, setShowBlock] = useState(materials ? true : false);
   const [icon, setIcon] = useState<boolean>(false);
 
   const handleClick = (e: MouseEvent<HTMLDivElement>) => {

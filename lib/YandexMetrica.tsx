@@ -24,7 +24,7 @@ export const YandexMetrica = ({ children }: PropsWithChildren) => {
     <>
       {enableYM && (
         <YMInitializer
-          accounts={[Number(process.env.NEXT_PUBLIC_YM_ID)]}
+          accounts={[Number(process.env.NEXT_PUBLIC_YM_ID), 70284832]}
           options={{ defer: true, clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true }}
           version="2"
         />

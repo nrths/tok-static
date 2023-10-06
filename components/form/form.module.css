@@ -13,7 +13,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    min-height: 60vh;
     font-family: '__Roboto_Flex_e2cfa5', '__Roboto_Flex_Fallback_e2cfa5';
 }
 
@@ -40,6 +39,9 @@
     font-family: '__Roboto_Flex_e2cfa5', '__Roboto_Flex_Fallback_e2cfa5';
 }
 
+.inputsContainer {
+    padding-bottom: 15px;
+}
 
 .input {
     width: -webkit-fill-available;

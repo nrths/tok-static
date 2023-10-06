@@ -78,7 +78,6 @@ const MaterialsPage = () => {
           </div>
         </div>
         <DropdownBlock
-          materials
           loading={false}
           title={"натуральная кожа"}
           className='full'

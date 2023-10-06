@@ -42,7 +42,7 @@ const FormContact: FC<TFormProps> = ({ id, mobile }) => {
 
   async function sendForm(data: any) {
     try {
-      await axios.post("http://localhost/api/send-form-contact", data);
+      await axios.post("https://tok-mebel.ru/api/send-form-contact", data);
     } catch (error) {
       console.log("Sending error", error);
     }
@@ -67,7 +67,7 @@ const FormContact: FC<TFormProps> = ({ id, mobile }) => {
         id={id}
       >
         <h3 className={styles.formTitle}>форма обратной связи</h3>
-        <div className={styles.inputsContainer}>
+        <div>
           <input
             id='name'
             {...register("name")}

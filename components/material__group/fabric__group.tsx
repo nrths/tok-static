@@ -18,7 +18,7 @@ export type FabricGroupProps = {
 const FabricGroup: FC<FabricGroupProps> = ({ category, handleClick }) => {
   return (
     <>
-      <DropdownBlock materials loading={false} title={category.materials[0].type!}>
+      <DropdownBlock loading={false} title={category.materials[0].type!}>
         <div className={`${styles.category__wrapper} `}>
           {category.materials.map((fabric: TMaterial) => (
             <div
