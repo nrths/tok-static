@@ -15,7 +15,4 @@ services:
     ports:
       - 80:80
       - 443:443
-    volumes:
-      - /etc/letsencrypt/ssl/fullchain.pem:/etc/nginx/ssl/fullchain.pem
-      - /etc/letsencrypt/ssl/privkey.pem:/etc/nginx/ssl/privkey.pem
     restart: unless-stopped
