@@ -9,10 +9,10 @@ services:
       - NEXT_PUBLIC_YM_ID=95115536
     ports:
       - 3000:3000
-  # nginx:
-  #   container_name: nginx
-  #   build: ./nginx
-  #   ports:
-  #     - 80:80
-  #     - 443:443
-  #   restart: unless-stopped
+  nginx:
+    container_name: nginx
+    build: ./nginx
+    ports:
+      - 80:80
+      - 443:443
+    restart: unless-stopped
