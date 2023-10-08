@@ -243,7 +243,7 @@ export const klinker_p50 = {
     },
   },
   category: "TABLE_DINNER CIRCLE",
-  name: "клинкер рельеф - к25",
+  name: "клинкер рельеф - п50",
   previewImg: "/images/products/klinker/previewP50.jpg",
   model: "https://disk.yandex.ru/d/XHdTt1L5eP3K2g",
   tags: ["стол", "круглый"],
