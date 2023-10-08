@@ -16,3 +16,13 @@ services:
       - 80:80
       - 443:443
     restart: unless-stopped
+    volumes:
+       - ./nginx/conf:/etc/nginx/conf.d
+       - ./certbot/www:/var/www/certbot
+
+  certbot:
+    image: certbot/certbot
+    volumes:
+      - ./certbot/conf:/etc/letsencrypt/ssl
+      - ./certbot/www:/var/www/certbot
+    command: certonly --webroot --webroot-path=/var/www/certbot --email tok-mebel.cloud@yandex.ru --agree-tos --no-eff-email --staging -d tok-mebel.ru -d www.tok-mebel.ru
