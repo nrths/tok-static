@@ -28,7 +28,11 @@ export const velvet_krug = {
     "/images/products/velvet-krug/sizes/1.jpg",
     "/images/products/velvet-krug/sizes/1.jpg",
   ],
-  visualisations: [],
+  visualisations: [
+    "/images/products/velvet-krug/interior/1.jpg",
+    "/images/products/velvet-krug/interior/2.jpg",
+    "/images/products/velvet-krug/interior/3.jpg",
+  ],
   designersProjects: [
     {
       img: "/images/products/velvet-krug/projects/1.jpg",
@@ -113,7 +117,7 @@ export const velvet_krug = {
   ],
   price: [92800],
   params: {
-    'hpl / fenix ntm': {
+    "hpl / fenix ntm": {
       "800 Х 750": 97500,
       "900 Х 750": 104400,
       "1000 Х 750": 117600,
@@ -121,7 +125,7 @@ export const velvet_krug = {
       "1200 Х 750": 125000,
       "1270 Х 750": 140400,
     },
-    'шпон дуба': {
+    "шпон дуба": {
       "800 Х 750": 92800,
       "900 Х 750": 99300,
       "1000 Х 750": 112300,

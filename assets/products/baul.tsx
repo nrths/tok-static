@@ -35,8 +35,8 @@ export const baul = {
   ],
   visualisations: [
     "/images/products/baul/interior/1.jpg",
+    "/images/products/baul/interior/2.jpg",
     "/images/products/baul/interior/3.jpg",
-    "/images/products/baul/interior/4.jpg",
   ],
   designersProjects: [
     {

@@ -18,7 +18,7 @@ const Manufacture = () => {
         упаковки&nbsp;&mdash; является эксклюзивной разработкой дизайнеров
         и&nbsp;специалистов бренда ТОК и&nbsp;сделана с&nbsp;любовью.
       </p>
-      <Image src={"/images/other/manufacture.png"} alt={""} priority fill unoptimized className={styles.img}/>
+      <Image src={"/images/other/manufacture.jpg"} alt={""} priority fill unoptimized className={styles.img}/>
     </div>
   );
 };

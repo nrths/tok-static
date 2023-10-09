@@ -205,7 +205,7 @@ const newModelsList: TNewModel[] = [
   {
     name: "клинкер овал",
     description: "новая серия столов",
-    img: "/images/products/models__new/klinker-oval.png",
+    img: "/images/products/models__new/klinker-oval.jpg",
   },
   {
     name: "клинкер-б",
@@ -220,22 +220,22 @@ const newModelsList: TNewModel[] = [
   {
     name: "слайдер",
     description: "новая серия столов",
-    img: "/images/products/models__new/slaider.png",
+    img: "/images/products/models__new/slaider.jpg",
   },
   {
     name: "клинкер слс-2",
     description: "новая серия столов",
-    img: "/images/products/models__new/klinker-sls-2.png",
+    img: "/images/products/models__new/klinker-sls-2.jpg",
   },
   {
     name: "клинкер-ф раздвижной",
     description: "новая серия столов",
-    img: "/images/products/models__new/klinker-f-razdv.png",
+    img: "/images/products/models__new/klinker-f-razdv.jpg",
   },
   {
     name: "флакон 2",
     description: "новая серия столов",
-    img: "/images/products/models__new/flakon-2.png",
+    img: "/images/products/models__new/flakon-2.jpg",
   },
 ];
 

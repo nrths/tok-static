@@ -26,7 +26,6 @@ export const buton = {
     "/images/products/buton/models/22.jpg",
     "/images/products/buton/models/23.jpg",
     "/images/products/buton/models/24.jpg",
-    "/images/products/buton/models/25.jpg",
   ],
   description:
     "Столик из серии БУТОН - очень универсальный. Может служить как журнальным столиком, так и прикроватным.  Верх столика может быть выполнен из матового инновационного материала FENIX*, шпона дуба или hpl-пластика 'под мрамор'. Ножка столика сделана из металлической пластины в форме скругленного прямоугольника.",
@@ -38,7 +37,10 @@ export const buton = {
     "/images/products/buton/sizes/1.jpg",
     "/images/products/buton/sizes/2.jpg",
   ],
-  visualisations: ["/images/products/buton/interiors/1.jpg"],
+  visualisations: [
+    "/images/products/buton/interiors/1.jpg",
+    "/images/products/buton/interiors/2.jpg",
+  ],
   designersProjects: [
     {
       img: "/images/products/buton/projects/1.jpg",
