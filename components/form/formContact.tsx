@@ -42,7 +42,7 @@ const FormContact: FC<TFormProps> = ({ id, mobile }) => {
 
   async function sendForm(data: any) {
     try {
-      await axios.post("http://tok-mebel.ru/api/send-form-contact", data);
+      await axios.post("https://tok-mebel.ru/api/send-form-contact", data);
     } catch (error) {
       console.log("Sending error", error);
     }
