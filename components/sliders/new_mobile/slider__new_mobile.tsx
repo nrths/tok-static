@@ -35,6 +35,7 @@ const NewModelsSliderMobile: FC<TNewModelsSliderProps> = ({ models }) => {
               src={models[0].img}
               alt={models[0].name}
               priority
+              unoptimized
               style={{ objectFit: "contain" }}
               className={styles.imageHomepage}
             />
@@ -54,6 +55,7 @@ const NewModelsSliderMobile: FC<TNewModelsSliderProps> = ({ models }) => {
               src={models[1].img}
               alt={models[1].name}
               priority
+              unoptimized
               className={styles.imageHomepage}
             />
             <div className={styles.patch}>
@@ -72,6 +74,7 @@ const NewModelsSliderMobile: FC<TNewModelsSliderProps> = ({ models }) => {
               src={models[2].img}
               alt={models[2].name}
               priority
+              unoptimized
               className={styles.imageHomepage}
             />
             <div className={styles.patch}>
@@ -90,6 +93,7 @@ const NewModelsSliderMobile: FC<TNewModelsSliderProps> = ({ models }) => {
               src={models[3].img}
               alt={models[3].name}
               priority
+              unoptimized
               className={styles.imageHomepage}
             />
             <div className={styles.patch}>
@@ -108,6 +112,7 @@ const NewModelsSliderMobile: FC<TNewModelsSliderProps> = ({ models }) => {
               src={models[4].img}
               alt={models[4].name}
               priority
+              unoptimized
               className={styles.imageHomepage}
             />
             <div className={styles.patch}>
@@ -126,6 +131,7 @@ const NewModelsSliderMobile: FC<TNewModelsSliderProps> = ({ models }) => {
               src={models[5].img}
               alt={models[5].name}
               priority
+              unoptimized
               className={styles.imageHomepage}
             />
             <div className={styles.patch}>
@@ -144,6 +150,7 @@ const NewModelsSliderMobile: FC<TNewModelsSliderProps> = ({ models }) => {
               src={models[6].img}
               alt={models[6].name}
               priority
+              unoptimized
               className={styles.image}
             />
             <div className={styles.patch}>
