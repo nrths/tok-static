@@ -81,7 +81,7 @@ export const klinker_c = {
 export const klinker_sls = {
   id: 5,
   title: "ser-klinker-sls-2",
-  position: 20,
+  position: 25,
   sortedPosition: 19,
   mobilePosition: 29,
   previewImg: "/images/products/klinker-sls-2/preview.jpg",

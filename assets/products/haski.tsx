@@ -7,6 +7,7 @@ export const haski = {
     "/images/products/haski/models/3.jpg",
     "/images/products/haski/models/4.jpg",
     "/images/products/haski/models/5.jpg",
+    "/images/products/haski/models/6.jpg",
   ],
   description:
     "Столики из серии ХАСКИ выполнены из металлического основания. Имеют две столешницы: верхняя - из нанопластика FENIX*, нижняя - из массива дуба. Столики отлично впишутся в гостиную или кухню. Модель представлена в размере: Д 1230мм Ш 700мм В 400мм.",

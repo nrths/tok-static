@@ -72,7 +72,10 @@ const Details: FC<TDetailsProps> = ({ product, className }) => {
     (item) => item.value === countertopOption
   );
   const selectedSize = sizesOptions.find((item) => item.label === sizeOption);
-  const selectedFrame = underframeOptions !== undefined ? underframeOptions.find((item) => item.label === underframeOption) : '';
+  const selectedFrame =
+    underframeOptions !== undefined
+      ? underframeOptions.find((item) => item.label === underframeOption)
+      : "";
 
   return (
     <>
@@ -89,11 +92,13 @@ const Details: FC<TDetailsProps> = ({ product, className }) => {
         >
           цена:{" "}
           {price !== 0 && (
-            <span className={styles.price}>{price === product.price ? "от " : ""}{maskPrice(price)} &#8381;</span>
+            <span className={styles.price}>
+              {price === product.price ? "от " : ""}
+              {maskPrice(price)} &#8381;
+            </span>
           )}
           {price === 0 && (
-            <span className={`${styles.price} ${styles.priceZero}`}>
-            </span>
+            <span className={`${styles.price} ${styles.priceZero}`}></span>
           )}
         </h2>
         <div className={styles.parameters}>
@@ -126,25 +131,25 @@ const Details: FC<TDetailsProps> = ({ product, className }) => {
               options={sizesOptions}
               selected={selectedSize || null}
               onChange={handleSizesSelect}
-              placeholder='Выберите размер'
+              placeholder={"Выберите размер"}
             />
           </div>
-          {product.category === "BED" ? null : (
-            <div className={styles.selectGroup}>
-              <span className={styles.label}>
-                отделка
-                <br />
-                основания:
-              </span>
-              <Select
-                mode='rows'
-                options={underframeOptions ? underframeOptions : []}
-                selected={selectedFrame || null}
-                onChange={handleUnderframeSelect}
-                // placeholder='Выберите размер'
-              />
-            </div>
-          )}
+
+          <div className={styles.selectGroup}>
+            <span className={styles.label}>
+              отделка
+              <br />
+              основания:
+            </span>
+            <Select
+              mode='rows'
+              options={underframeOptions ? underframeOptions : []}
+              selected={selectedFrame || null}
+              name='underframeInactive'
+              onChange={handleUnderframeSelect}
+              // placeholder='Выберите размер'
+            />
+          </div>
         </div>
       </div>
     </>

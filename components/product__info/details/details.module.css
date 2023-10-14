@@ -87,6 +87,7 @@
     color: var(--baseTextColor);
     font-size: 14px;
     font-weight: 300;
+    white-space: pre-wrap;
 }
 
 @media (min-width: 2048px) {

@@ -11,6 +11,7 @@ export type TMaterialGroup = {
     | "hpl"
     | "fenix ntm"
     | "эмаль"
+    | "эмаль с фактурой дуба"
     | "керамика"
     | "тонировка дуба"
     | "металл"
@@ -321,6 +322,145 @@ export const Enamel: TMaterialGroup = {
       name: "2603015",
       type: "тёмный ультрамарин",
       img: "/images/materials/enamel/2603015.jpg",
+    },
+  ],
+};
+
+export const EnamelWithOakTexture: TMaterialGroup = {
+  id: 3,
+  title: "эмаль с фактурой дуба",
+  furnish: "эмаль",
+  base: "шпон / массив дуба",
+  hem: "",
+  manufacturer: "италия",
+  description:
+    "Порошковая краска представляет собой твердую многокомпонентную композицию, которая под воздействием высокой температуры образует тончайшую пленку, плотно сцепленную с окрашиваемой поверхностью.",
+  materials: [
+    {
+      id: 1,
+      name: "1013",
+      type: "светлый беж",
+      img: "/images/materials/enamel_oak/1013.jpg",
+    },
+    {
+      id: 2,
+      name: "1020",
+      type: "болотный",
+      img: "/images/materials/enamel_oak/1020.jpg",
+    },
+    {
+      id: 3,
+      name: "0002500",
+      type: "пыльно-чёрный",
+      img: "/images/materials/enamel_oak/0002500.jpg",
+    },
+    {
+      id: 4,
+      name: "6004",
+      type: "тёмно-бирюзовый",
+      img: "/images/materials/enamel_oak/6004.jpg",
+    },
+    {
+      id: 5,
+      name: "7016",
+      type: "антрацит",
+      img: "/images/materials/enamel_oak/7016.jpg",
+    },
+    {
+      id: 6,
+      name: "7035",
+      type: "светло-серый",
+      img: "/images/materials/enamel_oak/7035.jpg",
+    },
+    {
+      id: 7,
+      name: "7037",
+      type: "серый",
+      img: "/images/materials/enamel_oak/7037.jpg",
+    },
+    {
+      id: 8,
+      name: "8015",
+      type: "бурый",
+      img: "/images/materials/enamel_oak/8015.jpg",
+    },
+    {
+      id: 9,
+      name: "8019",
+      type: "кофейный",
+      img: "/images/materials/enamel_oak/8019.jpg",
+    },
+    {
+      id: 10,
+      name: "8023",
+      type: "кирпичный",
+      img: "/images/materials/enamel_oak/8023.jpg",
+    },
+    {
+      id: 11,
+      name: "9005",
+      type: "чёрный",
+      img: "/images/materials/enamel_oak/9005.jpg",
+    },
+    {
+      id: 12,
+      name: "9016",
+      type: "белый",
+      img: "/images/materials/enamel_oak/9016.jpg",
+    },
+    {
+      id: 13,
+      name: "0204020",
+      type: "бургунди",
+      img: "/images/materials/enamel_oak/0204020.jpg",
+    },
+    {
+      id: 14,
+      name: "0706010",
+      type: "серо-бежевый",
+      img: "/images/materials/enamel_oak/0706010.jpg",
+    },
+    {
+      id: 15,
+      name: "0707050",
+      type: "жёлтая пастель",
+      img: "/images/materials/enamel_oak/0707050.jpg",
+    },
+    {
+      id: 16,
+      name: "0806005",
+      type: "серый шёлк",
+      img: "/images/materials/enamel_oak/0806005.jpg",
+    },
+    {
+      id: 17,
+      name: "0808010",
+      type: "бежевый",
+      img: "/images/materials/enamel_oak/0808010.jpg",
+    },
+    {
+      id: 18,
+      name: "1605015",
+      type: "пыльно-зелёный",
+      img: "/images/materials/enamel_oak/1605015.jpg",
+    },
+    {
+      id: 19,
+      name: "1804005",
+      type: "тёмно-серая зелень",
+      img: "/images/materials/enamel_oak/1804005.jpg",
+    },
+    {
+      id: 20,
+      name: "2505015",
+      type: "синяя пастель",
+      img: "/images/materials/enamel_oak/2505015.jpg",
+    },
+    {
+      id: 21,
+      name: "2603015",
+      type: "тёмный ультрамарин",
+      img: "/images/materials/enamel_oak/2603015.jpg",
     },
   ],
 };
@@ -3334,6 +3474,7 @@ export const allMaterials = [
   Architectural_concrete,
   Ceramics,
   Enamel,
+  EnamelWithOakTexture,
   Fabrics_Austin,
   Fabrics_Clarins,
   Fabrics_Crown,

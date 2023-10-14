@@ -32,7 +32,7 @@ const CompetitionPage: NextPage = () => {
           href={"https://addawards.ru/sponsors/218053/"}
           replace
           target='_blank'
-          onClick={() => pointYandexGoal('переход на ADD Awards')}
+          // onClick={() => pointYandexGoal('переход на ADD Awards')}
         >
           добавить проект
         </Link>

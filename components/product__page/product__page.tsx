@@ -31,7 +31,7 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
           <div className={styles.slider}>
             <ModelsSlider product={product} />
           </div>
-          {product.title === "altay" || product.title === "altay-razdvij"|| product.title === "konus" ? (
+          {product.title === "altay" || product.title === "altay-razdvij"|| product.title === "konus" || product.category === 'BED' ? (
             <DetailsWithUnderframe
               product={product}
               className={`displayMobileFlex  displayNone`}

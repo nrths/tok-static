@@ -18,9 +18,6 @@ export const klinker_sls_k25 = {
     "/images/products/klinker-sls-2/klinker-sls-2-k25/14.jpg",
     "/images/products/klinker-sls-2/klinker-sls-2-k25/15.jpg",
     "/images/products/klinker-sls-2/klinker-sls-2-k25/16.jpg",
-    "/images/products/klinker-sls-2/klinker-sls-2-k25/17.jpg",
-    "/images/products/klinker-sls-2/klinker-sls-2-k25/18.jpg",
-    "/images/products/klinker-sls-2/klinker-sls-2-k25/19.jpg",
   ],
   description:
     "Столы серии 'Клинкер' обладают уникальным дизайном с большим количеством рельефов и широкой цветовой палитрой.  По индивидуальному запросу можно выбрать любой цвет эмали по каталогу RAL. Подстолье и обратная сторона крышки могут иметь как глянцевую, так и матовую поверхность.  Покрытие столешницы может быть выполнено из нанопластика FENIX NTM, HPL пластика 'под мрамор'. При диаметре столешницы до 950 мм. возможно покрытие из керамики толщиной 6 мм.",
@@ -88,9 +85,6 @@ export const klinker_sls_k50 = {
     "/images/products/klinker-sls-2/klinker-sls-2-k50/14.jpg",
     "/images/products/klinker-sls-2/klinker-sls-2-k50/15.jpg",
     "/images/products/klinker-sls-2/klinker-sls-2-k50/16.jpg",
-    "/images/products/klinker-sls-2/klinker-sls-2-k50/17.jpg",
-    "/images/products/klinker-sls-2/klinker-sls-2-k50/18.jpg",
-    "/images/products/klinker-sls-2/klinker-sls-2-k50/19.jpg",
   ],
   description:
     "Столы серии 'Клинкер' обладают уникальным дизайном с большим количеством рельефов и широкой цветовой палитрой.  По индивидуальному запросу можно выбрать любой цвет эмали по каталогу RAL. Подстолье и обратная сторона крышки могут иметь как глянцевую, так и матовую поверхность.  Покрытие столешницы может быть выполнено из нанопластика FENIX NTM, HPL пластика 'под мрамор'. При диаметре столешницы до 950 мм. возможно покрытие из керамики толщиной 6 мм.",
@@ -158,9 +152,6 @@ export const klinker_sls_p25 = {
     "/images/products/klinker-sls-2/klinker-sls-2-p25/14.jpg",
     "/images/products/klinker-sls-2/klinker-sls-2-p25/15.jpg",
     "/images/products/klinker-sls-2/klinker-sls-2-p25/16.jpg",
-    "/images/products/klinker-sls-2/klinker-sls-2-p25/17.jpg",
-    "/images/products/klinker-sls-2/klinker-sls-2-p25/18.jpg",
-    "/images/products/klinker-sls-2/klinker-sls-2-p25/19.jpg",
   ],
   description:
     "Столы серии 'Клинкер' обладают уникальным дизайном с большим количеством рельефов и широкой цветовой палитрой.  По индивидуальному запросу можно выбрать любой цвет эмали по каталогу RAL. Подстолье и обратная сторона крышки могут иметь как глянцевую, так и матовую поверхность.  Покрытие столешницы может быть выполнено из нанопластика FENIX NTM, HPL пластика 'под мрамор'. При диаметре столешницы до 950 мм. возможно покрытие из керамики толщиной 6 мм.",
@@ -228,9 +219,6 @@ export const klinker_sls_p50 = {
     "/images/products/klinker-sls-2/klinker-sls-2-p50/14.jpg",
     "/images/products/klinker-sls-2/klinker-sls-2-p50/15.jpg",
     "/images/products/klinker-sls-2/klinker-sls-2-p50/16.jpg",
-    "/images/products/klinker-sls-2/klinker-sls-2-p50/17.jpg",
-    "/images/products/klinker-sls-2/klinker-sls-2-p50/18.jpg",
-    "/images/products/klinker-sls-2/klinker-sls-2-p50/19.jpg",
   ],
   description:
     "Столы серии 'Клинкер' обладают уникальным дизайном с большим количеством рельефов и широкой цветовой палитрой.  По индивидуальному запросу можно выбрать любой цвет эмали по каталогу RAL. Подстолье и обратная сторона крышки могут иметь как глянцевую, так и матовую поверхность.  Покрытие столешницы может быть выполнено из нанопластика FENIX NTM, HPL пластика 'под мрамор'. При диаметре столешницы до 950 мм. возможно покрытие из керамики толщиной 6 мм.",

@@ -52,7 +52,7 @@ const FormContact: FC<TFormProps> = ({ id, mobile }) => {
     // console.log(contacts);
     sendForm(contacts);
     setSuccessContact(true);
-    pointYandexGoal('отправлен запрос со страницы контактов')
+    // pointYandexGoal('отправлен запрос со страницы контактов')
     reset();
 
     setTimeout(() => setSuccessContact(false), 1000);

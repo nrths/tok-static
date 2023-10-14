@@ -11,6 +11,11 @@ export const velvet_krug_ju = {
     "/images/products/velvet-krug-ju/models/7.jpg",
     "/images/products/velvet-krug-ju/models/8.jpg",
     "/images/products/velvet-krug-ju/models/9.jpg",
+    "/images/products/velvet-krug-ju/models/10.jpg",
+    "/images/products/velvet-krug-ju/models/11.jpg",
+    "/images/products/velvet-krug-ju/models/12.jpg",
+    "/images/products/velvet-krug-ju/models/13.jpg",
+    "/images/products/velvet-krug-ju/models/14.jpg",
   ],
   description:
     "В линейке стола ВЕЛЬВЕТ также представлена журнальная версия. В стандартной линейке столики представлены в трех размерах. Можно приобрести как группой, так и по отдельности. Столешница может быть выполнена из матового инновационного материала FENIX NTM, МДФ шпонированный дубом, hpl-пластик 'под мрамор'. Основание выполнено из металлических трубок, напоминающих фактуру вельвета.",

@@ -38,7 +38,9 @@ const SpbForm = () => {
                 Санкт-Петербург:
               </h3>
               <div className={styles.contacts}>
-                <a href='tel:+78129200499' className={styles.phone} onClick={() => pointYandexGoal('клик по номеру телефона СПБ')}>
+                <a href='tel:+78129200499' className={styles.phone} 
+                // onClick={() => pointYandexGoal('клик по номеру телефона СПБ')}
+                >
                   <Image
                     src={"/images/backCall.svg"}
                     alt={""}
@@ -49,7 +51,9 @@ const SpbForm = () => {
                 </a>
 
                 <div className={styles.socials}>
-                  <Link href={"https://t.me/tok_mebel"} target='_blank' onClick={() => pointYandexGoal('переход в Telegram СПБ')}>
+                  <Link href={"https://t.me/tok_mebel"} target='_blank' 
+                  // onClick={() => pointYandexGoal('переход в Telegram СПБ')}
+                  >
                     <Image
                       src={"/images/socials/telegram.svg"}
                       alt={""}
@@ -60,7 +64,7 @@ const SpbForm = () => {
                   <Link
                     href={"https://api.whatsapp.com/message/LDWQN6INLQKID1"}
                     target='_blank'
-                    onClick={() => pointYandexGoal('переход в Whattsapp СПБ')}
+                    // onClick={() => pointYandexGoal('переход в Whattsapp СПБ')}
                   >
                     <Image
                       src={"/images/socials/whattsup.svg"}

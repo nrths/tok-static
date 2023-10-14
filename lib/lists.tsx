@@ -196,7 +196,7 @@ export const dignitysList = [
     },
     {
       icon: "/images/menu_icons/map_circle.svg",
-      title: "ДВА ШОУРУМА:\nВ МОСКВЕ И САНКТ-ПЕТЕБУРГЕ",
+      title: "ДВА ШОУРУМА:\nВ МОСКВЕ И САНКТ-ПЕТЕРБУРГЕ",
     },
   ],
 ];

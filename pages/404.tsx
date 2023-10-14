@@ -9,14 +9,11 @@ const Custom404 = () => {
     <>
       <Header />
       <div className={styles.custom404}>
-        <h1 className={styles.title}>Ошибка 404</h1>
-        <p className={styles.text}>
-          На странице ведутся технические работы или ее не существует.
-        </p>
+        <h1 className={styles.title}>Мы обновили сайт</h1>
       </div>
       <div className={styles.wrapper}>
-        <Button type={"button"} onClick={() => router.back()} className={styles.button}>
-          назад
+        <Button type={"button"} onClick={() => router.push("/products")} className={styles.button}>
+          продукция
         </Button>
         <Button type={"button"} onClick={() => router.push("/")} className={styles.button}>
           на главную

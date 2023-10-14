@@ -19,12 +19,6 @@ export const flakon = {
     "/images/products/flakon/models/15.jpg",
     "/images/products/flakon/models/16.jpg",
     "/images/products/flakon/models/17.jpg",
-    "/images/products/flakon/models/18.jpg",
-    "/images/products/flakon/models/19.jpg",
-    "/images/products/flakon/models/20.jpg",
-    "/images/products/flakon/models/21.jpg",
-    "/images/products/flakon/models/22.jpg",
-    "/images/products/flakon/models/23.jpg",
   ],
   description:
     "Стол ФЛАКОН обладает лаконичным, строгим дизайном. Безупречность форм достигается при помощи использования большого количества металлических элементов - двухсоставной металлической опоры, пояса из железа вокруг столешницы.  Разнообразие цветовых решений для данной модели стола достигается возможностью комбинировать варианты покраски каждой из частей металлической опоры, а так же пояса и самой столешницы. Покрытие столешницы может быть выполнено из нанопластика FENIX NTM, HPL пластика 'под мрамор', шпонированного дубом МДФ.",

@@ -24,7 +24,7 @@ export const nimb = {
   countertop: ["hpl / fenix ntm", "шпон дуба"],
   underframe: ["металл"],
   sizesSlider: ["/images/products/nimb/sizes/1.jpg"],
-  visualisations: [],
+  visualisations: [ "/images/products/nimb/interior/1.jpg"],
   designersProjects: [
     {
       img: "/images/products/nimb/projects/1.jpg",

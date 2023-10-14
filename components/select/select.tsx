@@ -117,7 +117,12 @@ const Select = (props: SelectProps) => {
     onChange?.(label);
   };
   const handlePlaceHolderClick: MouseEventHandler<HTMLDivElement> = () => {
-    setIsOpen((prev) => !prev);
+    if (options.length === 1 && name === 'underframeInactive') {
+      setIsOpen(false)
+    } else {
+      setIsOpen((prev) => !prev);
+    }
+    
   };
 
   return (
@@ -130,14 +135,15 @@ const Select = (props: SelectProps) => {
       data-id={name}
     >
       {options.length > 1 && <div className={styles.arrow}>
-        <ArrowDown />
+        {/* @ts-ignore */}
+        <ArrowDown onClick={handlePlaceHolderClick} />
       </div>}
       <div
         className={styles.placeholder}
         data-status={status}
         data-selected={!!selected?.label}
         onClick={handlePlaceHolderClick}
-        role="button"
+        role={(options.length === 1 && name === 'underframeInactive') ? 'disabled' : 'button'}
         tabIndex={0}
         ref={placeholderRef}
       >

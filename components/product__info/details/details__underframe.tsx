@@ -59,8 +59,6 @@ const DetailsWithUnderframe: FC<TDetailsProps> = ({ product, className }) => {
     sizesOptions.length > 1 ? "" : ""
   );
 
-  
-
   const handleUnderframeSelect = (value: string) => {
     setUnderframeOption(value);
     setCountertopOption("");
@@ -81,7 +79,6 @@ const DetailsWithUnderframe: FC<TDetailsProps> = ({ product, className }) => {
     setPrice(price);
   };
 
-  
   const selectedFrame = underframeOptions.find(
     (item) => item.label === underframeOption
   );
@@ -106,11 +103,13 @@ const DetailsWithUnderframe: FC<TDetailsProps> = ({ product, className }) => {
         >
           цена:{" "}
           {price !== 0 && (
-            <span className={styles.price}>{price === product.price ? "от " : ""}{maskPrice(price)} &#8381;</span>
+            <span className={styles.price}>
+              {price === product.price ? "от " : ""}
+              {maskPrice(price)} &#8381;
+            </span>
           )}
           {price === 0 && (
-            <span className={`${styles.price} ${styles.priceZero}`}>
-            </span>
+            <span className={`${styles.price} ${styles.priceZero}`}></span>
           )}
         </h2>
         <div className={styles.parameters}>
@@ -120,9 +119,9 @@ const DetailsWithUnderframe: FC<TDetailsProps> = ({ product, className }) => {
 
           <div className={styles.selectGroup}>
             <span className={styles.label}>
-              отделка
-              <br />
-              основания:
+              {product.category.includes("BED")
+                ? "подъемный\nмеханизм:"
+                : "отделка\nоснования:"}
             </span>
             <Select
               mode='rows'
@@ -130,15 +129,15 @@ const DetailsWithUnderframe: FC<TDetailsProps> = ({ product, className }) => {
               selected={selectedFrame || null}
               name='long'
               onChange={handleUnderframeSelect}
-              placeholder={`выберите отделку основания`}
+              placeholder={product.category.includes("BED") ? `наличие механизма` : `выберите отделку основания`}
             />
           </div>
 
           <div className={styles.selectGroup}>
             <span className={styles.label}>
-              отделка
-              <br />
-              столешницы:
+            {product.category.includes("BED")
+                ? "отделка:"
+                : "отделка\nстолешницы:"}
             </span>
             <Select
               mode='rows'
@@ -146,7 +145,7 @@ const DetailsWithUnderframe: FC<TDetailsProps> = ({ product, className }) => {
               selected={selectedCountertop || null}
               name='long'
               onChange={handleCountertopSelect}
-              placeholder='Выберите отделку столешницы'
+              placeholder={product.category.includes("BED") ? `выберите отделку` : `выберите отделку столешницы`}
             />
           </div>
 
@@ -158,7 +157,7 @@ const DetailsWithUnderframe: FC<TDetailsProps> = ({ product, className }) => {
               selected={selectedSize || null}
               name='long'
               onChange={handleSizesSelect}
-              placeholder='Выберите размер'
+              placeholder={product.category.includes('BED') ? 'Выберите размер\nспального места' : 'Выберите размер'}
             />
           </div>
         </div>

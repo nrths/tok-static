@@ -16,11 +16,6 @@ export const flakon_2 = {
     "/images/products/flakon-2/models/12.jpg",
     "/images/products/flakon-2/models/13.jpg",
     "/images/products/flakon-2/models/14.jpg",
-    "/images/products/flakon-2/models/15.jpg",
-    "/images/products/flakon-2/models/16.jpg",
-    "/images/products/flakon-2/models/17.jpg",
-    "/images/products/flakon-2/models/18.jpg",
-    "/images/products/flakon-2/models/19.jpg",
   ],
   description:
     "Стол ФЛАКОН 2 на двух стальных цилиндрах с формой столешницы, которая является интерполяцией между эллипсом и прямоугольником. Металлические опоры состоят из двух элементов и позволяют комбинировать варианты покраски каждой из частей металлической опоры и самой столешницы, позволяя создавать уникальные цветовые  комбинации.  Покрытие столешницы может быть выполнено из нанопластика FENIX NTM, HPL пластика 'под мрамор', шпонированного дубом МДФ. Для столешниц шириной до 950 мм. так же возможно  покрытие из керамогранита толщиной 6 мм.",

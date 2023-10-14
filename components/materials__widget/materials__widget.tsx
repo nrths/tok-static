@@ -6,6 +6,7 @@ import {
   Architectural_concrete,
   Ceramics,
   Enamel,
+  EnamelWithOakTexture,
   FenixNTM,
   HPL,
   Leather_cat1,
@@ -100,6 +101,11 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
                     handleClick={handleClick}
                     key={Math.random() + 500}
                   />
+                  <MaterialGroup
+                    category={EnamelWithOakTexture}
+                    handleClick={handleClick}
+                    key={Math.random() + 550}
+                  />
                 </>
               );
             } else if (mat.includes("эмаль")) {
@@ -192,6 +198,11 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
                         handleClick={handleClick}
                         key={Math.random() + 1200}
                       />
+                      <MaterialGroup
+                        category={EnamelWithOakTexture}
+                        handleClick={handleClick}
+                        key={Math.random() + 11200}
+                      />
                     </>
                   );
               } else if (mat.includes("кожа")) {
@@ -259,20 +270,33 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
         {item.category.includes("TABLE") && (
           <div className={styles.hem}>
             <h4 className={styles.heading}>отделка кромки</h4>
-            <MaterialGroup
-              category={Enamel}
-              handleClick={handleClick}
-              key={Math.random() + 2000}
-            />
+            {item.category.includes("OAK") ? (
+              <MaterialGroup
+                category={EnamelWithOakTexture}
+                handleClick={handleClick}
+                key={Math.random() + 20000}
+              />
+            ) : (
+              <MaterialGroup
+                category={Enamel}
+                handleClick={handleClick}
+                key={Math.random() + 2000}
+              />
+            )}
           </div>
         )}
         {item.category.includes("STEAL") && (
           <div className={styles.base}>
             <h4 className={styles.heading}>отделка стальной рамы</h4>
             <MaterialGroup
-              category={Enamel}
+              category={Metal}
               handleClick={handleClick}
               key={Math.random() + 2100}
+            />
+            <MaterialGroup
+              category={Metallic}
+              handleClick={handleClick}
+              key={Math.random() + 22100}
             />
           </div>
         )}

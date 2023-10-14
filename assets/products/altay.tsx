@@ -39,7 +39,7 @@ export const altay = {
   dateOfCreation: 2021,
   countertop: ["hpl / fenix ntm", "шпон дуба"],
   underframe: ["натуральная кожа / сталь", "шпон дуба / сталь"],
-  sizesSlider: ["/images/products/altay/sizes/1.jpg"],
+  sizesSlider: ["/images/products/altay/sizes/1.jpg", "/images/products/altay/sizes/2.jpg"],
   visualisations: [
     "/images/products/altay/interior/1.jpg",
     "/images/products/altay/interior/2.jpg",
@@ -81,7 +81,7 @@ export const altay = {
       },
     },
   },
-  category: "TABLE_DINNER CIRCLE",
+  category: "TABLE_DINNER CIRCLE OAK",
   name: "алтай",
   previewImg: "/images/products/altay/preview-circle.jpg",
   position: 6,

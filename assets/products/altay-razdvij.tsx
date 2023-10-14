@@ -39,7 +39,7 @@ export const altay_razdvij = {
     dateOfCreation: 2021,
     countertop: ["hpl / fenix ntm", "шпон дуба", "керамика"],
     underframe: ["натуральная кожа / сталь", "шпон дуба / сталь"],
-    sizesSlider: ["/images/products/altay/sizes/1.jpg"],
+    sizesSlider: ["/images/products/altay/sizes/1.jpg", "/images/products/altay/sizes/2.jpg"],
     visualisations: [
       "/images/products/altay/interior/1.jpg",
       "/images/products/altay/interior/2.jpg",
@@ -89,7 +89,7 @@ export const altay_razdvij = {
         },
       },
     },
-    category: "TABLE_DINNER TABLE_SLIDING",
+    category: "TABLE_DINNER TABLE_SLIDING OAK",
     name: "алтай раздвижной",
     previewImg: "/images/products/altay/preview.jpg",
     position: 4,

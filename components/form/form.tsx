@@ -55,7 +55,7 @@ const Form: FC<TFormProps> = ({ id }) => {
     // console.log(data);
     sendForm(data);
     setSuccessBackCall(true);
-    pointYandexGoal('заказан обратный звонок')
+    // pointYandexGoal('заказан обратный звонок')
     reset();
 
     setTimeout(() => setSuccessBackCall(false), 1000)

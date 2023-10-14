@@ -22,7 +22,7 @@ const MenuItem: FC<MenuItemProps> = ({ disable, href, title }) => {
       }
       // @ts-ignore
       disabled={disable}
-      onClick={() => pointYandexGoal("использована фильтрация")}
+      // onClick={() => pointYandexGoal("использована фильтрация")}
     >
       {title}
     </div>

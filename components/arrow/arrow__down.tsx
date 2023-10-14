@@ -1,6 +1,16 @@
-const ArrowDown = (): JSX.Element => {
+import { MouseEventHandler } from "react";
+
+interface ArrowProps {
+    onClick: MouseEventHandler<SVGSVGElement> | undefined;
+    className?: string;
+  }
+  
+  const ArrowDown = ({ onClick }: ArrowProps): JSX.Element => {
+
   return (
     <svg
+      onClick={onClick}
+      style={{ cursor: 'pointer' }}
       xmlns='http://www.w3.org/2000/svg'
       width='16'
       height='9'

@@ -16,10 +16,6 @@ export const klinker_ov_f_k25 = {
     "/images/products/klinker-oval/klinker-oval-k25/12.jpg",
     "/images/products/klinker-oval/klinker-oval-k25/13.jpg",
     "/images/products/klinker-oval/klinker-oval-k25/14.jpg",
-    "/images/products/klinker-oval/klinker-oval-k25/15.jpg",
-    "/images/products/klinker-oval/klinker-oval-k25/16.jpg",
-    "/images/products/klinker-oval/klinker-oval-k25/17.jpg",
-    "/images/products/klinker-oval/klinker-oval-k25/18.jpg",
   ],
   description:
     "Столы серии 'Клинкер' обладают уникальным дизайном с большим количеством рельефов и широкой цветовой палитрой.  По индивидуальному запросу можно выбрать любой цвет эмали по каталогу RAL. Подстолье и обратная сторона крышки могут иметь как глянцевую, так и матовую поверхность.  Покрытие столешницы может быть выполнено из нанопластика FENIX NTM, HPL пластика 'под мрамор'. При диаметре столешницы до 950 мм. возможно покрытие из керамики толщиной 6 мм.",
@@ -93,10 +89,6 @@ export const klinker_ov_f_k50 = {
     "/images/products/klinker-oval/klinker-oval-k50/12.jpg",
     "/images/products/klinker-oval/klinker-oval-k50/13.jpg",
     "/images/products/klinker-oval/klinker-oval-k50/14.jpg",
-    "/images/products/klinker-oval/klinker-oval-k50/15.jpg",
-    "/images/products/klinker-oval/klinker-oval-k50/16.jpg",
-    "/images/products/klinker-oval/klinker-oval-k50/17.jpg",
-    "/images/products/klinker-oval/klinker-oval-k50/18.jpg",
   ],
   description:
     "Столы серии 'Клинкер' обладают уникальным дизайном с большим количеством рельефов и широкой цветовой палитрой.  По индивидуальному запросу можно выбрать любой цвет эмали по каталогу RAL. Подстолье и обратная сторона крышки могут иметь как глянцевую, так и матовую поверхность.  Покрытие столешницы может быть выполнено из нанопластика FENIX NTM, HPL пластика 'под мрамор'. При диаметре столешницы до 950 мм. возможно покрытие из керамики толщиной 6 мм.",
@@ -170,10 +162,6 @@ export const klinker_ov_f_p25 = {
     "/images/products/klinker-oval/klinker-oval-p25/12.jpg",
     "/images/products/klinker-oval/klinker-oval-p25/13.jpg",
     "/images/products/klinker-oval/klinker-oval-p25/14.jpg",
-    "/images/products/klinker-oval/klinker-oval-p25/15.jpg",
-    "/images/products/klinker-oval/klinker-oval-p25/16.jpg",
-    "/images/products/klinker-oval/klinker-oval-p25/17.jpg",
-    "/images/products/klinker-oval/klinker-oval-p25/18.jpg",
   ],
   description:
     "Столы серии 'Клинкер' обладают уникальным дизайном с большим количеством рельефов и широкой цветовой палитрой.  По индивидуальному запросу можно выбрать любой цвет эмали по каталогу RAL. Подстолье и обратная сторона крышки могут иметь как глянцевую, так и матовую поверхность.  Покрытие столешницы может быть выполнено из нанопластика FENIX NTM, HPL пластика 'под мрамор'. При диаметре столешницы до 950 мм. возможно покрытие из керамики толщиной 6 мм.",
@@ -247,10 +235,6 @@ export const klinker_ov_f_p50 = {
     "/images/products/klinker-oval/klinker-oval-p50/12.jpg",
     "/images/products/klinker-oval/klinker-oval-p50/13.jpg",
     "/images/products/klinker-oval/klinker-oval-p50/14.jpg",
-    "/images/products/klinker-oval/klinker-oval-p50/15.jpg",
-    "/images/products/klinker-oval/klinker-oval-p50/16.jpg",
-    "/images/products/klinker-oval/klinker-oval-p50/17.jpg",
-    "/images/products/klinker-oval/klinker-oval-p50/18.jpg",
   ],
   description:
     "Столы серии 'Клинкер' обладают уникальным дизайном с большим количеством рельефов и широкой цветовой палитрой.  По индивидуальному запросу можно выбрать любой цвет эмали по каталогу RAL. Подстолье и обратная сторона крышки могут иметь как глянцевую, так и матовую поверхность.  Покрытие столешницы может быть выполнено из нанопластика FENIX NTM, HPL пластика 'под мрамор'. При диаметре столешницы до 950 мм. возможно покрытие из керамики толщиной 6 мм.",

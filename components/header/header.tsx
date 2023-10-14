@@ -9,7 +9,6 @@ import { useState } from "react";
 import Menu from "../menu/menu";
 import Backcall from "../backcall/backcall";
 import { useFormState } from "../form/formContext";
-import { pointYandexGoal } from "@/lib/utils";
 
 const Header = () => {
   const [popupActive, setPopupActive] = useState(false);
@@ -23,7 +22,6 @@ const Header = () => {
     if (name === 'backCall') {
       setFormData(undefined)
       setStep(1)
-      pointYandexGoal('открыли окно обратного звонка')
     }
   }
 

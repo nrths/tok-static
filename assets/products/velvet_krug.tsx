@@ -15,8 +15,6 @@ export const velvet_krug = {
     "/images/products/velvet-krug/models/11.jpg",
     "/images/products/velvet-krug/models/12.jpg",
     "/images/products/velvet-krug/models/13.jpg",
-    "/images/products/velvet-krug/models/14.jpg",
-    "/images/products/velvet-krug/models/15.jpg",
   ],
   description:
     "Элегантный круглый стол ВЕЛЬВЕТ привлекает сочетанием геометрических форм и материалов. Столешница может быть выполнена из матового инновационного материала FENIX NTM, МДФ шпонированный дубом, hpl-пластик 'под мрамор'. Основание выполнено из металлических трубок, напоминающих фактуру вельвета.",

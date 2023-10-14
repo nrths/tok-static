@@ -9,6 +9,7 @@ import {
   Architectural_concrete,
   Ceramics,
   Enamel,
+  EnamelWithOakTexture,
   FenixNTM,
   HPL,
   Leather_cat1,
@@ -65,12 +66,13 @@ const MaterialsPage = () => {
             <MaterialGroup category={HPL} handleClick={handleClick} />
             <MaterialGroup category={FenixNTM} handleClick={handleClick} />
             <MaterialGroup category={Ceramics} handleClick={handleClick} />
-            <MaterialGroup category={Oak_tinting} handleClick={handleClick} />
+            <MaterialGroup category={Metal} handleClick={handleClick} />
+            <MaterialGroup category={Metallic} handleClick={handleClick} />
           </div>
           <div className={styles.sliders}>
             <MaterialGroup category={Enamel} handleClick={handleClick} />
-            <MaterialGroup category={Metal} handleClick={handleClick} />
-            <MaterialGroup category={Metallic} handleClick={handleClick} />
+            <MaterialGroup category={EnamelWithOakTexture} handleClick={handleClick} />
+            <MaterialGroup category={Oak_tinting} handleClick={handleClick} />
             <MaterialGroup
               category={Architectural_concrete}
               handleClick={handleClick}
