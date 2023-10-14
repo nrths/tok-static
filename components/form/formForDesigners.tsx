@@ -54,8 +54,9 @@ const FormForDesigners:FC<TFormProps> = ({ id, mobile }) => {
     setSuccess(true);
     // console.log(data);
     // pointYandexGoal('отправлен запрос на сотрудничество')
-    reset();
+    
     setTimeout(() => setSuccess(false), 1000)
+    setTimeout(() => reset(), 2000)
   };
   return (
     <>
