@@ -17,7 +17,7 @@ export const maki = {
   sizesSlider: ["/images/products/maki/sizes/1.jpg"],
   visualisations: [
     "/images/products/maki/interior/1.jpg",
-    "/images/products/maki/interior/3.jpg",
+    "/images/products/maki/interior/2.jpg",
   ],
   designersProjects: [],
   price: [39000],
