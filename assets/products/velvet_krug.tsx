@@ -24,7 +24,7 @@ export const velvet_krug = {
   underframe: ["металл"],
   sizesSlider: [
     "/images/products/velvet-krug/sizes/1.jpg",
-    "/images/products/velvet-krug/sizes/1.jpg",
+    "/images/products/velvet-krug/sizes/2.jpg",
   ],
   visualisations: [
     "/images/products/velvet-krug/interior/1.jpg",
