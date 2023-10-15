@@ -323,6 +323,12 @@ export const Enamel: TMaterialGroup = {
       type: "тёмный ультрамарин",
       img: "/images/materials/enamel/2603015.jpg",
     },
+    {
+      id: 22,
+      name: "7006",
+      type: "кофн с молоком",
+      img: "/images/materials/enamel/7006.jpg",
+    },
   ],
 };
 
@@ -644,6 +650,12 @@ export const Metal: TMaterialGroup = {
       type: "белый",
       img: "/images/materials/metal/9016.jpg",
     },
+    {
+      id: 9,
+      name: "7006",
+      type: "кофе с молоком",
+      img: '/images/materials/metal/7006.jpg',
+    }
   ],
 };
 

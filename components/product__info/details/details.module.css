@@ -136,12 +136,6 @@
     }
 }
 
-@media (max-width: 600px) {
-    .baseInfo {
-        padding: 0 40px 0;
-    }
-}
-
 @media ((min-width: 769px) and (max-width: 1599px)) {
     .baseInfo {
         padding-top: 0;

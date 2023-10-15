@@ -21,36 +21,44 @@ export type TProductPageProps = {
 const ProductDetails: FC<TProductPageProps> = ({ product }) => {
   const router = useRouter();
   // console.log(product);
-
   return (
     <>
       <Header />
 
       <div className={styles.container}>
-        {product !== undefined && <section className={styles.section}>
-          <div className={styles.slider}>
-            <ModelsSlider product={product} />
-          </div>
-          {product.title === "altay" || product.title === "altay-razdvij"|| product.title === "konus" || product.category === 'BED' ? (
-            <DetailsWithUnderframe
-              product={product}
-              className={`displayMobileFlex  displayNone`}
-            />
-          ) : (
-            <Details
-              product={product}
-              className={`displayMobileFlex displayNone`}
-            />
-          )}
-        </section>}
+        {product !== undefined && (
+          <section className={styles.section}>
+            <div className={styles.slider}>
+              <ModelsSlider product={product} />
+            </div>
+            {product.title === "altay" ||
+            product.title === "altay-razdvij" ||
+            product.title === "konus" ||
+            product.title === "homie" ||
+            product.title.startsWith("klinker") ? (
+              <DetailsWithUnderframe
+                product={product}
+                className={`displayMobileFlex  displayNone`}
+              />
+            ) : (
+              <Details
+                product={product}
+                className={`displayMobileFlex displayNone`}
+              />
+            )}
+          </section>
+        )}
 
         <section className={styles.dropdowns}>
           <div className={styles.descriptionWrapper}>
             <Description product={product} />
-            {product.title === "altay" || product.title === "altay-razdvij"|| product.title === "konus" ? (
+            {product.title.startsWith("altay") ||
+            product.title === "konus" ||
+            product.title === "homie" ||
+            product.title.startsWith("klinker") ? (
               <DetailsWithUnderframe
                 product={product}
-                className={`displayMobileFlex  displayFlex`}
+                className={`displayFlex`}
               />
             ) : (
               <Details product={product} className={`displayFlex`} />
@@ -135,7 +143,11 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
           </DropdownBlock>
         </section>
         <section className={styles.detailsMobile}>
-          {product.title === "altay" || product.title === "altay-razdvij"|| product.title === "konus" ? (
+          {product.title === "altay" ||
+          product.title === "altay-razdvij" ||
+          product.title === "konus" ||
+          product.title === "homie" ||
+          product.title.startsWith("klinker") ? (
             <DetailsWithUnderframe
               product={product}
               className={`displayDesktopFlex`}

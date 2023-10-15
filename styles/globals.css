@@ -5,7 +5,7 @@ html {
 
 body {
   margin: 0;
-  min-width: 400px;
+  min-width: 360px;
   height: 100%;
   background-color: var(--backgroundColor);
   max-width: 2560px;
@@ -55,10 +55,13 @@ div#modal-root {
 		scrollbar-color: #838383 #383838;
 	}
 }
+body::-webkit-scrollbar {
+  width: 6px;
+}
 
 .custom-scroll::-webkit-scrollbar {
 	height: 8px;
-  width: 16px;
+  width: 6px;
 }
 .custom-scroll::-webkit-scrollbar-track {
 	background: #e7e3e3;
