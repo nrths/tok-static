@@ -60,5 +60,6 @@ export const velvet_krug_fl = {
   sortedPosition: 17,
   mobilePosition: 41,
   model: "https://disk.yandex.ru/d/oo0rvJpr4t04vw",
+  collage: "https://disk.yandex.ru/d/sbb5UKVYUGC_KQ",
   tags: ["стол", "круглый"],
 };

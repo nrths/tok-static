@@ -65,6 +65,7 @@ export const klinker_c_k25 = {
   name: "клинкер-с журнальный - к25",
   previewImg: "/images/products/klinker-s/previewK25.jpg",
   model: "https://disk.yandex.ru/d/GE8mIrkkppXp6Q",
+  collage: "https://disk.yandex.ru/d/zrk334nWJrOQpw",
   tags: ["стол", "журнальный"],
 };
 
@@ -135,6 +136,7 @@ export const klinker_c_k50 = {
   name: "клинкер-с журнальный - к50",
   previewImg: "/images/products/klinker-s/previewK50.jpg",
   model: "https://disk.yandex.ru/d/QXnDSg1oLOjzAg",
+  collage: "https://disk.yandex.ru/d/n-QwvMS39C6BNg",
   tags: ["стол", "журнальный"],
 };
 
@@ -209,6 +211,7 @@ export const klinker_c_p25 = {
   name: "клинкер-с журнальный - п25",
   previewImg: "/images/products/klinker-s/previewP25.jpg",
   model: "https://disk.yandex.ru/d/zeYDSO5hYk2VmA",
+  collage: "https://disk.yandex.ru/d/swuPIa0we5o14w",
   tags: ["стол", "журнальный"],
 };
 
@@ -280,5 +283,6 @@ export const klinker_c_p50 = {
   name: "клинкер-с журнальный - п50",
   previewImg: "/images/products/klinker-s/previewP50.jpg",
   model: "https://disk.yandex.ru/d/Dn85K_U_bi-15Q",
+  collage: "https://disk.yandex.ru/d/aqC_-bmQTdgC2w",
   tags: ["стол", "журнальный"],
 };

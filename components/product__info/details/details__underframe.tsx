@@ -129,7 +129,7 @@ const DetailsWithUnderframe: FC<TDetailsProps> = ({ product, className }) => {
               selected={selectedFrame || null}
               name='long'
               onChange={handleUnderframeSelect}
-              placeholder={product.category.includes("BED") ? `наличие механизма` : `выберите отделку основания`}
+              placeholder={product.category.includes("BED") ? `наличие механизма` : `выберите отделку\nоснования`}
             />
           </div>
 

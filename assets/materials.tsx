@@ -326,7 +326,7 @@ export const Enamel: TMaterialGroup = {
     {
       id: 22,
       name: "7006",
-      type: "кофн с молоком",
+      type: "кофе с молоком",
       img: "/images/materials/enamel/7006.jpg",
     },
   ],
@@ -467,6 +467,12 @@ export const EnamelWithOakTexture: TMaterialGroup = {
       name: "2603015",
       type: "тёмный ультрамарин",
       img: "/images/materials/enamel_oak/2603015.jpg",
+    },
+    {
+      id: 22,
+      name: "7006",
+      type: "кофе с молоком",
+      img: "/images/materials/enamel_oak/7006.jpg",
     },
   ],
 };

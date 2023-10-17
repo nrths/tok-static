@@ -140,5 +140,6 @@ export const konus = {
   sortedPosition: 16,
   mobilePosition: 15,
   model: "https://disk.yandex.ru/d/5OLcW2QlE0epxw",
+  collage: "https://disk.yandex.ru/d/h_XGJKfTR95x_g",
   tags: ["стол", "круглый"],
 };

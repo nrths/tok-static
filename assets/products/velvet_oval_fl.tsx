@@ -46,5 +46,6 @@ export const velvet_oval_fl = {
   sortedPosition: 22,
   mobilePosition: 19,
   model: "https://disk.yandex.ru/d/XM8b14drA1M5-A",
+  collage: "https://disk.yandex.ru/d/Jzm1MHz8qS4o1Q",
   tags: ["стол", "обеденный"],
 };

@@ -101,5 +101,6 @@ export const velvet_krug_ju = {
   sortedPosition: 36,
   mobilePosition: 27,
   model: "https://disk.yandex.ru/d/2eDU-ZUq0wcqEw",
+  collage: "https://disk.yandex.ru/d/56-z5Mlis-1SqQ",
   tags: ["стол", "журнальный"],
 };

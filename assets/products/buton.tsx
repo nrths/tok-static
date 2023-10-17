@@ -89,5 +89,6 @@ export const buton = {
   sortedPosition: 26,
   mobilePosition: 18,
   model: "https://disk.yandex.ru/d/xtqwTJfUCZ89gQ",
+  collage: "https://disk.yandex.ru/d/IJfth-eZggXd7Q",
   tags: ["стол", "журнальный"],
 };

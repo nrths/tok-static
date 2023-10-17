@@ -84,6 +84,7 @@ export const klinker_sls_k25 = {
   name: "клинкер слс 2 - к25",
   previewImg: "/images/products/klinker-sls-2/previewK25.jpg",
   model: "https://disk.yandex.ru/d/RsAexHT4bxuyOw",
+  collage: "https://disk.yandex.ru/d/fT38vUOhhFJcVw",
   tags: ["стол", "обеденный"],
 };
 
@@ -173,6 +174,7 @@ export const klinker_sls_k50 = {
   name: "клинкер слс 2 - к50",
   previewImg: "/images/products/klinker-sls-2/previewK50.jpg",
   model: "https://disk.yandex.ru/d/6MGnu6TUf_mB0Q",
+  collage: "https://disk.yandex.ru/d/5b4Inm35qwYVsA",
   tags: ["стол", "обеденный"],
 };
 
@@ -262,6 +264,7 @@ export const klinker_sls_p25 = {
   name: "клинкер слс 2 - п25",
   previewImg: "/images/products/klinker-sls-2/previewP25.jpg",
   model: "https://disk.yandex.ru/d/1-nbivUCGM1u6Q",
+  collage: "https://disk.yandex.ru/d/cdy3pGLGWC3CYA",
   tags: ["стол", "обеденный"],
 };
 
@@ -351,5 +354,6 @@ export const klinker_sls_p50 = {
   name: "клинкер слс 2 - п50",
   previewImg: "/images/products/klinker-sls-2/previewP50.jpg",
   model: "https://disk.yandex.ru/d/HipO1jcrvSG68A",
+  collage: "https://disk.yandex.ru/d/LRS1qe3iHVcAug",
   tags: ["стол", "обеденный"],
 };

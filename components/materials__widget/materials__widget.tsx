@@ -285,7 +285,7 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
             )}
           </div>
         )}
-        {item.category.includes("STEAL") && (
+        {item.title === 'baul' || item.title === 'slaider' || item.title === 'slot' ? (
           <div className={styles.base}>
             <h4 className={styles.heading}>отделка стальной рамы</h4>
             <MaterialGroup
@@ -299,7 +299,7 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
               key={Math.random() + 22100}
             />
           </div>
-        )}
+        ) : null}
       </div>
       <span className={styles.caption}>
         * цвета образцов

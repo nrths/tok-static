@@ -51,7 +51,7 @@ export const baikal_mt = {
     "/images/products/baikal-mt/interior/12.jpg",
   ],
   designersProjects: [],
-  price: [29000],
+  price: [29900],
   params: {
     "ткань категория 1": {
       "600 Х 550 Х 780": 29900,
@@ -72,5 +72,6 @@ export const baikal_mt = {
   position: 11,
   mobilePosition: 8,
   model: "https://disk.yandex.ru/d/YeghFNMIWAhmsQ",
+  collage: "https://disk.yandex.ru/d/G-rVHcRtHdOrCA",
   tags: ["стул"],
 };

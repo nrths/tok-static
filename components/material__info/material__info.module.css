@@ -65,10 +65,6 @@
     white-space: pre-wrap;
 }
 
-.text__lined {
-    text-decoration: underline;
-}
-
 .info {
     padding-bottom: 20px;
 }
@@ -124,6 +120,10 @@
     .title {
         padding: 40px 0 20px 0px;
         font-size: 36px;
+    }
+
+    .text {
+        padding: 0 20px 15px 85px;
     }
     .span {
         padding: 20px 40px;

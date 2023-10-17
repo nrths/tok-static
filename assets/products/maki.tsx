@@ -36,5 +36,6 @@ export const maki = {
   sortedPosition: 40,
   mobilePosition: 28,
   model: "https://disk.yandex.ru/d/NJWejk2kyV5d3w",
+  collage: "https://disk.yandex.ru/d/2AeuBwqWoRnEHg",
   tags: ["стол", "журнальный"],
 };

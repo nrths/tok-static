@@ -38,7 +38,7 @@ const SpbForm = () => {
                 Санкт-Петербург:
               </h3>
               <div className={styles.contacts}>
-                <a href='tel:+78129200499' className={styles.phone} 
+                <a href='tel:+79119200499' className={styles.phone} 
                 // onClick={() => pointYandexGoal('клик по номеру телефона СПБ')}
                 >
                   <Image
@@ -47,7 +47,7 @@ const SpbForm = () => {
                     width={22}
                     height={22}
                   />
-                  <p className={styles.text}>+7 (812) 920-04-99</p>
+                  <p className={styles.text}>+7 (911) 920-04-99</p>
                 </a>
 
                 <div className={styles.socials}>

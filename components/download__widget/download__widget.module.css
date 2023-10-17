@@ -1,7 +1,7 @@
 .downloadButtonsWrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     padding: 60px 60px 80px;
 }

@@ -105,5 +105,6 @@ export const velvet_sl = {
   sortedPosition: 20,
   mobilePosition: 37,
   model: "https://disk.yandex.ru/d/4hzOkmACcrLB7w",
+  collage: "https://disk.yandex.ru/d/gHYkEl8ZbmfnVw",
   tags: ["стол", "обеденный"],
 };

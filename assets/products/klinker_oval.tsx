@@ -100,6 +100,7 @@ export const klinker_ov_f_k25 = {
   name: "клинкер овал - к25",
   previewImg: "/images/products/klinker-oval/previewK25.jpg",
   model: "https://disk.yandex.ru/d/EpLcg8ilrMKZ3A",
+  collage: "https://disk.yandex.ru/d/EblYBwOHKmBASg",
   tags: ["стол", "обеденный"],
 };
 
@@ -205,6 +206,7 @@ export const klinker_ov_f_k50 = {
   name: "клинкер овал - к50",
   previewImg: "/images/products/klinker-oval/previewK50.jpg",
   model: "https://disk.yandex.ru/d/kK5PtrnrguBX-A",
+  collage: "https://disk.yandex.ru/d/lZAfCbYZK_8q_g",
   tags: ["стол", "обеденный"],
 };
 
@@ -310,6 +312,7 @@ export const klinker_ov_f_p25 = {
   name: "клинкер овал - п25",
   previewImg: "/images/products/klinker-oval/previewP25.jpg",
   model: "https://disk.yandex.ru/d/xhS57YYrANUimQ",
+  collage: "https://disk.yandex.ru/d/p9ZJx1NNWVTPmQ",
   tags: ["стол", "обеденный"],
 };
 
@@ -415,5 +418,6 @@ export const klinker_ov_f_p50 = {
   name: "клинкер овал - п50",
   previewImg: "/images/products/klinker-oval/previewP50.jpg",
   model: "https://disk.yandex.ru/d/jrWMM9vPnTc3-Q",
+  collage: "https://disk.yandex.ru/d/WCwRQoE0ac-s6w",
   tags: ["стол", "обеденный"],
 };

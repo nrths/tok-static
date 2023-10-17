@@ -87,5 +87,6 @@ export const hameleon = {
   sortedPosition: 24,
   mobilePosition: 14,
   model: "https://disk.yandex.ru/d/JoVrlvwUavirlQ",
+  collage: "https://disk.yandex.ru/d/RYeFb9dt0HkPNw",
   tags: ["стол", "журнальный"],
 };

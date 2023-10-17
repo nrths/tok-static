@@ -98,5 +98,6 @@ export const orbita = {
   sortedPosition: 5,
   mobilePosition: 39,
   model: "https://disk.yandex.ru/d/rvO62ZpNVQL5og",
+  collage: "https://disk.yandex.ru/d/6ILK0KTJObrVgg",
   tags: ["стол", "круглый"],
 };

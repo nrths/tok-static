@@ -58,7 +58,7 @@ export const baikal = {
     "/images/products/baikal/interior/9.jpg",
   ],
   designersProjects: [],
-  price: [32500],
+  price: [33500],
   params: {
     "ткань категория 1": {
       "600 Х 550 Х 780": 33500,
@@ -79,5 +79,6 @@ export const baikal = {
   position: 13,
   mobilePosition: 7,
   model: "https://disk.yandex.ru/d/KL7LXeT7h8vW3g",
+  collage: "https://disk.yandex.ru/d/Sh_kfg61NBZHoQ",
   tags: ["стул"],
 };

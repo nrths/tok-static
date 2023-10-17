@@ -81,6 +81,7 @@ export const klinker_k25 = {
   name: "клинкер рельеф - к25",
   previewImg: "/images/products/klinker/previewK25.jpg",
   model: "https://disk.yandex.ru/d/9AFsDKWVHk0mcQ",
+  collage: "https://disk.yandex.ru/d/pzDT8Cx8Hl3ZnA",
   tags: ["стол", "круглый"],
 };
 
@@ -167,6 +168,7 @@ export const klinker_k50 = {
   name: "клинкер рельеф - к50",
   previewImg: "/images/products/klinker/previewK50.jpg",
   model: "https://disk.yandex.ru/d/leqh0H2rpxkMiQ",
+  collage: "https://disk.yandex.ru/d/Ugk3qM0eY0VenA",
   tags: ["стол", "круглый"],
 };
 
@@ -253,6 +255,7 @@ export const klinker_p25 = {
   name: "клинкер рельеф - п25",
   previewImg: "/images/products/klinker/previewP25.jpg",
   model: "https://disk.yandex.ru/d/Lp5MbQbvH7Q1NQ",
+  collage: "https://disk.yandex.ru/d/wuL_WM51jNBQHg",
   tags: ["стол", "круглый"],
 };
 
@@ -342,5 +345,6 @@ export const klinker_p50 = {
   name: "клинкер рельеф - п50",
   previewImg: "/images/products/klinker/previewP50.jpg",
   model: "https://disk.yandex.ru/d/XHdTt1L5eP3K2g",
+  collage: "https://disk.yandex.ru/d/BLZoK22EJyjb5w",
   tags: ["стол", "круглый"],
 };

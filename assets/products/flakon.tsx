@@ -66,5 +66,6 @@ export const flakon = {
   sortedPosition: 3,
   mobilePosition: 4,
   model: "https://disk.yandex.ru/d/MtNSEUzVUwVm8w",
+  collage: "https://disk.yandex.ru/d/Wh15GNRCYOFNcw",
   tags: ["стол", "круглый"],
 };

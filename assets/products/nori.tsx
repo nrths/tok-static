@@ -103,5 +103,6 @@ export const nori = {
   sortedPosition: 18,
   mobilePosition: 10,
   model: "https://disk.yandex.ru/d/W8qhkTn7L6CR1A",
+  collage: "https://disk.yandex.ru/d/sjvvNITNztpIeg",
   tags: ["стол", "журнальный"],
 };

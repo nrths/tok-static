@@ -68,5 +68,6 @@ export const haski = {
   sortedPosition: 32,
   mobilePosition: 31,
   model: "https://disk.yandex.ru/d/ad4waUtyYld6CQ",
+  collage: "https://disk.yandex.ru/d/TkK-UdtFNkpt0Q",
   tags: ["стол", "журнальный"],
 };

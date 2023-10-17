@@ -75,5 +75,6 @@ export const velvet_krug_razdvij = {
   sortedPosition: 10,
   mobilePosition: 6,
   model: "https://disk.yandex.ru/d/F421wZC1VBFV7A",
+  collage: "https://disk.yandex.ru/d/hjYsKKE6JCY5tA",
   tags: ["стол", "круглый", "раздвижной"],
 };

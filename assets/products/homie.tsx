@@ -91,5 +91,6 @@ export const homie = {
   position: 15,
   mobilePosition: 40,
   model: "https://disk.yandex.ru/d/O44JbcRLq8RVvg",
+  collage: "https://disk.yandex.ru/d/vuSzfVCYRHCFpg",
   tags: ["кровать"],
 };

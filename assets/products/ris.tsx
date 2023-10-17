@@ -94,5 +94,6 @@ export const ris = {
   sortedPosition: 20,
   mobilePosition: 21,
   model: "https://disk.yandex.ru/d/Qf1YapWePrX_Cg",
+  collage: "https://disk.yandex.ru/d/pVWq5VNIzxlTGA",
   tags: ["стол", "журнальный"],
 };

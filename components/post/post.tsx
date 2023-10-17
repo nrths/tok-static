@@ -13,7 +13,7 @@ export type PostProps = {
 const Post: FC<PostProps> = ({ post, homepage }) => {
   return (
     <div className={styles.listItem}>
-      <Link href={post.content} target='_blank' className={styles.imageContainer}>
+      <Link href={homepage ? '/smi' : post.content} target={homepage ? '_self' : '_blank'} className={styles.imageContainer}>
         <Image
           src={post.img}
           alt='Публикация в периодическом издании'

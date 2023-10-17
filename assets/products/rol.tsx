@@ -94,5 +94,6 @@ export const rol = {
   sortedPosition: 20,
   mobilePosition: 11,
   model: "https://disk.yandex.ru/d/TyM2SaWV3S6Jjg",
+  collage: "https://disk.yandex.ru/d/TJoMJC316pI7IA",
   tags: ["стол", "журнальный"],
 };
