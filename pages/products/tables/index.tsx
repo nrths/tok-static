@@ -7,7 +7,6 @@ import { series } from "@/assets/series";
 import { useEffect, useState } from "react";
 import FilterMenu from "@/components/filter__menu/filter__menu";
 import Head from "next/head";
-import { pointYandexGoal } from "@/lib/utils";
 
 const ProductsPage = ({ products }: any) => {
   const dinnerTables = products.filter(
@@ -27,7 +26,6 @@ const ProductsPage = ({ products }: any) => {
     if (id === "all") {
       setProductsList(dinnerTables);
       setActive("all");
-      // pointYandexGoal("использована внутренняя фильтрация столов");
     } else if (id === "dinner") {
       const list = result.filter((product: { category: string }) =>
         product.category.includes(value)
@@ -44,14 +42,12 @@ const ProductsPage = ({ products }: any) => {
       const updatedList = [...circle, ...bar, ...long];
       setProductsList(updatedList);
       setActive(id);
-      // pointYandexGoal("использована внутренняя фильтрация столов");
     } else {
       const updatedList = result.filter((product: { category: string }) =>
         product.category.includes(value)
       );
       setProductsList(updatedList);
       setActive(id);
-      // pointYandexGoal("использована внутренняя фильтрация столов");
     }
   };
 

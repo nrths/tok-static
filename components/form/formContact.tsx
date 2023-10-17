@@ -4,7 +4,6 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
 import { FC, useState } from "react";
 import axios from "axios";
-import { pointYandexGoal } from "@/lib/utils";
 
 type TFormValues = {
   name: string;
@@ -52,7 +51,6 @@ const FormContact: FC<TFormProps> = ({ id, mobile }) => {
     // console.log(contacts);
     sendForm(contacts);
     setSuccessContact(true);
-    // pointYandexGoal('отправлен запрос со страницы контактов')
 
     setTimeout(() => setSuccessContact(false), 1000);
     setTimeout(() => reset(), 2000)

@@ -4,7 +4,6 @@ import styles from "./cityForm.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "../buttons/button";
-import { pointYandexGoal } from "@/lib/utils";
 
 type TFormValues = {
   where: any;
@@ -39,7 +38,6 @@ const SpbForm = () => {
               </h3>
               <div className={styles.contacts}>
                 <a href='tel:+79119200499' className={styles.phone} 
-                // onClick={() => pointYandexGoal('клик по номеру телефона СПБ')}
                 >
                   <Image
                     src={"/images/backCall.svg"}
@@ -52,7 +50,6 @@ const SpbForm = () => {
 
                 <div className={styles.socials}>
                   <Link href={"https://t.me/tok_mebel"} target='_blank' 
-                  // onClick={() => pointYandexGoal('переход в Telegram СПБ')}
                   >
                     <Image
                       src={"/images/socials/telegram.svg"}
@@ -64,7 +61,6 @@ const SpbForm = () => {
                   <Link
                     href={"https://api.whatsapp.com/message/LDWQN6INLQKID1"}
                     target='_blank'
-                    // onClick={() => pointYandexGoal('переход в Whattsapp СПБ')}
                   >
                     <Image
                       src={"/images/socials/whattsup.svg"}

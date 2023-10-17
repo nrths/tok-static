@@ -1,5 +1,3 @@
-import Layout from "@/components/layout/layout";
-import { YandexMetrica } from "@/lib/YandexMetrica";
 import { Metadata } from "next";
 import { Head, Html, Main, NextScript } from "next/document";
 
@@ -25,10 +23,42 @@ export default function Document() {
       </Head>
 
       <body className='custom-scroll'>
-        <YandexMetrica>
-          <Main />
-          <NextScript />
-        </YandexMetrica>
+        <Main />
+        <NextScript />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+                (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+                (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+      
+                ym(70284832, "init", {
+                      clickmap:true,
+                      trackLinks:true,
+                      accurateTrackBounce:true,
+                      webvisor: true,
+                });
+
+                ym(95115536, "init", {
+                  clickmap:true,
+                  trackLinks:true,
+                  accurateTrackBounce:true,
+                  webvisor: true,
+            });
+              `,
+          }}
+        />
+        <noscript>
+          <div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src='https://mc.yandex.ru/watch/12345678'
+              style={{ position: "absolute", left: "-9999px" }}
+              alt=''
+            />
+          </div>
+        </noscript>
       </body>
     </Html>
   );

@@ -5,7 +5,6 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
 import { FC, useState } from "react";
 import axios from "axios";
-import { pointYandexGoal } from "@/lib/utils";
 
 type TFormValues = {
   where: string;
@@ -55,7 +54,6 @@ const Form: FC<TFormProps> = ({ id }) => {
     // console.log(data);
     sendForm(data);
     setSuccessBackCall(true);
-    // pointYandexGoal('заказан обратный звонок')
 
     setTimeout(() => setSuccessBackCall(false), 1000)
     setTimeout(() => reset(), 2000)

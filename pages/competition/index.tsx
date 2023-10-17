@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/header/header";
 import Head from "next/head";
-import { pointYandexGoal } from "@/lib/utils";
 
 const CompetitionPage: NextPage = () => {
   return (
@@ -32,7 +31,6 @@ const CompetitionPage: NextPage = () => {
           href={"https://addawards.ru/sponsors/218053/"}
           replace
           target='_blank'
-          // onClick={() => pointYandexGoal('переход на ADD Awards')}
         >
           добавить проект
         </Link>
