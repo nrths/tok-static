@@ -24,7 +24,7 @@ export const klinker_f_r_k25 = {
   dateOfCreation: 2023,
   countertop: ["hpl / fenix ntm", "шпон / эмаль", "керамика"],
   underframe: ["эмаль"],
-  sizesSlider: ["/images/products/klinker-f/sizes/1.jpg"],
+  sizesSlider: ["/images/products/klinker-f-r/sizes/1.jpg"],
   visualisations: [
     "/images/products/klinker-f-r/interior/k25-1.jpg",
     "/images/products/klinker-f-r/interior/k25-2.jpg",
@@ -95,7 +95,7 @@ export const klinker_f_r_k50 = {
   dateOfCreation: 2023,
   countertop: ["hpl / fenix ntm", "шпон / эмаль", "керамика"],
   underframe: ["эмаль"],
-  sizesSlider: ["/images/products/klinker-f/sizes/1.jpg"],
+  sizesSlider: ["/images/products/klinker-f-r/sizes/1.jpg"],
   visualisations: [
     "/images/products/klinker-f-r/interior/k50-1.jpg",
     "/images/products/klinker-f-r/interior/k50-2.jpg",
@@ -166,7 +166,7 @@ export const klinker_f_r_p25 = {
   dateOfCreation: 2023,
   countertop: ["hpl / fenix ntm", "шпон / эмаль", "керамика"],
   underframe: ["эмаль"],
-  sizesSlider: ["/images/products/klinker-f/sizes/1.jpg"],
+  sizesSlider: ["/images/products/klinker-f-r/sizes/1.jpg"],
   visualisations: [
     "/images/products/klinker-f-r/interior/p25-1.jpg",
     "/images/products/klinker-f-r/interior/p25-2.jpg",
@@ -237,7 +237,7 @@ export const klinker_f_r_p50 = {
   dateOfCreation: 2023,
   countertop: ["hpl / fenix ntm", "шпон / эмаль", "керамика"],
   underframe: ["эмаль"],
-  sizesSlider: ["/images/products/klinker-f/sizes/1.jpg"],
+  sizesSlider: ["/images/products/klinker-f-r/sizes/1.jpg"],
   visualisations: [
     "/images/products/klinker-f-r/interior/p50-1.jpg",
     "/images/products/klinker-f-r/interior/p50-2.jpg",

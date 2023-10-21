@@ -18,6 +18,10 @@ export const velvet_krug_razdvij = {
     "/images/products/velvet-krug-razdvij/models/14.jpg",
     "/images/products/velvet-krug-razdvij/models/15.jpg",
     "/images/products/velvet-krug-razdvij/models/16.jpg",
+    "/images/products/velvet-krug-razdvij/models/17.jpg",
+    "/images/products/velvet-krug-razdvij/models/18.jpg",
+    "/images/products/velvet-krug-razdvij/models/19.jpg",
+    "/images/products/velvet-krug-razdvij/models/20.jpg",
   ],
   description:
     "Стол представлен в двух размерах и нескольких вариантах материалов столешницы. Данная модель стола конструктивно  может быть изготовлена в двух вариантах: раздвижной и нераздвижной. Стол раскладывается из круга в овал. Нога сделана из дубовых ламелей, тонированных в различные цвета из палитры. Столешница может быть выполнена из МДФ, шпонированного дубом, нанопластика Fenix, hpl-пластика «под мрамор» и керамогранита. Нижний фланец сделан из нержавеющей стали. Ручная декоративная шлифовка с матовой поверхностью.  Складной механизм прост в эксплуатации, подойдёт для ежедневного использования. Сам механизм полностью скрыт царгой, как в сложенном, так и разложенном виде.",
