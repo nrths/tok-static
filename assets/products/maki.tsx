@@ -34,7 +34,7 @@ export const maki = {
   previewImg: "/images/products/maki/preview.jpg",
   position: 17,
   sortedPosition: 40,
-  mobilePosition: 28,
+  mobilePosition: 30,
   model: "https://disk.yandex.ru/d/NJWejk2kyV5d3w",
   collage: "https://disk.yandex.ru/d/2AeuBwqWoRnEHg",
   tags: ["стол", "журнальный"],

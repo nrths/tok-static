@@ -41,6 +41,8 @@ import {
   klinker_sls,
 } from "./series";
 import { altay_razdvij } from "./products/altay-razdvij";
+import { baikal_mt_b } from "./products/baikal_mt_b";
+import { baikal_mt_pb } from "./products/baikal_mt_pb";
 
 export type TProject = {
   img: string;
@@ -82,6 +84,8 @@ export const products = [
   altay_razdvij,
   baikal,
   baikal_mt,
+  baikal_mt_b,
+  baikal_mt_pb,
   baul,
   buton,
   flakon,

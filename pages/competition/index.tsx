@@ -91,7 +91,7 @@ const CompetitionPage: NextPage = () => {
           </div>
           <h3 className={styles.heading}>основные этапы сезона</h3>
           <p className={styles.text}>
-            15.03&nbsp;&mdash; 30.09&nbsp;&mdash; прием проектов
+            15.03&nbsp;&mdash; 15.11&nbsp;&mdash; прием проектов
           </p>
           <p className={styles.text}>
             09.10&nbsp;&mdash; 18.11&nbsp;&mdash; голосование экспертного

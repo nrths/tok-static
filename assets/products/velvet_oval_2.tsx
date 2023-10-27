@@ -69,7 +69,7 @@ export const velvet_oval_2 = {
   previewImg: "/images/products/velvet-oval-2/preview.jpg",
   position: 37,
   sortedPosition: 23,
-  mobilePosition: 32,
+  mobilePosition: 34,
   model: "https://disk.yandex.ru/d/W9PMQBoFXOPrtw",
   collage: "https://disk.yandex.ru/d/bZtVzqZ02y4VFg",
   tags: ["стол", "обеденный"],

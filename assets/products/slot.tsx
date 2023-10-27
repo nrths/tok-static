@@ -57,7 +57,7 @@ export const slot = {
   params: {
     "массив дуба": {
       "1250Х 750 Х 750": 86600,
-      "1400 Х 900 Х 750": 93900,
+      "1400 Х 800 Х 750": 93900,
       "1800 Х 900 Х 750": 112200,
       "2000 Х 900 Х 750": 118200,
     },
@@ -67,7 +67,7 @@ export const slot = {
   previewImg: "/images/products/slot/preview.jpg",
   position: 20,
   sortedPosition: 21,
-  mobilePosition: 36,
+  mobilePosition: 38,
   model: "https://disk.yandex.ru/d/NhIofTt03uNSVQ",
   collage: "https://disk.yandex.ru/d/iYQ1bXpgucsEiA",
   tags: ["стол", "обеденный"],

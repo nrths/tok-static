@@ -57,7 +57,7 @@ export const nimb = {
   previewImg: "/images/products/nimb/preview.jpg",
   position: 29,
   sortedPosition: 39,
-  mobilePosition: 34,
+  mobilePosition: 36,
   model: "https://disk.yandex.ru/d/o-GPTbTwfQza-Q",
   collage: "https://disk.yandex.ru/d/cAS7yK5DhniQtg",
   tags: ["стол", "журнальный"],

@@ -99,7 +99,7 @@ export const velvet_krug_ju = {
   previewImg: "/images/products/velvet-krug-ju/preview.jpg",
   position: 36,
   sortedPosition: 36,
-  mobilePosition: 27,
+  mobilePosition: 29,
   model: "https://disk.yandex.ru/d/2eDU-ZUq0wcqEw",
   collage: "https://disk.yandex.ru/d/56-z5Mlis-1SqQ",
   tags: ["стол", "журнальный"],

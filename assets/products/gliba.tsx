@@ -38,7 +38,7 @@ export const gliba = {
   previewImg: "/images/products/gliba/preview.jpg",
   position: 34,
   sortedPosition: 33,
-  mobilePosition: 24,
+  mobilePosition: 26,
   model: "https://disk.yandex.ru/d/Ws42_OO9ThD9Rg",
   tags: ["стол", "журнальный"],
 };

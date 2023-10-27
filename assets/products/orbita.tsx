@@ -96,7 +96,7 @@ export const orbita = {
   previewImg: "/images/products/orbita/preview.jpg",
   position: 12,
   sortedPosition: 5,
-  mobilePosition: 39,
+  mobilePosition: 40,
   model: "https://disk.yandex.ru/d/rvO62ZpNVQL5og",
   collage: "https://disk.yandex.ru/d/6ILK0KTJObrVgg",
   tags: ["стол", "круглый"],

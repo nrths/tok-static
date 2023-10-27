@@ -30,7 +30,6 @@ export const klinker_sls_k25 = {
     "/images/products/klinker-sls-2/sizes/2.jpg",
     "/images/products/klinker-sls-2/sizes/3.jpg",
     "/images/products/klinker-sls-2/sizes/4.jpg",
-    "/images/products/klinker-sls-2/sizes/5.jpg",
   ],
   visualisations: [
     "/images/products/klinker-sls-2/interior/k25-1.jpg",
@@ -120,7 +119,6 @@ export const klinker_sls_k50 = {
     "/images/products/klinker-sls-2/sizes/2.jpg",
     "/images/products/klinker-sls-2/sizes/3.jpg",
     "/images/products/klinker-sls-2/sizes/4.jpg",
-    "/images/products/klinker-sls-2/sizes/5.jpg",
   ],
   visualisations: [
     "/images/products/klinker-sls-2/interior/k50-1.jpg",
@@ -210,7 +208,6 @@ export const klinker_sls_p25 = {
     "/images/products/klinker-sls-2/sizes/2.jpg",
     "/images/products/klinker-sls-2/sizes/3.jpg",
     "/images/products/klinker-sls-2/sizes/4.jpg",
-    "/images/products/klinker-sls-2/sizes/5.jpg",
   ],
   visualisations: [
     "/images/products/klinker-sls-2/interior/p25-1.jpg",
@@ -300,7 +297,6 @@ export const klinker_sls_p50 = {
     "/images/products/klinker-sls-2/sizes/2.jpg",
     "/images/products/klinker-sls-2/sizes/3.jpg",
     "/images/products/klinker-sls-2/sizes/4.jpg",
-    "/images/products/klinker-sls-2/sizes/5.jpg",
   ],
   visualisations: [
     "/images/products/klinker-sls-2/interior/p50-1.jpg",

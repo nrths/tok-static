@@ -67,7 +67,7 @@ export const orbita_m = {
   previewImg: "/images/products/orbita-m/preview.jpg",
   position: 17,
   sortedPosition: 15,
-  mobilePosition: 30,
+  mobilePosition: 32,
   model: "https://disk.yandex.ru/d/GKkBshdfs-1A_Q",
   tags: ["стол", "журнальный"],
 };

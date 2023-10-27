@@ -73,7 +73,7 @@ export const velvet = {
     previewImg: "/images/products/velvet-krug-razdvij/preview-circle.jpg",
     position: 8,
     sortedPosition: 6,
-    mobilePosition: 35,
+    mobilePosition: 37,
     model: "https://disk.yandex.ru/d/F421wZC1VBFV7A",
     tags: ["стол", "круглый"],
   };

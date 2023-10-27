@@ -85,7 +85,7 @@ export const buton = {
   category: "COFFEE_TABLE STEAL",
   name: "бутон",
   previewImg: "/images/products/buton/preview.jpg",
-  position: 28,
+  position: 41,
   sortedPosition: 26,
   mobilePosition: 18,
   model: "https://disk.yandex.ru/d/xtqwTJfUCZ89gQ",

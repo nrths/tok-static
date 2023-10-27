@@ -49,7 +49,7 @@ export const pud = {
   previewImg: "/images/products/pud/preview.jpg",
   position: 35,
   sortedPosition: 18,
-  mobilePosition: 25,
+  mobilePosition: 27,
   model: "https://disk.yandex.ru/d/ijxweUe-6oRuXg",
   collage: "https://disk.yandex.ru/d/7xdKR7kGPb0TPg",
   tags: ["стол", "обеденный", "журнальный", "барный"],

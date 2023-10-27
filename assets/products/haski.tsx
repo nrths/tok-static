@@ -66,7 +66,7 @@ export const haski = {
   previewImg: "/images/products/haski/preview.jpg",
   position: 31,
   sortedPosition: 32,
-  mobilePosition: 31,
+  mobilePosition: 33,
   model: "https://disk.yandex.ru/d/ad4waUtyYld6CQ",
   collage: "https://disk.yandex.ru/d/TkK-UdtFNkpt0Q",
   tags: ["стол", "журнальный"],

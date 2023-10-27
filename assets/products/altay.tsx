@@ -86,7 +86,7 @@ export const altay = {
   previewImg: "/images/products/altay/preview-circle.jpg",
   position: 6,
   sortedPosition: 4,
-  mobilePosition: 38,
+  mobilePosition: 39,
   model: "https://disk.yandex.ru/d/HDfsYIzINb6g7g",
   tags: ["стол", "круглый"],
 };

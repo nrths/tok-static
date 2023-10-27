@@ -89,7 +89,7 @@ export const homie = {
   name: "хоуми",
   previewImg: "/images/products/homie/preview.jpg",
   position: 15,
-  mobilePosition: 40,
+  mobilePosition: 41,
   model: "https://disk.yandex.ru/d/O44JbcRLq8RVvg",
   collage: "https://disk.yandex.ru/d/vuSzfVCYRHCFpg",
   tags: ["кровать"],

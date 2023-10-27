@@ -83,7 +83,7 @@ export const klinker_sls = {
   title: "ser-klinker-sls-2",
   position: 25,
   sortedPosition: 19,
-  mobilePosition: 29,
+  mobilePosition: 31,
   previewImg: "/images/products/klinker-sls-2/preview.jpg",
   name: "клинкер слс-2",
   products: [
@@ -112,9 +112,9 @@ export const klinker_f = {
 export const klinker_f_r = {
   id: 7,
   title: "ser-klinker-f-r",
-  position: 39,
+  position: 42,
   sortedPosition: 25,
-  mobilePosition: 33,
+  mobilePosition: 35,
   previewImg: "/images/products/klinker-f-r/preview.jpg",
   name: "клинкер-ф раздвижной",
   products: [

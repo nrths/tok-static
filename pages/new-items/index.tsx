@@ -19,7 +19,10 @@ const NewItemsPage = ({ products }: any) => {
   const bed = products.filter((product: { category: string | string[] }) =>
     product.category.includes("BED")
   );
-  const result = [...sliding, ...dinner, ...circle, ...bed];
+  const chair = products.filter((product: { category: string | string[] }) =>
+    product.category.includes("CHAIR")
+  );
+  const result = [...sliding, ...dinner, ...chair, ...circle, ...bed];
 
   return (
     <>

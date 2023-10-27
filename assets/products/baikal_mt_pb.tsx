@@ -1,0 +1,62 @@
+export const baikal_mt_pb = {
+    id: 66,
+    title: "baikal-mt-pb",
+    modelsSlider: [
+      "/images/products/baikal-mt-pb/models/1.jpg",
+      "/images/products/baikal-mt-pb/models/2.jpg",
+      "/images/products/baikal-mt-pb/models/3.jpg",
+      "/images/products/baikal-mt-pb/models/4.jpg",
+      "/images/products/baikal-mt-pb/models/5.jpg",
+      "/images/products/baikal-mt-pb/models/6.jpg",
+      "/images/products/baikal-mt-pb/models/7.jpg",
+      "/images/products/baikal-mt-pb/models/8.jpg",
+      "/images/products/baikal-mt-pb/models/9.jpg",
+      "/images/products/baikal-mt-pb/models/10.jpg",
+      "/images/products/baikal-mt-pb/models/11.jpg",
+      "/images/products/baikal-mt-pb/models/12.jpg",
+      "/images/products/baikal-mt-pb/models/13.jpg",
+      "/images/products/baikal-mt-pb/models/14.jpg",
+      "/images/products/baikal-mt-pb/models/15.jpg",
+      "/images/products/baikal-mt-pb/models/16.jpg",
+      "/images/products/baikal-mt-pb/models/17.jpg",
+      "/images/products/baikal-mt-pb/models/18.jpg",
+    ],
+    description:
+      "Полубарный стул Байкал МТ имеет прекрасный лаконичный и утончённый внешний облик. Каркас выполнен из металла, подножка из нержавеющей стали. Высокая спинка с боковыми поддержками и без подлокотников является одновременно удобной и при этом имеет лёгкий конструктив, создающий яркий визуальный образ. В отделке спинки и сидушки использованы различные виды ткани, а также натуральной кожи, которые сочетании с металлом наполняют общий образ особым очарованием.",
+    designer: "Сергей Беляков",
+    dateOfCreation: 2023,
+    countertop: [
+      "ткань категория 1",
+      "ткань категория 2",
+      "кожа категория 1",
+      "кожа категория 2",
+    ],
+    underframe: ["металл"],
+    sizesSlider: ["/images/products/baikal-mt-pb/sizes/1.jpg"],
+    visualisations: [],
+    designersProjects: [],
+    price: [34900],
+    params: {
+      "ткань категория 1": {
+        "600 Х 550 Х 950": 34900,
+      },
+      "ткань категория 2": {
+        "600 Х 550 Х 950": 37400,
+      },
+      "кожа категория 1": {
+        "600 Х 550 Х 950": 47200,
+      },
+      "кожа категория 2": {
+        "600 Х 550 Х 950": 55500,
+      },
+    },
+    category: "CHAIR",
+    name: "байкал мт полубарный",
+    previewImg: "/images/products/baikal-mt-pb/preview.jpg",
+    position: 26,
+    mobilePosition: 23,
+    model: "https://disk.yandex.ru/d/cyOLB1ZuMTBe5Q",
+    collage: "https://disk.yandex.ru/d/CEUUZxCLH-vh8w",
+    tags: ["стул"],
+  };
+  

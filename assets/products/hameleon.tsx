@@ -83,7 +83,7 @@ export const hameleon = {
   category: "COFFEE_TABLE STEAL",
   name: "хамелеон",
   previewImg: "/images/products/hameleon/preview.jpg",
-  position: 26,
+  position: 39,
   sortedPosition: 24,
   mobilePosition: 14,
   model: "https://disk.yandex.ru/d/JoVrlvwUavirlQ",

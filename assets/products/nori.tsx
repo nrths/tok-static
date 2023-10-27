@@ -17,7 +17,6 @@ export const nori = {
     "/images/products/nori/models/13.jpg",
     "/images/products/nori/models/14.jpg",
     "/images/products/nori/models/15.jpg",
-    "/images/products/nori/models/16.jpg",
   ],
   description:
     "Столики из серии НОРИ представлены в двух размерах. Основание выполнено из массива дуба, может быть окрашено в цвет согласно палитре. Столешница может быть выполнена из массива дуба, нанопластика FENIX NTM, hpl пластика 'под мрамор'.",
