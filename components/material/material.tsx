@@ -20,6 +20,7 @@ const Material: FC<MaterialProps> = ({ material, category }) => {
             width={50}
             height={50}
             priority
+            unoptimized
             className={material.type?.includes('белый') ? `${styles.material__image} ${styles.white}` : `${styles.material__image}`}
           />
           {category.title === 'металл металлик' || category.title === 'кожа категория 2' ? <span className={`${styles.material__span} ${styles.metallic}`}>{material.name}</span> : <span className={styles.material__span}>{material.name}</span>}
