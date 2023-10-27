@@ -39,6 +39,7 @@ const MaterialInfo: FC<MaterialsInfoProps> = ({ material, category }) => {
             fill
             sizes='(max-height: 768px) 30%, (max-width: 1200px) 100%'
             style={{ objectFit: "cover" }}
+            unoptimized
           />
           <span className={styles.span}>
             {activeMaterial.type} {activeMaterial.name}
