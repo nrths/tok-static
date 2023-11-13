@@ -30,7 +30,11 @@ export const velvet_oval_2 = {
     "/images/products/velvet-oval-2/sizes/3.jpg",
     "/images/products/velvet-oval-2/sizes/4.jpg",
   ],
-  visualisations: [],
+  visualisations: [
+    "/images/products/velvet-oval-2/interior/1.jpg",
+    "/images/products/velvet-oval-2/interior/2.jpg",
+    "/images/products/velvet-oval-2/interior/3.jpg",
+  ],
   designersProjects: [
     {
       img: "/images/products/velvet-oval-2/projects/1.jpg",

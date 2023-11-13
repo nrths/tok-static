@@ -65,7 +65,7 @@ export const klinker_c_k25 = {
   name: "клинкер-с журнальный - к25",
   previewImg: "/images/products/klinker-s/previewK25.jpg",
   model: "https://disk.yandex.ru/d/GE8mIrkkppXp6Q",
-  collage: "https://disk.yandex.ru/d/zrk334nWJrOQpw",
+  collage: "https://disk.yandex.ru/d/fdkW-EmP5lQHXA",
   tags: ["стол", "журнальный"],
 };
 

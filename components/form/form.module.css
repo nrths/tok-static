@@ -175,12 +175,12 @@
         margin: 0.5em 0 0;
         width: 100%;
         /* max-width: 610px; */
-        height: 164px;
+        height: 214px;
     }
 
     .textarea[data-id='designers'] {
         /* width: 120%; */
-        height: 303px;
+        height: 353px;
     }
 
     .buttonContainer.contactButtonContainer {

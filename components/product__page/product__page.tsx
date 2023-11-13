@@ -35,6 +35,9 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
             product.title === "altay-razdvij" ||
             product.title === "konus" ||
             product.title === "homie" ||
+            product.title === "baul" ||
+            product.title === "gliba" ||
+            product.title === "maki" ||
             product.title.startsWith("klinker") ? (
               <DetailsWithUnderframe
                 product={product}
@@ -55,6 +58,9 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
             {product.title.startsWith("altay") ||
             product.title === "konus" ||
             product.title === "homie" ||
+            product.title === "baul" ||
+            product.title === "gliba" ||
+            product.title === "maki" ||
             product.title.startsWith("klinker") ? (
               <DetailsWithUnderframe
                 product={product}
@@ -147,6 +153,9 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
           product.title === "altay-razdvij" ||
           product.title === "konus" ||
           product.title === "homie" ||
+          product.title === "baul" ||
+          product.title === "gliba" ||
+          product.title === "maki" ||
           product.title.startsWith("klinker") ? (
             <DetailsWithUnderframe
               product={product}

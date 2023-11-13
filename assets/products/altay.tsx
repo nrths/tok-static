@@ -38,7 +38,7 @@ export const altay = {
   designer: "Сергей Беляков",
   dateOfCreation: 2021,
   countertop: ["hpl / fenix ntm", "шпон дуба"],
-  underframe: ["натуральная кожа / сталь", "шпон дуба / сталь"],
+  underframe: ["кожа категория 1 / сталь", "кожа категория 2 / сталь", "шпон дуба / сталь"],
   sizesSlider: ["/images/products/altay/sizes/1.jpg", "/images/products/altay/sizes/2.jpg"],
   visualisations: [
     "/images/products/altay/interior/1.jpg",
@@ -70,7 +70,7 @@ export const altay = {
         "1270 Х 750": 166200,
       },
     },
-    "кожа / сталь": {
+    "кожа кат. 1 / сталь": {
       "hpl / fenix ntm": {
         "1100 Х 750": 177700,
         "1270 Х 750": 192700,
@@ -78,6 +78,16 @@ export const altay = {
       "шпон дуба": {
         "1100 Х 750": 170500,
         "1270 Х 750": 184200,
+      },
+    },
+    "кожа кат. 2 / сталь": {
+      "hpl / fenix ntm": {
+        "1100 Х 750": 187700,
+        "1270 Х 750": 202700,
+      },
+      "шпон дуба": {
+        "1100 Х 750": 180500,
+        "1270 Х 750": 194200,
       },
     },
   },

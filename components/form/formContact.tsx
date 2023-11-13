@@ -21,13 +21,14 @@ const FormContact: FC<TFormProps> = ({ id, mobile }) => {
   const [successContact, setSuccessContact] = useState(false);
   const phoneRegExp = /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/;
   const validationSchema = Yup.object().shape({
-    where: Yup.string(),
+    // where: Yup.string(),
     name: Yup.string().required("Введите Ваше имя"),
     phone: Yup.string().matches(phoneRegExp, {
       message: "Введите корректный номер телефона",
       excludeEmptyString: false,
     }),
     email: Yup.string().email("Некорректный e-mail"),
+    city: Yup.string(),
     comment: Yup.string(),
   });
 
@@ -94,6 +95,16 @@ const FormContact: FC<TFormProps> = ({ id, mobile }) => {
           />
           {/* @ts-ignore */}
           <small className={styles.err}>{errors.email?.message}</small>
+
+          <input
+            id='city'
+            {...register("city")}
+            className={styles.input}
+            type='city'
+            placeholder='Город'
+          />
+          {/* @ts-ignore */}
+          <small className={styles.err}>{errors.city?.message}</small>
 
           {mobile && <div className={styles.commentWrapper}>
             <p className={styles.comment}>Комментарий</p>

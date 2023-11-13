@@ -1,6 +1,6 @@
 import { FC, useCallback, useState } from "react";
 import styles from "./details.module.css";
-import { maskPrice } from "@/lib/utils";
+import { maskPrice, switchLabelMiddle, switchLabelTop, switchPlaceholderMiddle, switchPlaceholderTop } from "@/lib/utils";
 import { TProduct } from "@/assets/products";
 import Select from "@/components/select/select";
 
@@ -13,6 +13,8 @@ const DetailsWithUnderframe: FC<TDetailsProps> = ({ product, className }) => {
   const [underframeOption, setUnderframeOption] = useState("");
   const [countertopOption, setCountertopOption] = useState("");
   const [price, setPrice] = useState(product.price);
+
+
 
   const findCountertops = useCallback(
     (underframeOpt: string) => {
@@ -119,9 +121,7 @@ const DetailsWithUnderframe: FC<TDetailsProps> = ({ product, className }) => {
 
           <div className={styles.selectGroup}>
             <span className={styles.label}>
-              {product.category.includes("BED")
-                ? "подъемный\nмеханизм:"
-                : "отделка\nоснования:"}
+              {switchLabelTop(product)}
             </span>
             <Select
               mode='rows'
@@ -129,15 +129,13 @@ const DetailsWithUnderframe: FC<TDetailsProps> = ({ product, className }) => {
               selected={selectedFrame || null}
               name='long'
               onChange={handleUnderframeSelect}
-              placeholder={product.category.includes("BED") ? `наличие механизма` : `выберите отделку\nоснования`}
+              placeholder={switchPlaceholderTop(product)}
             />
           </div>
 
           <div className={styles.selectGroup}>
             <span className={styles.label}>
-            {product.category.includes("BED")
-                ? "отделка:"
-                : "отделка\nстолешницы:"}
+            {switchLabelMiddle(product)}
             </span>
             <Select
               mode='rows'
@@ -145,7 +143,7 @@ const DetailsWithUnderframe: FC<TDetailsProps> = ({ product, className }) => {
               selected={selectedCountertop || null}
               name='long'
               onChange={handleCountertopSelect}
-              placeholder={product.category.includes("BED") ? `выберите отделку` : `выберите отделку столешницы`}
+              placeholder={switchPlaceholderMiddle(product)}
             />
           </div>
 

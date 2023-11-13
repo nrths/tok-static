@@ -60,7 +60,31 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
           <h4 className={styles.heading}>
             {item.category.includes("TABLE") ? "отделка столешницы" : "отделка"}
           </h4>
-          {item.countertop?.map((mat, i) => {
+          {item.title === "hameleon" && (
+            <>
+              <MaterialGroup
+                category={FenixNTM}
+                handleClick={handleClick}
+                key={Math.random() + 300}
+              />
+              <MaterialGroup
+                category={HPL}
+                handleClick={handleClick}
+                key={Math.random() + 400}
+              />
+              <MaterialGroup
+                category={Oak_tinting}
+                handleClick={handleClick}
+                key={Math.random() + 500}
+              />
+              <MaterialGroup
+                category={EnamelWithOakTexture}
+                handleClick={handleClick}
+                key={Math.random() + 550}
+              />
+            </>
+          )}
+          {item.title !== 'hameleon' && item.countertop?.map((mat, i) => {
             if (mat.includes("fenix ntm")) {
               if (mat === "fenix ntm / массив дуба") {
                 return (
@@ -285,7 +309,9 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
             )}
           </div>
         )}
-        {item.title === 'baul' || item.title === 'slaider' || item.title === 'slot' ? (
+        {item.title === "baul" ||
+        item.title === "slaider" ||
+        item.title === "slot" ? (
           <div className={styles.base}>
             <h4 className={styles.heading}>отделка стальной рамы</h4>
             <MaterialGroup

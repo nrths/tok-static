@@ -31,6 +31,7 @@ const FormForDesigners:FC<TFormProps> = ({ id, mobile }) => {
     email: Yup.string().email().required("Некорректный e-mail"),
     url: Yup.string().url('Некорректная ссылка'),
     social: Yup.string(),
+    city: Yup.string(),
     comment: Yup.string(),
   });
 
@@ -122,6 +123,15 @@ const FormForDesigners:FC<TFormProps> = ({ id, mobile }) => {
           />
            {/* @ts-ignore */}
           <small className={styles.err}>{errors.social?.message}</small>
+
+          <input
+            id='city'
+            {...register("city")}
+            className={styles.input}
+            placeholder='Город'
+          />
+           {/* @ts-ignore */}
+          <small className={styles.err}>{errors.city?.message}</small>
 
           {mobile && <div className={styles.commentWrapper}>
             <p className={styles.comment}>Комментарий</p>

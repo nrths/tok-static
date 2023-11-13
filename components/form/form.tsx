@@ -20,7 +20,7 @@ type TFormProps = {
 
 const Form: FC<TFormProps> = ({ id }) => {
   const [successBackCall, setSuccessBackCall] = useState(false);
-  const [successContact, setSuccessContact] = useState(false);
+  // const [successContact, setSuccessContact] = useState(false);
   const phoneRegExp = /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/;
   const validationSchema = Yup.object().shape({
     where: Yup.string(),

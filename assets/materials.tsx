@@ -20,7 +20,8 @@ export type TMaterialGroup = {
     | "кожа категория 1"
     | "кожа категория 2"
     | "ткань категория 1"
-    | "ткань категория 2";
+    | "ткань категория 2"
+    | "ткань категория 3";
   furnish: string;
   base?: string;
   hem?: string;
@@ -531,9 +532,27 @@ export const Ceramics: TMaterialGroup = {
     },
     {
       id: 8,
-      name: "solo black",
-      type: "чёрный",
-      img: "/images/materials/ceramics/black-solo.jpg",
+      name: "cgst",
+      type: "калакатта",
+      img: "/images/materials/ceramics/cgst.jpg",
+    },
+    {
+      id: 9,
+      name: "millennium black",
+      type: "",
+      img: "/images/materials/ceramics/m_black.jpg",
+    },
+    {
+      id: 10,
+      name: "millennium pure",
+      type: "",
+      img: "/images/materials/ceramics/m_pure.jpg",
+    },
+    {
+      id: 11,
+      name: "millennium silver",
+      type: "",
+      img: "/images/materials/ceramics/m_silver.jpg",
     },
   ],
 };
@@ -2842,7 +2861,7 @@ export const Fabrics_Lanvin: TMaterialGroup = {
 
 export const Fabrics_Luca: TMaterialGroup = {
   id: 31,
-  title: "ткань категория 2",
+  title: "ткань категория 3",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -2992,7 +3011,7 @@ export const Fabrics_Luca: TMaterialGroup = {
 
 export const Fabrics_Puffy: TMaterialGroup = {
   id: 32,
-  title: "ткань категория 2",
+  title: "ткань категория 3",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -3130,7 +3149,7 @@ export const Fabrics_Puffy: TMaterialGroup = {
 
 export const Fabrics_Retro: TMaterialGroup = {
   id: 33,
-  title: "ткань категория 2",
+  title: "ткань категория 3",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -3340,7 +3359,7 @@ export const Fabrics_Talia: TMaterialGroup = {
 
 export const Fabrics_Teddy: TMaterialGroup = {
   id: 36,
-  title: "ткань категория 2",
+  title: "ткань категория 3",
   furnish: "ткани",
   base: "",
   hem: "",

@@ -14,13 +14,13 @@
 .active {
     opacity: 1;
     pointer-events: all;
-    overflow-y: auto;
+    /* overflow-y: auto; */
 }
 
 .container {
     background-color: #f6f6f6;
     width: 448px;
-    height: 832px;
+    height: 100%;
     position: absolute;
     top: 0;
     right: 0;

@@ -41,6 +41,7 @@ export const baikal = {
   countertop: [
     "ткань категория 1",
     "ткань категория 2",
+    "ткань категория 3",
     "кожа категория 1",
     "кожа категория 2",
   ],
@@ -66,6 +67,9 @@ export const baikal = {
     "ткань категория 2": {
       "600 Х 550 Х 780": 36100,
     },
+    "ткань категория 3": {
+      "600 Х 550 Х 780": 44300,
+    },
     "кожа категория 1": {
       "600 Х 550 Х 780": 44300,
     },
@@ -78,7 +82,7 @@ export const baikal = {
   previewImg: "/images/products/baikal/preview.jpg",
   position: 13,
   mobilePosition: 7,
-  model: "https://disk.yandex.ru/d/KL7LXeT7h8vW3g",
+  model: "https://disk.yandex.ru/d/DSNCm8zEX0RB5A",
   collage: "https://disk.yandex.ru/d/Sh_kfg61NBZHoQ",
   tags: ["стул"],
 };
