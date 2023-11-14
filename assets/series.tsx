@@ -24,9 +24,9 @@ export type TProductSeries = {
 export const klinker = {
   id: 1,
   title: "ser-klinker",
-  position: 22,
+  position: 70,
   sortedPosition: 15,
-  mobilePosition: 21,
+  mobilePosition: 43,
   previewImg: "/images/products/klinker/preview.jpg",
   name: "клинкер",
   products: [klinker_k25, klinker_k50, klinker_p25, klinker_p50],

@@ -14,7 +14,7 @@ export const gliba = {
   designer: "Сергей Беляков",
   dateOfCreation: 2022,
   countertop: ["шпон дуба", "керамика"],
-  underframe: ["кожа категория 1", "кожа категория 2"],
+  underframe: ["кожа"],
   sizesSlider: ["/images/products/gliba/sizes/1.jpg"],
   visualisations: [
     "/images/products/gliba/interior/1.jpg",

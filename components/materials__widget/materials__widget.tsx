@@ -295,11 +295,17 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
           <div className={styles.hem}>
             <h4 className={styles.heading}>отделка кромки</h4>
             {item.category.includes("OAK") ? (
+              <>
+              <MaterialGroup
+                category={Oak_tinting}
+                handleClick={handleClick}
+                key={Math.random() + 120000}
+              />
               <MaterialGroup
                 category={EnamelWithOakTexture}
                 handleClick={handleClick}
                 key={Math.random() + 20000}
-              />
+              /></>
             ) : (
               <MaterialGroup
                 category={Enamel}

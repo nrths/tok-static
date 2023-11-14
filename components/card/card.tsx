@@ -27,7 +27,8 @@ const Card: FC<TCard> = ({ product, id, seriesTitle, homepage }) => {
     product.title === "velvet-sl-2" ||
     product.title === "velvet-sl-fl" ||
     product.title === "velvet-krug-razdvij" ||
-    product.title === "altay-razdvij"
+    product.title === "altay-razdvij" ||
+    product.title === "tviks-2"
   ) {
     return (
       <>

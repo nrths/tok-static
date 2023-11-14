@@ -56,7 +56,7 @@ export const velvet_krug_fl = {
   name: "вельвет круг с фланцем",
   previewImg: "/images/products/velvet-krug-fl/preview.jpg",
   position: 40,
-  sortedPosition: 17,
+  sortedPosition: 70,
   mobilePosition: 42,
   model: "https://disk.yandex.ru/d/oo0rvJpr4t04vw",
   collage: "https://disk.yandex.ru/d/sbb5UKVYUGC_KQ",

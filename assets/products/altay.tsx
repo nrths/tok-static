@@ -38,7 +38,7 @@ export const altay = {
   designer: "Сергей Беляков",
   dateOfCreation: 2021,
   countertop: ["hpl / fenix ntm", "шпон дуба"],
-  underframe: ["кожа категория 1 / сталь", "кожа категория 2 / сталь", "шпон дуба / сталь"],
+  underframe: ["кожа / сталь", "шпон дуба / сталь"],
   sizesSlider: ["/images/products/altay/sizes/1.jpg", "/images/products/altay/sizes/2.jpg"],
   visualisations: [
     "/images/products/altay/interior/1.jpg",

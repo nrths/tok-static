@@ -22,7 +22,7 @@ const NewItemsPage = ({ products }: any) => {
   const chair = products.filter((product: { category: string | string[] }) =>
     product.category.includes("CHAIR")
   );
-  const result = [...sliding, ...dinner, ...chair, ...circle, ...bed];
+  const result = [...sliding, ...dinner, ...bed, ...circle, ...chair];
 
   return (
     <>

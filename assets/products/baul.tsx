@@ -24,7 +24,7 @@ export const baul = {
   designer: "Сергей Беляков",
   dateOfCreation: 2022,
   countertop: ["hpl / fenix ntm", "шпон дуба", "керамика"],
-  underframe: ["кожа категория 1", "кожа категория 2"],
+  underframe: ["кожа"],
   sizesSlider: [
     "/images/products/baul/sizes/1.jpg",
     "/images/products/baul/sizes/2.jpg",
