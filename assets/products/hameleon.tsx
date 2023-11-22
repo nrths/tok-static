@@ -9,10 +9,6 @@ export const hameleon = {
     "/images/products/hameleon/models/5.jpg",
     "/images/products/hameleon/models/6.jpg",
     "/images/products/hameleon/models/7.jpg",
-    "/images/products/hameleon/models/8.jpg",
-    "/images/products/hameleon/models/9.jpg",
-    "/images/products/hameleon/models/10.jpg",
-    "/images/products/hameleon/models/11.jpg",
   ],
   description:
     "Столики из серии ХАМЕЛЕОН выполнены из металлического основания. Имеют две и столешницы: верхняя - из нанопластика FENIX*, нижняя - из массива дуба. Столики отлично впишутся в гостиную или кухню.",

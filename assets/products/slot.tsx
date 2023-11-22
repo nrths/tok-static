@@ -10,6 +10,10 @@ export const slot = {
     "/images/products/slot/models/6.jpg",
     "/images/products/slot/models/7.jpg",
     "/images/products/slot/models/8.jpg",
+    "/images/products/slot/models/9.jpg",
+    "/images/products/slot/models/10.jpg",
+    "/images/products/slot/models/11.jpg",
+    "/images/products/slot/models/12.jpg",
   ],
   description:
     "Обеденный стол из серии СЛОТ на ножках из цельного дерева обладает отличными пропорциями и отлично смотрится как в небольших, так и в более габаритных размерах. Столешница выполнена из массива дуба. Отличное сочетание современного дизайна и первоклассного исполнения.",

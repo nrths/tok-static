@@ -108,9 +108,11 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
                 <h3 className={styles.heading}>срок поставки</h3>
                 <p className={styles.details}>
                   Если желаемая модель есть на&nbsp;складе, то&nbsp;срок
-                  поставки до&nbsp;5&nbsp;рабочих дней с&nbsp;момента заказа;
-                  если товара нет в&nbsp;наличии, то&nbsp;срок поставки мебели
-                  до&nbsp;45&nbsp;рабочих дней.
+                  отгрузки со&nbsp;склада поставщика до&nbsp;10&nbsp;рабочих
+                  дней с&nbsp;момента заказа и&nbsp;доставка; если товара нет
+                  в&nbsp;наличии, срок изготовления до&nbsp;50&nbsp;рабочих
+                  дней, до&nbsp;10&nbsp;рабочих дней на&nbsp;отгрузку
+                  и&nbsp;доставка.
                 </p>
               </div>
               <div className={styles.block}>

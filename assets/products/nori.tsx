@@ -14,9 +14,6 @@ export const nori = {
     "/images/products/nori/models/10.jpg",
     "/images/products/nori/models/11.jpg",
     "/images/products/nori/models/12.jpg",
-    "/images/products/nori/models/13.jpg",
-    "/images/products/nori/models/14.jpg",
-    "/images/products/nori/models/15.jpg",
   ],
   description:
     "Столики из серии НОРИ представлены в двух размерах. Основание выполнено из массива дуба, может быть окрашено в цвет согласно палитре. Столешница может быть выполнена из массива дуба, нанопластика FENIX NTM, hpl пластика 'под мрамор'.",
@@ -25,7 +22,11 @@ export const nori = {
   countertop: ["hpl / fenix ntm", "массив дуба"],
   underframe: ["массив дуба"],
   sizesSlider: ["/images/products/nori/sizes/1.jpg"],
-  visualisations: ["/images/products/nori/interior/1.jpg"],
+  visualisations: [
+    "/images/products/nori/interior/1.jpg",
+    "/images/products/nori/interior/2.jpg",
+    "/images/products/nori/interior/3.jpg",
+  ],
   designersProjects: [
     {
       img: "/images/products/nori/projects/1.jpg",

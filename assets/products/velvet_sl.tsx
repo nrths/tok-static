@@ -15,6 +15,8 @@ export const velvet_sl = {
     "/images/products/velvet-sl/models/11.jpg",
     "/images/products/velvet-sl/models/12.jpg",
     "/images/products/velvet-sl/models/13.jpg",
+    "/images/products/velvet-sl/models/14.jpg",
+    "/images/products/velvet-sl/models/15.jpg",
   ],
   description:
     "Элегантный стол ВЕЛЬВЕТ также представлен в форме суперэллипса. Стол привлекает сочетанием геометрических форм и материалов. Столешница может быть выполнена из матового инновационного материала FENIX NTM, МДФ шпонированный дубом, hpl-пластик 'под мрамор'. Основание выполнено из металлических трубок, напоминающих фактуру вельвета. ВЕЛЬВЕТ суперэллипс представлен в варианте с одной прямоугольной ногой либо с двумя квадратными в зависимости от габаритов столешницы.",
@@ -27,6 +29,7 @@ export const velvet_sl = {
     "/images/products/velvet-sl/sizes/1.jpg",
     "/images/products/velvet-sl/sizes/2.jpg",
     "/images/products/velvet-sl/sizes/3.jpg",
+    "/images/products/velvet-sl/sizes/4.jpg",
   ],
   visualisations: [
     "/images/products/velvet-sl/interior/1.jpg",

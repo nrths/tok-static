@@ -10,8 +10,6 @@ export const velvet_oval = {
     "/images/products/velvet-oval/models/6.jpg",
     "/images/products/velvet-oval/models/7.jpg",
     "/images/products/velvet-oval/models/8.jpg",
-    "/images/products/velvet-oval/models/9.jpg",
-    "/images/products/velvet-oval/models/10.jpg",
   ],
   description:
     "Элегантный стол ВЕЛЬВЕТ также представлен в форме овала. Стол привлекает сочетанием геометрических форм и материалов. Столешница может быть выполнена из матового инновационного материала FENIX NTM, МДФ шпонированный дубом, hpl-пластик 'под мрамор'. Основание выполнено из металлических трубок, напоминающих фактуру вельвета. Овальный ВЕЛЬВЕТ представлен в варианте с одной овальной ногой либо с двумя круглыми в зависимости от габаритов столешницы.",
