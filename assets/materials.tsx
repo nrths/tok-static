@@ -192,7 +192,7 @@ export const Enamel: TMaterialGroup = {
   id: 3,
   title: "эмаль",
   furnish: "эмаль",
-  base: "металл, мдф",
+  base: "мдф",
   hem: "",
   manufacturer: "италия",
   description:
@@ -520,7 +520,7 @@ export const Ceramics: TMaterialGroup = {
     },
     {
       id: 6,
-      name: "cvol",
+      name: "cvo",
       type: "калакатта",
       img: "/images/materials/ceramics/cvol.jpg",
     },

@@ -63,7 +63,7 @@ const ContactsPage: NextPage = () => {
                   <br />
                   Красногвардейская площадь, д&nbsp;3Е,
                   <br />
-                  1&nbsp;этаж, секция &#8470; Е1&nbsp;181
+                  1&nbsp;этаж, секция &#8470; Е1&nbsp;375
                   <br />
                   DAA&nbsp;Design&nbsp;District
                 </p>
@@ -77,7 +77,7 @@ const ContactsPage: NextPage = () => {
                   e-mail: <a className={styles.email} href="mailto:sales@tok-mebel.ru">sales@tok-mebel.ru</a>
                 </p>
                 <Link
-                href={"https://yandex.ru/maps/-/CDU4UB62"}
+                href={"https://yandex.ru/maps/-/CDqdIOp2"}
                 target='_blank'
                 className={styles.button__map_desktop}
               >

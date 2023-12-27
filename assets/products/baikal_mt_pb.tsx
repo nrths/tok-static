@@ -34,7 +34,7 @@ export const baikal_mt_pb = {
     ],
     underframe: ["металл"],
     sizesSlider: ["/images/products/baikal-mt-pb/sizes/1.jpg"],
-    visualisations: [],
+    visualisations: ["/images/products/baikal-mt-pb/interior/1.jpg", "/images/products/baikal-mt-pb/interior/2.jpg", "/images/products/baikal-mt-pb/interior/3.jpg"],
     designersProjects: [],
     price: [34900],
     params: {

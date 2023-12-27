@@ -27,7 +27,8 @@ export const pud = {
     "/images/products/pud/sizes/2.jpg",
     "/images/products/pud/sizes/3.jpg",
   ],
-  visualisations: [],
+  visualisations: ["/images/products/pud/interior/1.jpg",
+  "/images/products/pud/interior/2.jpg"],
   designersProjects: [],
   price: [37800],
   params: {

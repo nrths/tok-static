@@ -106,7 +106,7 @@ const footerSocialsList: TListItem[] = [
   },
   {
     img: "/images/socials/youtube.svg",
-    link: "", // TODO: find out link
+    link: "https://www.youtube.com/@tok_mebel",
     name: "Youtube",
   },
 ];
