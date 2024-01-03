@@ -14,6 +14,7 @@ import {
   Metal,
   Metallic,
   Oak_tinting,
+  Steal,
   TMaterial,
   TMaterialGroup,
   allFabrics,
@@ -163,7 +164,7 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
               </Button>
             </Link>
           )}
-          {item.category === "CHAIR" && (
+          {item.category.includes("CHAIR") && (
             <Link href={"/materials#fabrics"} scroll={false}>
               <Button
                 type={"button"}
@@ -178,7 +179,7 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
         {item.category !== "BED" && (
           <div className={styles.underframe}>
             <h4 className={styles.heading}>
-              {item.category === "CHAIR"
+              {item.category.includes("CHAIR")
                 ? "отделка основания"
                 : "отделка подстолья"}
             </h4>
@@ -287,8 +288,7 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
                 );
               }
             })}
-          </div>
-        )}
+          </div>)}
       </div>
       <div className={styles.materialsContainer}>
         {item.category.includes("TABLE") && (
@@ -320,6 +320,26 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
         item.title === "slot" ? (
           <div className={styles.base}>
             <h4 className={styles.heading}>отделка стальной рамы</h4>
+            <MaterialGroup
+              category={Metal}
+              handleClick={handleClick}
+              key={Math.random() + 2100}
+            />
+            <MaterialGroup
+              category={Metallic}
+              handleClick={handleClick}
+              key={Math.random() + 22100}
+            />
+          </div>
+        ) : null}
+        {item.category.includes('STEEL') ? (
+          <div className={styles.flange}>
+            <h4 className={styles.heading}>{item.title === 'baikal-mt-b' ? 'отделка декоративной накладки' : 'отделка фланца'}</h4>
+            <MaterialGroup
+              category={Steal}
+              handleClick={handleClick}
+              key={Math.random() + 22100}
+            />
             <MaterialGroup
               category={Metal}
               handleClick={handleClick}

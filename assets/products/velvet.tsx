@@ -68,7 +68,7 @@ export const velvet = {
         "1270 Х 750": 197400,
       },
     },
-    category: "TABLE_DINNER CIRCLE  OAK",
+    category: "TABLE_DINNER CIRCLE  OAK STEEL",
     name: "вельвет деревянный нераздвижной",
     previewImg: "/images/products/velvet-krug-razdvij/preview-circle.jpg",
     position: 8,

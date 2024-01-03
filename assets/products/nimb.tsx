@@ -10,6 +10,10 @@ export const nimb = {
     "/images/products/nimb/models/6.jpg",
     "/images/products/nimb/models/7.jpg",
     "/images/products/nimb/models/8.jpg",
+    "/images/products/nimb/models/9.jpg",
+    "/images/products/nimb/models/10.jpg",
+    "/images/products/nimb/models/11.jpg",
+    "/images/products/nimb/models/12.jpg",
   ],
   description:
     "Ряд столиков из серии НИМБ незаметно впишутся в интерьер Вашей гостиной или спальни. Невесомость конструкции обеспечивают тонкие, но прочные стальные стержни. Верх может быть изготовлен из массива дуба, нанопластика FENIX NTM, hpl-пластик 'под мрамор'.",

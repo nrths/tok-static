@@ -23,7 +23,7 @@ const Material: FC<MaterialProps> = ({ material, category }) => {
             unoptimized
             className={material.type?.includes('белый') ? `${styles.material__image} ${styles.white}` : `${styles.material__image}`}
           />
-          {category.title === 'металл металлик' || category.title === 'кожа категория 2' || category.title === 'керамика' ? <span className={`${styles.material__span} ${styles.metallic}`}>{material.name}</span> : <span className={styles.material__span}>{material.name}</span>}
+          {category.title === 'металл металлик' || category.title === 'кожа категория 2' || category.title === 'керамика' || category.title === 'нержавеющая сталь' ? <span className={`${styles.material__span} ${styles.metallic}`}>{material.name}</span> : <span className={styles.material__span}>{material.name}</span>}
         </div>
       </div>
     </>

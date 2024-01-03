@@ -21,7 +21,8 @@ export type TMaterialGroup = {
     | "кожа категория 2"
     | "ткань категория 1"
     | "ткань категория 2"
-    | "ткань категория 3";
+    | "ткань категория 3"
+    | "нержавеющая сталь";
   furnish: string;
   base?: string;
   hem?: string;
@@ -725,6 +726,7 @@ export const Metallic: TMaterialGroup = {
     },
   ],
 };
+
 
 export const Architectural_concrete: TMaterialGroup = {
   id: 8,
@@ -3507,6 +3509,23 @@ export const Fabrics_Teddy: TMaterialGroup = {
   ],
 };
 
+export const Steal: TMaterialGroup = {
+  id: 37,
+  title: "нержавеющая сталь",
+  furnish: "нержавеющая сталь",
+  base: "",
+  hem: "",
+  manufacturer: "Россия",
+  description: "Нержавеющая сталь прочна, отличается долгим сроком службы и красивым видом. Изделия из этого материала трудно поцарапать. Нержавейка устойчива к окислению при высоких температурах, не подвержена влиянию атмосферных явлений, влажности, может использоваться в агрессивных условиях без дополнительного защитного покрытия. На это, а также на сложность производства влияют содержание металлов и другие данные.",
+  materials: [
+    {
+      id: 1,
+      name: "steel",
+      img: "/images/materials/steal/nerj.jpg",
+    }
+  ],
+}
+
 export const allMaterials = [
   Architectural_concrete,
   Ceramics,
@@ -3541,6 +3560,7 @@ export const allMaterials = [
   Metal,
   Metallic,
   Oak_tinting,
+  Steal,
 ];
 
 export const allFabrics = [

@@ -52,7 +52,7 @@ export const baikal_mt_b = {
         "600 Х 550 Х 1050": 55500,
       },
     },
-    category: "CHAIR",
+    category: "CHAIR STEEL",
     name: "байкал мт барный",
     previewImg: "/images/products/baikal-mt-b/preview.jpg",
     position: 28,

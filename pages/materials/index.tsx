@@ -17,6 +17,7 @@ import {
   Metal,
   Metallic,
   Oak_tinting,
+  Steal,
   TMaterial,
   TMaterialGroup,
   allFabrics,
@@ -75,6 +76,10 @@ const MaterialsPage = () => {
             <MaterialGroup category={Oak_tinting} handleClick={handleClick} />
             <MaterialGroup
               category={Architectural_concrete}
+              handleClick={handleClick}
+            />
+            <MaterialGroup
+              category={Steal}
               handleClick={handleClick}
             />
           </div>

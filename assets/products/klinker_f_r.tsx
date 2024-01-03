@@ -61,7 +61,7 @@ export const klinker_f_r_k25 = {
       },
     }
   },
-  category: "TABLE_DINNER TABLE_SLIDING",
+  category: "TABLE_DINNER TABLE_SLIDING STEEL",
   name: "клинкер-ф раздвижной к-25",
   previewImg: "/images/products/klinker-f-r/previewK25.jpg",
   model: "https://disk.yandex.ru/d/oVGywhPh19PlzQ",
@@ -132,7 +132,7 @@ export const klinker_f_r_k50 = {
       },
     }
   },
-  category: "TABLE_DINNER TABLE_SLIDING",
+  category: "TABLE_DINNER TABLE_SLIDING STEEL",
   name: "клинкер-ф раздвижной к-50",
   previewImg: "/images/products/klinker-f-r/previewK50.jpg",
   model: "https://disk.yandex.ru/d/dDFs20XhHXidYw",
@@ -203,7 +203,7 @@ export const klinker_f_r_p25 = {
       },
     }
   },
-  category: "TABLE_DINNER TABLE_SLIDING",
+  category: "TABLE_DINNER TABLE_SLIDING STEEL",
   name: "клинкер-ф раздвижной п-25",
   previewImg: "/images/products/klinker-f-r/previewP25.jpg",
   model: "https://disk.yandex.ru/d/U2rJ4-vRVua-gg",
@@ -275,7 +275,7 @@ export const klinker_f_r_p50 = {
     }
     
   },
-  category: "TABLE_DINNER TABLE_SLIDING",
+  category: "TABLE_DINNER TABLE_SLIDING STEEL",
   name: "клинкер-ф раздвижной п-50",
   previewImg: "/images/products/klinker-f-r/previewP50.jpg",
   model: "https://disk.yandex.ru/d/YMf5JmCrCb-_ng",

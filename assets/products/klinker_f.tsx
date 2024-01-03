@@ -53,7 +53,7 @@ export const klinker_f_k25 = {
       },
     }
   },
-  category: "TABLE_DINNER CIRCLE",
+  category: "TABLE_DINNER CIRCLE STEEL",
   name: "клинкер-ф к-25",
   previewImg: "/images/products/klinker-f/previewK25.jpg",
   model: "https://disk.yandex.ru/d/Djz3e7R_6Sjd9g",
@@ -116,7 +116,7 @@ export const klinker_f_k50 = {
       },
     }
   },
-  category: "TABLE_DINNER CIRCLE",
+  category: "TABLE_DINNER CIRCLE STEEL",
   name: "клинкер-ф к-50",
   previewImg: "/images/products/klinker-f/previewK50.jpg",
   model: "https://disk.yandex.ru/d/Atfey0TGKWT3iw",
@@ -179,7 +179,7 @@ export const klinker_f_p25 = {
       },
     }
   },
-  category: "TABLE_DINNER CIRCLE",
+  category: "TABLE_DINNER CIRCLE STEEL",
   name: "клинкер-ф п-25",
   previewImg: "/images/products/klinker-f/previewP25.jpg",
   model: "https://disk.yandex.ru/d/MK5mPgxwktAKzA",
@@ -242,7 +242,7 @@ export const klinker_f_p50 = {
       },
     }
   },
-  category: "TABLE_DINNER CIRCLE",
+  category: "TABLE_DINNER CIRCLE STEEL",
   name: "клинкер-ф п-50",
   previewImg: "/images/products/klinker-f/previewP50.jpg",
   model: "https://disk.yandex.ru/d/rNZ9bxuuOFCBVg",

@@ -72,7 +72,7 @@ export const velvet_krug_razdvij = {
       "1270 / 1720 Х 750": 279800,
     },
   },
-  category: "TABLE_DINNER TABLE_SLIDING",
+  category: "TABLE_DINNER TABLE_SLIDING STEEL",
   name: "вельвет раздвижной",
   previewImg: "/images/products/velvet-krug-razdvij/preview.jpg",
   position: 5,

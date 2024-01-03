@@ -66,7 +66,7 @@ export const tviks_2 = {
         "2500 X 1000 X 750": 178500,
       },
     },
-    category: "TABLE_DINNER LONG OAK",
+    category: "TABLE_DINNER LONG OAK STEEL",
     name: "твикс 2",
     previewImg: "/images/products/tviks-2/preview.jpg",
     position: 20,
