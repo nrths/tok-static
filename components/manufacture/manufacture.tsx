@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./manufacture.module.css";
+import YouTubePlayer from "../youtube__player/youtubePlayer";
 
 const Manufacture = () => {
   return (
@@ -18,7 +19,8 @@ const Manufacture = () => {
         упаковки&nbsp;&mdash; является эксклюзивной разработкой дизайнеров
         и&nbsp;специалистов бренда ТОК и&nbsp;сделана с&nbsp;любовью.
       </p>
-      <Image src={"/images/other/manufacture.jpg"} alt={""} priority fill unoptimized className={styles.img}/>
+      <YouTubePlayer id="b29UcPVX1ss" />
+      {/* <Image src={"/images/other/manufacture.jpg"} alt={""} priority fill unoptimized className={styles.img}/> */}
     </div>
   );
 };
