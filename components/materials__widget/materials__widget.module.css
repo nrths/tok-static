@@ -87,10 +87,18 @@
         width: 100%;
         padding-bottom: 60px;
     }
+
+    .flange {
+        width: 100%;
+    }
     
     .heading {
         font-size: 14px;
         font-weight: 200;
         text-align: right;
+    }
+
+    .caption {
+        padding: 40px 20px 0;
     }
 }

@@ -52,10 +52,10 @@ const NewItemsPage = ({ products }: any) => {
 
 export async function getStaticProps() {
   const newestProducts = products.filter(
-    (product) => product.dateOfCreation === 2023
+    (product) => product.dateOfCreation > 2022
   );
   const newestSeries = series.filter(
-    (s) => s.products[0].dateOfCreation === 2023
+    (s) => s.products[0].dateOfCreation > 2022
   );
   const data = await [...newestProducts, ...newestSeries];
   return {

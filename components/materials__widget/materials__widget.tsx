@@ -85,74 +85,75 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
               />
             </>
           )}
-          {item.title !== 'hameleon' && item.countertop?.map((mat, i) => {
-            if (mat.includes("fenix ntm")) {
-              if (mat === "fenix ntm / массив дуба") {
+          {item.title !== "hameleon" &&
+            item.countertop?.map((mat, i) => {
+              if (mat.includes("fenix ntm")) {
+                if (mat === "fenix ntm / массив дуба") {
+                  return (
+                    <>
+                      <MaterialGroup
+                        category={FenixNTM}
+                        handleClick={handleClick}
+                        key={Math.random() + 100}
+                      />
+                      <MaterialGroup
+                        category={Oak_tinting}
+                        handleClick={handleClick}
+                        key={Math.random() + 200}
+                      />
+                    </>
+                  );
+                } else {
+                  return (
+                    <>
+                      <MaterialGroup
+                        category={FenixNTM}
+                        handleClick={handleClick}
+                        key={Math.random() + 300}
+                      />
+                      <MaterialGroup
+                        category={HPL}
+                        handleClick={handleClick}
+                        key={Math.random() + 400}
+                      />
+                    </>
+                  );
+                }
+              } else if (mat.includes("дуба")) {
                 return (
                   <>
                     <MaterialGroup
-                      category={FenixNTM}
-                      handleClick={handleClick}
-                      key={Math.random() + 100}
-                    />
-                    <MaterialGroup
                       category={Oak_tinting}
                       handleClick={handleClick}
-                      key={Math.random() + 200}
+                      key={Math.random() + 500}
+                    />
+                    <MaterialGroup
+                      category={EnamelWithOakTexture}
+                      handleClick={handleClick}
+                      key={Math.random() + 550}
+                    />
+                  </>
+                );
+              } else if (mat.includes("эмаль")) {
+                return (
+                  <>
+                    <MaterialGroup
+                      category={Enamel}
+                      handleClick={handleClick}
+                      key={Math.random() + 600}
                     />
                   </>
                 );
               } else {
                 return (
-                  <>
-                    <MaterialGroup
-                      category={FenixNTM}
-                      handleClick={handleClick}
-                      key={Math.random() + 300}
-                    />
-                    <MaterialGroup
-                      category={HPL}
-                      handleClick={handleClick}
-                      key={Math.random() + 400}
-                    />
-                  </>
+                  <MaterialGroup
+                    category={allMaterials.find((m) => m.title === mat)}
+                    handleClick={handleClick}
+                    key={Math.random() + 700}
+                  />
                 );
               }
-            } else if (mat.includes("дуба")) {
-              return (
-                <>
-                  <MaterialGroup
-                    category={Oak_tinting}
-                    handleClick={handleClick}
-                    key={Math.random() + 500}
-                  />
-                  <MaterialGroup
-                    category={EnamelWithOakTexture}
-                    handleClick={handleClick}
-                    key={Math.random() + 550}
-                  />
-                </>
-              );
-            } else if (mat.includes("эмаль")) {
-              return (
-                <>
-                  <MaterialGroup
-                    category={Enamel}
-                    handleClick={handleClick}
-                    key={Math.random() + 600}
-                  />
-                </>
-              );
-            } else {
-              return (
-                <MaterialGroup
-                  category={allMaterials.find((m) => m.title === mat)}
-                  handleClick={handleClick}
-                  key={Math.random() + 700}
-                />
-              );
-            }
-          })}
+            })}
           {item.category === "BED" && (
             <Link href={"/materials#fabrics"} scroll={false}>
               <Button
@@ -288,7 +289,8 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
                 );
               }
             })}
-          </div>)}
+          </div>
+        )}
       </div>
       <div className={styles.materialsContainer}>
         {item.category.includes("TABLE") && (
@@ -296,16 +298,17 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
             <h4 className={styles.heading}>отделка кромки</h4>
             {item.category.includes("OAK") ? (
               <>
-              <MaterialGroup
-                category={Oak_tinting}
-                handleClick={handleClick}
-                key={Math.random() + 120000}
-              />
-              <MaterialGroup
-                category={EnamelWithOakTexture}
-                handleClick={handleClick}
-                key={Math.random() + 20000}
-              /></>
+                <MaterialGroup
+                  category={Oak_tinting}
+                  handleClick={handleClick}
+                  key={Math.random() + 120000}
+                />
+                <MaterialGroup
+                  category={EnamelWithOakTexture}
+                  handleClick={handleClick}
+                  key={Math.random() + 20000}
+                />
+              </>
             ) : (
               <MaterialGroup
                 category={Enamel}
@@ -332,9 +335,23 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
             />
           </div>
         ) : null}
-        {item.category.includes('STEEL') ? (
+        {item.title === "klin" || item.title === "klin-2" ? (
+          <div className={styles.base}>
+            <h4 className={styles.heading}>отделка дубовой рамы</h4>
+            <MaterialGroup
+              category={Oak_tinting}
+              handleClick={handleClick}
+              key={Math.random() + 21100}
+            />
+          </div>
+        ) : null}
+        {item.category.includes("STEEL") ? (
           <div className={styles.flange}>
-            <h4 className={styles.heading}>{item.title === 'baikal-mt-b' ? 'отделка декоративной накладки' : 'отделка фланца'}</h4>
+            <h4 className={styles.heading}>
+              {item.title === "baikal-mt-b"
+                ? "отделка декоративной накладки"
+                : "отделка фланца"}
+            </h4>
             <MaterialGroup
               category={Steal}
               handleClick={handleClick}
@@ -349,6 +366,18 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
               category={Metallic}
               handleClick={handleClick}
               key={Math.random() + 22100}
+            />
+          </div>
+        ) : null}
+      </div>
+      <div className={styles.materialsContainer}>
+        {item.title === "klin" || item.title === "klin-2" ? (
+          <div className={styles.flange}>
+            <h4 className={styles.heading}>отделка декоративной накладки</h4>
+            <MaterialGroup
+              category={Steal}
+              handleClick={handleClick}
+              key={Math.random() + 2222200}
             />
           </div>
         ) : null}

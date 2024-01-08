@@ -45,6 +45,8 @@ import { baikal_mt_b } from "./products/baikal_mt_b";
 import { baikal_mt_pb } from "./products/baikal_mt_pb";
 import { tviks } from "./products/tviks";
 import { tviks_2 } from "./products/tviks-2";
+import { klin } from "./products/klin";
+import { klin_2 } from "./products/klin-2";
 
 export type TProject = {
   img: string;
@@ -119,7 +121,9 @@ export const products = [
   velvet_sl_2,
   velvet_sl_fl,
   tviks,
-  tviks_2
+  tviks_2,
+  klin,
+  klin_2
 ];
 
 export const allProducts = [

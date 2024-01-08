@@ -44,7 +44,7 @@ const ChairsPage = ({ products }: any) => {
 export async function getStaticProps() {
   const data = await [...products];
   const chairs = data.filter(
-    (product: { category: string }) => product.category === "CHAIR"
+    (product: { category: string }) => product.category.includes("CHAIR")
   );
   return {
     props: {

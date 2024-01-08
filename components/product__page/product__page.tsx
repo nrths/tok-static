@@ -38,6 +38,8 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
             product.title === "baul" ||
             product.title === "gliba" ||
             product.title === "maki" ||
+            product.title === "klin" ||
+            product.title === "klin-2" ||
             product.title.startsWith("klinker") ? (
               <DetailsWithUnderframe
                 product={product}
@@ -61,6 +63,8 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
             product.title === "baul" ||
             product.title === "gliba" ||
             product.title === "maki" ||
+            product.title === "klin" ||
+            product.title === "klin-2" ||
             product.title.startsWith("klinker") ? (
               <DetailsWithUnderframe
                 product={product}
@@ -158,6 +162,8 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
           product.title === "baul" ||
           product.title === "gliba" ||
           product.title === "maki" ||
+          product.title === "klin" ||
+            product.title === "klin-2" ||
           product.title.startsWith("klinker") ? (
             <DetailsWithUnderframe
               product={product}

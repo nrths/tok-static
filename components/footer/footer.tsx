@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
         <div className={styles.underline__wrapper}>
           <span className={styles.underline}>
-            &copy; Все права защищены 2018-2023
+            &copy; Все права защищены 2018-2024
           </span>
           <span className={styles.underline}>Мебельная фабрика ТОК</span>
         </div>

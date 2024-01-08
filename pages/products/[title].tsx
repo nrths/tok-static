@@ -9,7 +9,7 @@ const ProductPage: NextPage = ({ item }: any) => {
 
   const switchSeoTitle = (category: string) => {
     let seoTitle;
-    if (category === "CHAIR") {
+    if (category.includes("CHAIR")) {
       seoTitle = `Стул ${item.name.toUpperCase()} | TOK`;
     } else if (category === "BED") {
       seoTitle = `Кровать ${item.name.toUpperCase()} | TOK`;
