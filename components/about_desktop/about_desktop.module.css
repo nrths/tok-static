@@ -3,9 +3,9 @@
     flex-direction: column;
     /* align-items: center; */
     width: 100%;
-    max-width: 1600px;
+    /* max-width: 1600px; */
     margin: 0 auto;
-    gap: 50px;
+    /* gap: 50px; */
 }
 
 .item {
@@ -13,16 +13,22 @@
     display: flex;
     flex-direction: row;
     gap: 45px;
+    /* max-width: 1600px; */
 }
 
-.item:nth-child(2) {
+/* .item:nth-child(2) {
     max-width: 60%;
-}
+} */
 
-.mainImage {
+/* .mainImage {
     max-width: 60%;
     object-fit: cover;
     max-height: 30%;
+} */
+
+.textWrapper {
+    max-width: 741px;
+    padding-left: 110px;
 }
 
 .text {
@@ -30,4 +36,10 @@
     font-size: 14px;
     font-weight: 200;
     padding-bottom: 20px;
+}
+
+@media (min-width: 1921px) {
+    .textWrapper {
+        max-width: 50%;
+    }
 }

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./manufacture.module.css";
 import YouTubePlayer from "../youtube__player/youtubePlayer";
 
@@ -20,7 +19,6 @@ const Manufacture = () => {
         и&nbsp;специалистов бренда ТОК и&nbsp;сделана с&nbsp;любовью.
       </p>
       <YouTubePlayer id="b29UcPVX1ss" />
-      {/* <Image src={"/images/other/manufacture.jpg"} alt={""} priority fill unoptimized className={styles.img}/> */}
     </div>
   );
 };

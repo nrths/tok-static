@@ -94,9 +94,9 @@ const Home: FC<THome> = () => {
           <Place title={"artplay"} city={"Москва"} mobile={mobile}/>
           <Place title={"design district"} city={"Санкт-Петербург"}  mobile={mobile}/>
         </section>
-        {mobile ? null : <section className={`${styles.section} ${styles.manufacture}`}>
+        <section className={`${styles.section} ${styles.manufacture}`}>
           <Manufacture />
-        </section>}
+        </section>
         <section className={`${styles.section} ${styles.news}`}>
          {mobile ? null :  <h2 className={styles.heading2}>новости</h2>}
           <div className={styles.newsContainer}>

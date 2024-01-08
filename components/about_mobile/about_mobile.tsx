@@ -1,10 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import { FC } from "react";
-import styles from './about_mobile.module.css'
+import styles from "./about_mobile.module.css";
+import YouTubePlayer from "../youtube__player/youtubePlayer";
 
 const AboutMobile: FC = () => {
   return (
     <>
+      <YouTubePlayer id='b29UcPVX1ss' />
       <div className={styles.wrapper}>
         <div className={styles.container__text}>
           <p className={styles.text}>
