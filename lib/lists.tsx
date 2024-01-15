@@ -67,7 +67,7 @@ const footerInfoList: TListItem[] = [
     link: "/materials", 
   },
   {
-    name: "договор оферты",
+    name: "оферта",
     link: "/delivery",
   },
   {
