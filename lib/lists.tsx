@@ -203,6 +203,21 @@ export const dignitysList = [
 
 const newModelsList: TNewModel[] = [
   {
+    name: "клин 2",
+    description: "новая серия столов",
+    img: "/images/products/models__new/klin2.jpg",
+  },
+  {
+    name: "байкал мт барный",
+    description: "новая серия стульев",
+    img: "/images/products/models__new/barbaikal.jpg",
+  },
+  {
+    name: "твикс",
+    description: "новая серия столов",
+    img: "/images/products/models__new/tviks.jpg",
+  },
+  {
     name: "клинкер овал",
     description: "новая серия столов",
     img: "/images/products/models__new/klinker-oval.jpg",
@@ -221,25 +236,25 @@ const newModelsList: TNewModel[] = [
     name: "слайдер",
     description: "новая серия столов",
     img: "/images/products/models__new/slaider.jpg",
-  },
-  {
-    name: "клинкер слс-2",
-    description: "новая серия столов",
-    img: "/images/products/models__new/klinker-sls-2.jpg",
-  },
-  {
-    name: "клинкер-ф раздвижной",
-    description: "новая серия столов",
-    img: "/images/products/models__new/klinker-f-razdv.jpg",
-  },
-  {
-    name: "флакон 2",
-    description: "новая серия столов",
-    img: "/images/products/models__new/flakon-2.jpg",
-  },
+  },  
 ];
 
 const newModelsListMobile: TNewModel[] = [
+  {
+    name: "клин 2",
+    description: "новая серия столов",
+    img: "/images/products/models__new/mobile/klin2.jpg",
+  },
+  {
+    name: "байкал мт барный",
+    description: "новая серия стульев",
+    img: "/images/products/models__new/mobile/barbaikal.jpg",
+  },
+  {
+    name: "твикс",
+    description: "новая серия столов",
+    img: "/images/products/models__new/mobile/tviks.jpg",
+  },
   {
     name: "клинкер овал",
     description: "новая серия столов",
@@ -259,21 +274,6 @@ const newModelsListMobile: TNewModel[] = [
     name: "слайдер",
     description: "новая серия столов",
     img: "/images/products/models__new/mobile/slaider.jpg",
-  },
-  {
-    name: "клинкер слс 2",
-    description: "новая серия столов",
-    img: "/images/products/models__new/mobile/klinker-sls-2.jpg",
-  },
-  {
-    name: "клинкер-ф раздвижной",
-    description: "новая серия столов",
-    img: "/images/products/models__new/mobile/klinker-f-razdv.jpg",
-  },
-  {
-    name: "флакон 2",
-    description: "новая серия столов",
-    img: "/images/products/models__new/mobile/flakon-2.jpg",
   },
 ];
 

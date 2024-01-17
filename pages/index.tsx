@@ -37,10 +37,13 @@ const Home: FC<THome> = () => {
     const newestSeries = series.filter(
       (s) => s.products[0].dateOfCreation === 2023 || s.products[0].dateOfCreation === 2024
     );
-    const newestProducts = products.filter(
-      (product) => product.dateOfCreation === 2023 || product.dateOfCreation === 2024
+    const newProducts = products.filter(
+      (product) => product.dateOfCreation === 2023
     );
-    const result = [...newestProducts, ...newestSeries];
+    const newestProducts = products.filter(
+      (product) => product.dateOfCreation === 2024
+    );
+    const result = [...newestProducts, ...newProducts, ...newestSeries];
     setVisuals(result);
   }, []);
   return (
