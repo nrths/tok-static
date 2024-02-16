@@ -251,6 +251,11 @@ const newModelsList: TNewModel[] = [
 
 const newModelsListMobile: TNewModel[] = [
   {
+    name: "такт с1",
+    description: "новая серия диванов",
+    img: "/images/products/models__new/mobile/takt-c1.jpg",
+  },
+  {
     name: "клин 2",
     description: "новая серия столов",
     img: "/images/products/models__new/mobile/klin2.jpg",
