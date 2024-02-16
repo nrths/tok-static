@@ -6,7 +6,8 @@
     align-items: center;
 }
 
-.card.bed {
+.card.sofa {
+    min-width: 100%;
     max-width: 100%;
 }
 
@@ -80,7 +81,7 @@
         max-width: 50%;
     }
 
-    .card.bed {
+    .card.sofa {
         max-width: 100%;
     }
 

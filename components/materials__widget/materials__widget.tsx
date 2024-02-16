@@ -180,9 +180,8 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
         {item.category !== "BED" && (
           <div className={styles.underframe}>
             <h4 className={styles.heading}>
-              {item.category.includes("CHAIR")
-                ? "отделка основания"
-                : "отделка подстолья"}
+              {item.category.includes("CHAIR") && "отделка основания"}
+              {item.category.includes("TABLE") && "отделка подстолья"}
             </h4>
             {item.underframe?.map((mat, i) => {
               if (mat.includes("металл")) {

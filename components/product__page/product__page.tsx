@@ -14,13 +14,34 @@ import DownloadWidget from "../download__widget/download__widget";
 import dynamic from "next/dynamic";
 import DetailsWithUnderframe from "../product__info/details/details__underframe";
 import ModelsSlider from "../sliders/models/slider__models";
+import SofaDetails from "../product__info/details/details__sofa";
+import SofaMaterialsWidget from "../materials__widget/materials__widget_sofa";
 
 export type TProductPageProps = {
   product: TProduct;
 };
 const ProductDetails: FC<TProductPageProps> = ({ product }) => {
   const router = useRouter();
-  // console.log(product);
+
+  const switchDetailsComponent = (product: TProduct, className: string) => {
+    if (
+      product.title === "altay" ||
+      product.title === "altay-razdvij" ||
+      product.title === "konus" ||
+      product.title === "homie" ||
+      product.title === "baul" ||
+      product.title === "gliba" ||
+      product.title === "maki" ||
+      product.title === "klin" ||
+      product.title === "klin-2" ||
+      product.title.startsWith("klinker")
+    ) {
+      return <DetailsWithUnderframe product={product} className={className} />;
+    } else if (product.category.includes("SOFA")) {
+      return <SofaDetails product={product} className={className} />;
+    } else return <Details product={product} className={className} />;
+  };
+
   return (
     <>
       <Header />
@@ -31,55 +52,21 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
             <div className={styles.slider}>
               <ModelsSlider product={product} />
             </div>
-            {product.title === "altay" ||
-            product.title === "altay-razdvij" ||
-            product.title === "konus" ||
-            product.title === "homie" ||
-            product.title === "baul" ||
-            product.title === "gliba" ||
-            product.title === "maki" ||
-            product.title === "klin" ||
-            product.title === "klin-2" ||
-            product.title.startsWith("klinker") ? (
-              <DetailsWithUnderframe
-                product={product}
-                className={`displayMobileFlex  displayNone`}
-              />
-            ) : (
-              <Details
-                product={product}
-                className={`displayMobileFlex displayNone`}
-              />
-            )}
+            {switchDetailsComponent(product, "displayMobileFlex  displayNone")}
           </section>
         )}
 
         <section className={styles.dropdowns}>
           <div className={styles.descriptionWrapper}>
             <Description product={product} />
-            {product.title.startsWith("altay") ||
-            product.title === "konus" ||
-            product.title === "homie" ||
-            product.title === "baul" ||
-            product.title === "gliba" ||
-            product.title === "maki" ||
-            product.title === "klin" ||
-            product.title === "klin-2" ||
-            product.title.startsWith("klinker") ? (
-              <DetailsWithUnderframe
-                product={product}
-                className={`displayFlex`}
-              />
-            ) : (
-              <Details product={product} className={`displayFlex`} />
-            )}
+            {switchDetailsComponent(product, "displayFlex")}
           </div>
 
           <DropdownBlock loading={true} title={"размеры"}>
             <SizesSlider product={product} />
           </DropdownBlock>
           <DropdownBlock loading={false} title={"материалы отделки"}>
-            <MaterialsWidget item={product} />
+            {product.category.includes('SOFA') ? <SofaMaterialsWidget item={product} /> : <MaterialsWidget item={product} />}
           </DropdownBlock>
           {product.model && (
             <DropdownBlock loading={false} title={"скачать"}>
@@ -155,23 +142,7 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
           </DropdownBlock>
         </section>
         <section className={styles.detailsMobile}>
-          {product.title === "altay" ||
-          product.title === "altay-razdvij" ||
-          product.title === "konus" ||
-          product.title === "homie" ||
-          product.title === "baul" ||
-          product.title === "gliba" ||
-          product.title === "maki" ||
-          product.title === "klin" ||
-            product.title === "klin-2" ||
-          product.title.startsWith("klinker") ? (
-            <DetailsWithUnderframe
-              product={product}
-              className={`displayDesktopFlex`}
-            />
-          ) : (
-            <Details product={product} className={`displayDesktopFlex`} />
-          )}
+          {switchDetailsComponent(product, "displayDesktopFlex")}
         </section>
         {product.visualisations.length > 0 && (
           <section className={styles.visuals}>

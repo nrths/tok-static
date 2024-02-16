@@ -8,7 +8,7 @@ import NewVisualsSlider from "@/components/sliders/visuals__new/slider__visuals_
 import Dignity from "@/components/dignity/dignity";
 import { FC, useEffect, useState } from "react";
 import { TProductSeries, series } from "@/assets/series";
-import { TProduct, products } from "@/assets/products";
+import { TProduct, products, sofas } from "@/assets/products";
 import NewModelsSliderMobile from "@/components/sliders/new_mobile/slider__new_mobile";
 import Place from "@/components/place/place";
 import Manufacture from "@/components/manufacture/manufacture";
@@ -43,6 +43,7 @@ const Home: FC<THome> = () => {
     const newestProducts = products.filter(
       (product) => product.dateOfCreation === 2024
     );
+    // const newestSofas = sofas.filter(p => p.dateOfCreation === 2024)
     const result = [...newestProducts, ...newProducts, ...newestSeries];
     setVisuals(result);
   }, []);

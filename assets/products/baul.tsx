@@ -4,7 +4,7 @@ export const baul = {
   modelsSlider: [
     "/images/products/baul/models/1.jpg",
     "/images/products/baul/models/2.jpg",
-    "/images/products/baul/models/3.jpg",
+    // "/images/products/baul/models/3.jpg",
     "/images/products/baul/models/4.jpg",
     "/images/products/baul/models/5.jpg",
     "/images/products/baul/models/6.jpg",

@@ -2,12 +2,13 @@ import Header from "@/components/header/header";
 import styles from "../../styles/products.module.css";
 import Card from "@/components/card/card";
 import SeriesCard from "@/components/card/card__series";
-import { products } from "@/assets/products";
+import { products, sofas } from "@/assets/products";
 import { series } from "@/assets/series";
 import { useEffect, useState } from "react";
 import { Router, useRouter } from "next/router";
 import FilterMenu from "@/components/filter__menu/filter__menu";
 import Head from "next/head";
+import SofaCard from "@/components/card/card__sofa";
 
 const ProductsPage = ({ products }: any) => {
   
@@ -44,6 +45,8 @@ const ProductsPage = ({ products }: any) => {
           {productsList.map((item: any) => {
             if (item.title.startsWith("ser")) {
               return <SeriesCard series={item} key={item.id} />;
+            } else if (item.category.includes("SOFA")) {
+              return <SofaCard product={item} key={item.id} />;
             } else {
               return <Card product={item} key={item.id + 100} />;
             }
@@ -54,7 +57,7 @@ const ProductsPage = ({ products }: any) => {
 };
 
 export async function getStaticProps() {
-  const data = await [...products, ...series];
+  const data = await [...products, ...series, ...sofas];
   return {
     props: {
       products: data,

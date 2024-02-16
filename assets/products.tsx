@@ -47,6 +47,8 @@ import { tviks } from "./products/tviks";
 import { tviks_2 } from "./products/tviks-2";
 import { klin } from "./products/klin";
 import { klin_2 } from "./products/klin-2";
+import { takt_c1 } from "./products/takt/c1";
+import { takt_c2 } from "./products/takt/c2";
 
 export type TProject = {
   img: string;
@@ -126,6 +128,11 @@ export const products = [
   klin_2
 ];
 
+export const sofas = [
+  takt_c2,
+  takt_c1,
+]
+
 export const allProducts = [
   ...products,
   ...klinker.products,
@@ -134,5 +141,6 @@ export const allProducts = [
   ...klinker_oval.products,
   ...klinker_sls.products,
   ...klinker_f.products,
-  ...klinker_f_r.products
+  ...klinker_f_r.products,
+  ...sofas
 ];

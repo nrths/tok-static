@@ -26,7 +26,7 @@ const Details: FC<TDetailsProps> = ({ product, className }) => {
     [product.params]
   );
 
-  const countertopOptions = Object.keys(product.params).map((item: string) => {
+   const countertopOptions = Object.keys(product.params).map((item: string) => {
     const option = {
       value: item,
       label: item,
@@ -76,7 +76,8 @@ const Details: FC<TDetailsProps> = ({ product, className }) => {
     underframeOptions !== undefined
       ? underframeOptions.find((item) => item.label === underframeOption)
       : "";
-
+  
+  
   return (
     <>
       <div className={`${styles.baseInfo} ${className}`}>

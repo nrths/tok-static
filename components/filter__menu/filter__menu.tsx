@@ -36,6 +36,7 @@ const FilterMenu = () => {
   const hrefCoffeeTables = "/products/coffee-tables";
   const hrefBeds = "/products/beds";
   const hrefChairs = "/products/chairs";
+  const hrefSofas = "/products/sofas";
 
   return (
     <div className={styles.container}>
@@ -80,6 +81,13 @@ const FilterMenu = () => {
             disable={pathname === hrefChairs}
             href={hrefChairs}
             title={"стулья"}
+          />
+        </Link>
+        <Link href={hrefSofas}>
+          <MenuItem
+            disable={pathname === hrefSofas}
+            href={hrefSofas}
+            title={"диваны"}
           />
         </Link>
       </div>

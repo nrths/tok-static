@@ -44,9 +44,9 @@ const footerProductsList: TListItem[] = [
     link: "/products/beds",
   },
   {
-    name: "в наличии",
-    link: "/in-stock",
-  },
+    name: "диваны",
+    link: "/products/sofas",
+  }
 ];
 
 const footerInfoList: TListItem[] = [
@@ -133,6 +133,11 @@ const menuProductsList: TListItem[] = [
     img: "/images/menu_icons/beds.svg",
   },
   {
+    name: "диваны",
+    link: "/products/sofas",
+    img: "/images/menu_icons/sofas.svg",
+  },
+  {
     name: "все",
     link: "/products",
     img: "/images/menu_icons/all.svg",
@@ -141,11 +146,6 @@ const menuProductsList: TListItem[] = [
     name: "новинки",
     link: "/new-items",
     img: "/images/menu_icons/new.svg",
-  },
-  {
-    name: "в наличии",
-    link: "/in-stock",
-    img: "/images/menu_icons/in-stock.svg",
   },
   {
     name: "дисконт",
@@ -162,7 +162,7 @@ export const dignitysList = [
     },
     {
       icon: "/images/menu_icons/time.svg",
-      title: "срок изготовления\nдо 30 рабочих дней",
+      title: "срок изготовления\nдо 50 рабочих дней",
     },
     {
       icon: "/images/menu_icons/list.svg",
@@ -202,6 +202,16 @@ export const dignitysList = [
 ];
 
 const newModelsList: TNewModel[] = [
+  {
+    name: "такт с2",
+    description: "новая серия диванов",
+    img: "/images/products/models__new/takt-c2.jpg",
+  },
+  {
+    name: "такт с1",
+    description: "новая серия диванов",
+    img: "/images/products/models__new/takt-c1.jpg",
+  },
   {
     name: "клин 2",
     description: "новая серия столов",
