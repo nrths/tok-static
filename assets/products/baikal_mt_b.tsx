@@ -34,22 +34,22 @@ export const baikal_mt_b = {
     sizesSlider: ["/images/products/baikal-mt-b/sizes/1.jpg"],
     visualisations: ["/images/products/baikal-mt-b/interior/1.jpg", "/images/products/baikal-mt-b/interior/2.jpg", "/images/products/baikal-mt-b/interior/3.jpg"],
     designersProjects: [],
-    price: [34900],
+    price: [38400],
     params: {
       "ткань категория 1": {
-        "600 Х 550 Х 1050": 34900,
+        "600 Х 550 Х 1050": 38400,
       },
       "ткань категория 2": {
-        "600 Х 550 Х 1050": 37400,
+        "600 Х 550 Х 1050": 41100,
       },
       "ткань категория 3": {
-        "600 Х 550 Х 1050": 47200,
+        "600 Х 550 Х 1050": 51900,
       },
       "кожа категория 1": {
-        "600 Х 550 Х 1050": 47200,
+        "600 Х 550 Х 1050": 51900,
       },
       "кожа категория 2": {
-        "600 Х 550 Х 1050": 55500,
+        "600 Х 550 Х 1050": 61100,
       },
     },
     category: "CHAIR STEEL",

@@ -36,22 +36,22 @@ export const baikal_mt_pb = {
     sizesSlider: ["/images/products/baikal-mt-pb/sizes/1.jpg"],
     visualisations: ["/images/products/baikal-mt-pb/interior/1.jpg", "/images/products/baikal-mt-pb/interior/2.jpg", "/images/products/baikal-mt-pb/interior/3.jpg"],
     designersProjects: [],
-    price: [34900],
+    price: [38400],
     params: {
       "ткань категория 1": {
-        "600 Х 550 Х 950": 34900,
+        "600 Х 550 Х 950": 38400,
       },
       "ткань категория 2": {
-        "600 Х 550 Х 950": 37400,
+        "600 Х 550 Х 950": 41100,
       },
       "ткань категория 3": {
-        "600 Х 550 Х 950": 47200,
+        "600 Х 550 Х 950": 51900,
       },
       "кожа категория 1": {
-        "600 Х 550 Х 950": 47200,
+        "600 Х 550 Х 950": 51900,
       },
       "кожа категория 2": {
-        "600 Х 550 Х 950": 55500,
+        "600 Х 550 Х 950": 61100,
       },
     },
     category: "CHAIR",

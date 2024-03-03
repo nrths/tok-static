@@ -76,13 +76,13 @@ export const ris = {
       author: "Александр Савинов",
     },
   ],
-  price: [21800],
+  price: [24000],
   params: {
-    "hpl /fenix ntm": {
-      "550 X 350 X 600": 21800,
+    "hpl / fenix ntm": {
+      "550 X 350 X 600": 24000,
     },
     "шпон дуба": {
-      "550 X 350 X 600": 21800,
+      "550 X 350 X 600": 24000,
     }
   },
   category: "COFFEE_TABLE STEAL",
