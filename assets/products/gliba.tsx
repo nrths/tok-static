@@ -52,5 +52,6 @@ export const gliba = {
   sortedPosition: 33,
   mobilePosition: 26,
   model: "https://disk.yandex.ru/d/Ws42_OO9ThD9Rg",
+  collage: "https://disk.yandex.ru/d/plw-MYqnGxS8Lg",
   tags: ["стол", "журнальный"],
 };

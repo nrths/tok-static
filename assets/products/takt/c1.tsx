@@ -33,6 +33,7 @@ export const takt_c1 = {
     "/images/products/takt/c1/sizes/8.jpg",
     "/images/products/takt/c1/sizes/9.jpg",
     "/images/products/takt/c1/sizes/10.jpg",
+    "/images/products/takt/c1/sizes/11.jpg",
   ],
   visualisations: [
     "/images/products/takt/c1/interior/1.jpg",

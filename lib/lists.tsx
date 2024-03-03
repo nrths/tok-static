@@ -12,7 +12,7 @@ export type TDignity = {
 };
 
 export type TNewModel = {
-  link?: string;
+  link: string;
   name: string;
   description: string;
   img: string;
@@ -203,92 +203,109 @@ export const dignitysList = [
 
 const newModelsList: TNewModel[] = [
   {
-    name: "такт с2",
+    name: "такт",
     description: "новая серия диванов",
     img: "/images/products/models__new/takt-c2.jpg",
+    link: "/products/sofas",
   },
   {
-    name: "такт с1",
+    name: "такт",
     description: "новая серия диванов",
     img: "/images/products/models__new/takt-c1.jpg",
+    link: "/products/sofas",
   },
   {
     name: "клин 2",
     description: "новая серия столов",
     img: "/images/products/models__new/klin2.jpg",
+    link: "/products/klin-2",
   },
   {
     name: "байкал мт барный",
     description: "новая серия стульев",
     img: "/images/products/models__new/barbaikal.jpg",
+    link: "/products/baikal-mt-b",
   },
   {
     name: "твикс",
     description: "новая серия столов",
     img: "/images/products/models__new/tviks.jpg",
+    link: "/products/tviks",
   },
   {
     name: "клинкер овал",
     description: "новая серия столов",
     img: "/images/products/models__new/klinker-oval.jpg",
+    link: "/products/series/ser-klinker-ov",
   },
   {
     name: "клинкер-б",
     description: "новая серия столов",
     img: "/images/products/models__new/klinker-b.jpg",
+    link: "/products/series/ser-klinker-b",
   },
   {
     name: "флакон",
     description: "новая серия столов",
     img: "/images/products/models__new/flakon.jpg",
+    link: "/products/flakon",
   },
   {
     name: "слайдер",
     description: "новая серия столов",
     img: "/images/products/models__new/slaider.jpg",
+    link: "/products/slaider",
   },  
 ];
 
 const newModelsListMobile: TNewModel[] = [
   {
-    name: "такт с1",
+    name: "такт",
     description: "новая серия диванов",
     img: "/images/products/models__new/mobile/takt-c1.jpg",
+    link: "/products/sofas",
   },
   {
     name: "клин 2",
     description: "новая серия столов",
     img: "/images/products/models__new/mobile/klin2.jpg",
+    link: "/products/klin-2",
   },
   {
     name: "байкал мт барный",
     description: "новая серия стульев",
     img: "/images/products/models__new/mobile/barbaikal.jpg",
+    link: "/products/baikal-mt-b",
   },
   {
     name: "твикс",
     description: "новая серия столов",
     img: "/images/products/models__new/mobile/tviks.jpg",
+    link: "/products/tviks",
   },
   {
     name: "клинкер овал",
     description: "новая серия столов",
     img: "/images/products/models__new/mobile/klinker-oval.jpg",
+    link: "/products/series/ser-klinker-ov",
   },
   {
     name: "клинкер-б",
     description: "новая серия столов",
     img: "/images/products/models__new/mobile/klinker-b.jpg",
+    link: "/products/series/ser-klinker-b",
   },
   {
     name: "флакон",
     description: "новая серия столов",
     img: "/images/products/models__new/mobile/flakon.jpg",
+    link: "/products/flakon",
   },
   {
     name: "слайдер",
     description: "новая серия столов",
     img: "/images/products/models__new/mobile/slaider.jpg",
+    link: "/products/slaider",
   },
 ];
 

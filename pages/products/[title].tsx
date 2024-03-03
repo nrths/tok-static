@@ -15,6 +15,8 @@ const ProductPage: NextPage = ({ item }: any) => {
       seoTitle = `Кровать ${item.name.toUpperCase()} | TOK`;
     } else if (category === "SOFA") {
       seoTitle = `Диван ${item.name.toUpperCase()} | TOK`;
+    } else if (category.includes("TABLE_DINNER CIRCLE SQUARE")) {
+      seoTitle = `Обеденный стол ${item.name.toUpperCase()} | TOK`;
     } else if (category.includes("CIRCLE")) {
       seoTitle = `Круглый стол ${item.name.toUpperCase()} | TOK`;
     } else if (category.includes("TABLE_DINNER LONG")) {

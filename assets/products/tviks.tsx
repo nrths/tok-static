@@ -51,7 +51,7 @@ export const tviks = {
       "900 X 900 X 750": 102400,
     },
   },
-  category: "TABLE_DINNER CIRCLE OAK STEEL",
+  category: "TABLE_DINNER CIRCLE SQUARE OAK STEEL",
   name: "твикс",
   previewImg: "/images/products/tviks/preview.jpg",
   position: 22,

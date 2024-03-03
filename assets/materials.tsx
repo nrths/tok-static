@@ -531,12 +531,12 @@ export const Ceramics: TMaterialGroup = {
       type: "белый",
       img: "/images/materials/ceramics/w-solo.jpg",
     },
-    // {
-    //   id: 8,
-    //   name: "cgst",
-    //   type: "калакатта",
-    //   img: "/images/materials/ceramics/cgst.jpg",
-    // },
+    {
+      id: 8,
+      name: "solo",
+      type: "черный",
+      img: "/images/materials/ceramics/b-solo.jpg",
+    },
     {
       id: 9,
       name: "millennium black",

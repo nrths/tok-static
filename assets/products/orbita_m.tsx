@@ -73,5 +73,6 @@ export const orbita_m = {
   sortedPosition: 15,
   mobilePosition: 32,
   model: "https://disk.yandex.ru/d/GKkBshdfs-1A_Q",
+  collage: "https://disk.yandex.ru/d/yvm1oSWOGttqXQ",
   tags: ["стол", "журнальный"],
 };
