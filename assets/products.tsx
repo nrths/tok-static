@@ -49,6 +49,14 @@ import { klin } from "./products/klin";
 import { klin_2 } from "./products/klin-2";
 import { takt_c1 } from "./products/takt/c1";
 import { takt_c2 } from "./products/takt/c2";
+import { takt_c3 } from "./products/takt/c3";
+import { takt_c4 } from "./products/takt/c4";
+import { takt_c5 } from "./products/takt/c5";
+import { takt_c6 } from "./products/takt/c6";
+import { takt_c7 } from "./products/takt/c7";
+import { takt_c8 } from "./products/takt/c8";
+import { takt_c9 } from "./products/takt/c9";
+import { takt_md } from "./products/takt/md";
 
 export type TProject = {
   img: string;
@@ -133,6 +141,19 @@ export const sofas = [
   takt_c1,
 ]
 
+export const allSetsTakt = [
+  takt_c1,
+  takt_c2,
+  takt_c3,
+  takt_c4,
+  takt_c5,
+  takt_c6,
+  takt_c7,
+  takt_c8,
+  takt_c9,
+  takt_md
+]
+
 export const allProducts = [
   ...products,
   ...klinker.products,
@@ -142,5 +163,5 @@ export const allProducts = [
   ...klinker_sls.products,
   ...klinker_f.products,
   ...klinker_f_r.products,
-  ...sofas
+  ...allSetsTakt
 ];

@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { products, sofas } from "@/assets/products";
+import { allSetsTakt, products, sofas } from "@/assets/products";
 import ProductDetails from "@/components/product__page/product__page";
 import Head from "next/head";
 import { Metadata, NextPage } from "next";
@@ -47,7 +47,7 @@ const ProductPage: NextPage = ({ item }: any) => {
 };
 
 export async function getStaticPaths() {
-  const data = [...products, ...sofas];
+  const data = [...products, ...allSetsTakt];
   const paths = data.map((item) => {
     return {
       params: { title: `${item.title}` },
@@ -62,7 +62,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context: any) {
   const { params } = context;
-  const data = await [...products, ...sofas].find((item) => item.title === params.title);
+  const data = await [...products, ...allSetsTakt].find((item) => item.title === params.title);
   return {
     props: {
       item: data,
