@@ -22,6 +22,8 @@ export const baul_razdvij = {
     sizesSlider: [
       "/images/products/baul-razdvij/sizes/1.jpg",
       "/images/products/baul-razdvij/sizes/2.jpg",
+      "/images/products/baul-razdvij/sizes/3.jpg",
+      "/images/products/baul-razdvij/sizes/4.jpg",
     ],
     visualisations: [
       "/images/products/baul-razdvij/interior/1.jpg",
@@ -62,7 +64,8 @@ export const baul_razdvij = {
     position: 10,
     sortedPosition: 9,
     mobilePosition: 13,
-    model: "https://disk.yandex.ru/d/WmjArXXMCzjJ2g",
+    model: "https://disk.yandex.ru/d/hGNyGSNsB2d5Cg",
+    collage: "https://disk.yandex.ru/d/aq8oS8SVKf2g5A",
     tags: ["стол", "раздвижной"],
   };
   
