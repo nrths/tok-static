@@ -57,6 +57,7 @@ import { takt_c7 } from "./products/takt/c7";
 import { takt_c8 } from "./products/takt/c8";
 import { takt_c9 } from "./products/takt/c9";
 import { takt_md } from "./products/takt/md";
+import { baul_razdvij } from "./products/baul-razdvij";
 
 export type TProject = {
   img: string;
@@ -133,7 +134,8 @@ export const products = [
   tviks,
   tviks_2,
   klin,
-  klin_2
+  klin_2,
+  baul_razdvij
 ];
 
 export const sofas = [

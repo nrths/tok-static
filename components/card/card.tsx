@@ -17,6 +17,7 @@ const Card: FC<TCard> = ({ product, id, seriesTitle, homepage }) => {
   if (
     product.title === "homie" ||
     product.title === "baul" ||
+    product.title === "baul-razdvij" ||
     product.title === "flakon-2" ||
     product.title === "slaider" ||
     product.title === "slot" ||

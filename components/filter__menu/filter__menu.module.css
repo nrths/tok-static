@@ -44,5 +44,6 @@
 @media (max-width: 400px) {
     .menuList {
         padding: 20px 5px 0;
+        gap: 20px;
     }
 }

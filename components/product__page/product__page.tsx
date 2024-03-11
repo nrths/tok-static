@@ -30,6 +30,7 @@ const ProductDetails: FC<TProductPageProps> = ({ product }) => {
       product.title === "konus" ||
       product.title === "homie" ||
       product.title === "baul" ||
+      product.title === "baul-razdvij" ||
       product.title === "gliba" ||
       product.title === "maki" ||
       product.title === "klin" ||

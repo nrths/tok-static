@@ -203,6 +203,12 @@ export const dignitysList = [
 
 const newModelsList: TNewModel[] = [
   {
+    name: "баул раздвижной",
+    description: "новая серия столов",
+    img: "/images/products/models__new/baul-r.jpg",
+    link: "/products/baul-razdvij",
+  },
+  {
     name: "такт",
     description: "новая серия диванов",
     img: "/images/products/models__new/takt-c2.jpg",
@@ -245,12 +251,6 @@ const newModelsList: TNewModel[] = [
     link: "/products/series/ser-klinker-b",
   },
   {
-    name: "флакон",
-    description: "новая серия столов",
-    img: "/images/products/models__new/flakon.jpg",
-    link: "/products/flakon",
-  },
-  {
     name: "слайдер",
     description: "новая серия столов",
     img: "/images/products/models__new/slaider.jpg",
@@ -259,6 +259,12 @@ const newModelsList: TNewModel[] = [
 ];
 
 const newModelsListMobile: TNewModel[] = [
+  {
+    name: "баул раздвижной",
+    description: "новая серия столов",
+    img: "/images/products/models__new/mobile/baul-r.jpg",
+    link: "/products/baul-razdvij",
+  },
   {
     name: "такт",
     description: "новая серия диванов",
@@ -294,12 +300,6 @@ const newModelsListMobile: TNewModel[] = [
     description: "новая серия столов",
     img: "/images/products/models__new/mobile/klinker-b.jpg",
     link: "/products/series/ser-klinker-b",
-  },
-  {
-    name: "флакон",
-    description: "новая серия столов",
-    img: "/images/products/models__new/mobile/flakon.jpg",
-    link: "/products/flakon",
   },
   {
     name: "слайдер",

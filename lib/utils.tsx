@@ -56,7 +56,7 @@ export const switchPlaceholderTop = (p: TProduct) => {
     const placeholder = `наличие механизма`;
     return placeholder;
   } else {
-    if (p.title === "baul" || p.title === "gliba" || p.title === "klin" || p.title === "klin-2") {
+    if (p.title === "baul" || p.title === "baul-razdvij" || p.title === "gliba" || p.title === "klin" || p.title === "klin-2") {
       const placeholder = `выберите отделку\nстолешницы`;
       return placeholder;
     } else {
@@ -71,7 +71,7 @@ export const switchPlaceholderMiddle = (p: TProduct) => {
     const placeholder = `выберите отделку`;
     return placeholder;
   } else {
-    if (p.title === "baul" || p.title === "gliba" || p.title === "klin" || p.title === "klin-2") {
+    if (p.title === "baul" || p.title === "baul-razdvij" || p.title === "gliba" || p.title === "klin" || p.title === "klin-2") {
       const placeholder = `выберите отделку\nоснования`;
       return placeholder;
     } else {
@@ -87,7 +87,7 @@ export const switchLabelTop = (p: TProduct) => {
     const label = `подъемный\nмеханизм:`;
     return label;
   } else {
-    if (p.title === "baul" || p.title === "gliba"|| p.title === "klin" || p.title === "klin-2") {
+    if (p.title === "baul" || p.title === "baul-razdvij" || p.title === "gliba"|| p.title === "klin" || p.title === "klin-2") {
       const label = `отделка\nстолешницы:`;
       return label;
     } else {
@@ -102,7 +102,7 @@ export const switchLabelMiddle = (p: TProduct) => {
     const label = `отделка:`;
     return label;
   } else {
-    if (p.title === "baul" || p.title === "gliba" || p.title === "klin" || p.title === "klin-2") {
+    if (p.title === "baul" || p.title === "baul-razdvij" || p.title === "gliba" || p.title === "klin" || p.title === "klin-2") {
       const label = `отделка\nоснования:`;
       return label;
     } else {

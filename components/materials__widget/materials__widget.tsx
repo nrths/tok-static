@@ -318,6 +318,7 @@ const MaterialsWidget: FC<MaterialsWidgetProps> = ({ item }) => {
           </div>
         )}
         {item.title === "baul" ||
+        item.title === "baul-razdvij" ||
         item.title === "slaider" ||
         item.title === "slot" ? (
           <div className={styles.base}>

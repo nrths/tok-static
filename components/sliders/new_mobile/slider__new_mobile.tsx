@@ -4,6 +4,7 @@ import "keen-slider/keen-slider.min.css";
 import Image from "next/image";
 import { TNewModel } from "@/lib/lists";
 import styles from "../slider.module.css";
+import Link from "next/link";
 
 export type TNewModelsSliderProps = {
   models: TNewModel[];
@@ -28,7 +29,7 @@ const NewModelsSliderMobile: FC<TNewModelsSliderProps> = ({ models }) => {
     <div className={styles.modelsSliderWrapper}>
       <div className='navigation-wrapper'>
         <div ref={sliderRef} className='keen-slider'>
-          <div className={`keen-slider__slide number-slide1 `}>
+          <Link href={models[0].link} className={`keen-slider__slide number-slide1 `}>
             <Image
               fill
               sizes='(max-width: 2560px) 100vw'
@@ -47,8 +48,8 @@ const NewModelsSliderMobile: FC<TNewModelsSliderProps> = ({ models }) => {
                 </span>
               </div>
             </div>
-          </div>
-          <div className={`keen-slider__slide number-slide2 `}>
+          </Link>
+          <Link href={models[1].link} className={`keen-slider__slide number-slide2 `}>
             <Image
               fill
               sizes='(max-width: 2560px) 100vw'
@@ -66,8 +67,8 @@ const NewModelsSliderMobile: FC<TNewModelsSliderProps> = ({ models }) => {
                 </span>
               </div>
             </div>
-          </div>
-          <div className={`keen-slider__slide number-slide3 `}>
+          </Link>
+          <Link href={models[2].link} className={`keen-slider__slide number-slide3 `}>
             <Image
               fill
               sizes='(max-width: 2560px) 100vw'
@@ -85,8 +86,8 @@ const NewModelsSliderMobile: FC<TNewModelsSliderProps> = ({ models }) => {
                 </span>
               </div>
             </div>
-          </div>
-          <div className={`keen-slider__slide number-slide4 `}>
+          </Link>
+          <Link href={models[3].link} className={`keen-slider__slide number-slide4 `}>
             <Image
               fill
               sizes='(max-width: 2560px) 100vw'
@@ -104,8 +105,8 @@ const NewModelsSliderMobile: FC<TNewModelsSliderProps> = ({ models }) => {
                 </span>
               </div>
             </div>
-          </div>
-          <div className={`keen-slider__slide number-slide5 `}>
+          </Link>
+          <Link href={models[4].link} className={`keen-slider__slide number-slide5 `}>
             <Image
               fill
               sizes='(max-width: 2560px) 100vw'
@@ -123,8 +124,8 @@ const NewModelsSliderMobile: FC<TNewModelsSliderProps> = ({ models }) => {
                 </span>
               </div>
             </div>
-          </div>
-          <div className={`keen-slider__slide number-slide6 `}>
+          </Link>
+          <Link href={models[5].link} className={`keen-slider__slide number-slide6 `}>
             <Image
               fill
               sizes='(max-width: 2560px) 100vw'
@@ -142,8 +143,8 @@ const NewModelsSliderMobile: FC<TNewModelsSliderProps> = ({ models }) => {
                 </span>
               </div>
             </div>
-          </div>
-          <div className={`keen-slider__slide number-slide7 `}>
+          </Link>
+          <Link href={models[6].link} className={`keen-slider__slide number-slide7 `}>
             <Image
               fill
               sizes='(max-width: 2560px) 100vw'
@@ -161,8 +162,8 @@ const NewModelsSliderMobile: FC<TNewModelsSliderProps> = ({ models }) => {
                 </span>
               </div>
             </div>
-          </div>
-          <div className={`keen-slider__slide number-slide8 `}>
+          </Link>
+          <Link href={models[7].link} className={`keen-slider__slide number-slide8 `}>
             <Image
               fill
               sizes='(max-width: 2560px) 100vw'
@@ -180,7 +181,7 @@ const NewModelsSliderMobile: FC<TNewModelsSliderProps> = ({ models }) => {
                 </span>
               </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </div>
