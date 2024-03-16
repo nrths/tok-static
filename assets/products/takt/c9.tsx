@@ -54,7 +54,7 @@ export const takt_c9 = {
     previewImg: "/images/products/takt/c9/preview.jpg",
     position: -2,
     mobilePosition: -2,
-    model: "https://disk.yandex.ru/d/BtLHL09Eb_TuUg",
+    model: "https://disk.yandex.ru/d/PNHX_lczTAQjSw",
     collage: "https://disk.yandex.ru/d/I466UPmtaoBmJw",
     tags: ["диван"],
   };

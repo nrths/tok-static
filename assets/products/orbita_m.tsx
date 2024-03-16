@@ -69,7 +69,7 @@ export const orbita_m = {
   category: "COFFEE_TABLE STEAL",
   name: "орбита-м",
   previewImg: "/images/products/orbita-m/preview.jpg",
-  position: 17,
+  position: 16.5,
   sortedPosition: 15,
   mobilePosition: 32,
   model: "https://disk.yandex.ru/d/GKkBshdfs-1A_Q",

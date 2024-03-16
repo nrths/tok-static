@@ -240,6 +240,27 @@ const NewModelsSlider: FC<TNewModelsSliderProps> = ({ models }) => {
               </div>
             </div>
           </Link>
+          <Link href={models[9].link} className={`keen-slider__slide number-slide10 `}>
+            <Image
+              fill
+              sizes='(max-width: 2560px) 100vw'
+              src={models[9].img}
+              alt={models[9].name}
+              priority
+              unoptimized
+              placeholder="blur"
+              blurDataURL={models[9].img}
+              className={styles.image}
+            />
+            <div className={styles.patch}>
+              <div className={styles.patch__content}>
+                <h1 className={styles.title}>{models[9].name}</h1>
+                <span className={styles.description}>
+                  {models[9].description}
+                </span>
+              </div>
+            </div>
+          </Link>
         </div>}
         {loaded && instanceRef.current && (
           <div className='dots dots__homepage'>

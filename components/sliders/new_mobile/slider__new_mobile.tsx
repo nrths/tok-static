@@ -182,6 +182,25 @@ const NewModelsSliderMobile: FC<TNewModelsSliderProps> = ({ models }) => {
               </div>
             </div>
           </Link>
+          <Link href={models[8].link} className={`keen-slider__slide number-slide9 `}>
+            <Image
+              fill
+              sizes='(max-width: 2560px) 100vw'
+              src={models[8].img}
+              alt={models[8].name}
+              priority
+              unoptimized
+              className={styles.image}
+            />
+            <div className={styles.patch}>
+              <div className={styles.patch__content}>
+                <h1 className={styles.title}>{models[8].name}</h1>
+                <span className={styles.description}>
+                  {models[8].description}
+                </span>
+              </div>
+            </div>
+          </Link>
         </div>
       </div>
     </div>

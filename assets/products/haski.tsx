@@ -64,7 +64,7 @@ export const haski = {
   category: "COFFEE_TABLE STEAL",
   name: "хаски",
   previewImg: "/images/products/haski/preview.jpg",
-  position: 31,
+  position: 30,
   sortedPosition: 32,
   mobilePosition: 33,
   model: "https://disk.yandex.ru/d/ad4waUtyYld6CQ",

@@ -52,9 +52,9 @@ export const takt_c1 = {
   category: "SOFA",
   name: "такт с1",
   previewImg: "/images/products/takt/c1/preview.jpg",
-  position: 8.5,
+  position: 3.5,
   mobilePosition: 6.5,
-  model: "https://disk.yandex.ru/d/BtLHL09Eb_TuUg",
+  model: "https://disk.yandex.ru/d/PNHX_lczTAQjSw",
   collage: "https://disk.yandex.ru/d/jzMWLKozt-Gueg",
   tags: ["диван"],
 };

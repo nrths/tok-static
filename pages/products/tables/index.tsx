@@ -7,6 +7,7 @@ import { series } from "@/assets/series";
 import { useEffect, useState } from "react";
 import FilterMenu from "@/components/filter__menu/filter__menu";
 import Head from "next/head";
+import SofaCard from "@/components/card/card__sofa";
 
 const ProductsPage = ({ products }: any) => {
   const dinnerTables = products.filter(
@@ -108,6 +109,8 @@ const ProductsPage = ({ products }: any) => {
           {productsList.map((item: any) => {
             if (item.title.startsWith("ser")) {
               return <SeriesCard series={item} key={item.id} />;
+            } else if (item.title === 'klin-2') {
+              return <SofaCard product={item} key={item.id} />;
             } else {
               return <Card product={item} key={item.id + 100} />;
             }

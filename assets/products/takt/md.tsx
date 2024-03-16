@@ -51,7 +51,7 @@ export const takt_md = {
     previewImg: "/images/products/takt/md/preview.jpg",
     position: -2,
     mobilePosition: -2,
-    model: "https://disk.yandex.ru/d/BtLHL09Eb_TuUg",
+    model: "https://disk.yandex.ru/d/PNHX_lczTAQjSw",
     tags: ["диван"],
   };
   

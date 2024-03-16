@@ -679,9 +679,8 @@ export const Metal: TMaterialGroup = {
     {
       id: 9,
       name: "7006",
-      type: "кофе с молоком",
-      img: '/images/materials/metal/7006.jpg',
-    }
+      img: "/images/materials/metal/7006.jpg",
+    },
   ],
 };
 

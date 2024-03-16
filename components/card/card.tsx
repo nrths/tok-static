@@ -27,6 +27,7 @@ const Card: FC<TCard> = ({ product, id, seriesTitle, homepage }) => {
     product.title === "velvet-sl" ||
     product.title === "velvet-sl-2" ||
     product.title === "velvet-sl-fl" ||
+    product.title === "velvet-sl-razdvij" ||
     product.title === "velvet-krug-razdvij" ||
     product.title === "altay-razdvij" ||
     product.title === "tviks-2" ||
@@ -123,7 +124,7 @@ const Card: FC<TCard> = ({ product, id, seriesTitle, homepage }) => {
               loading='lazy'
             />
             <div className={styles.cardInfoWrapper}>
-              {product.dateOfCreation === 2023 && (
+              {product.dateOfCreation === 2023 || product.dateOfCreation === 2024 ? (
                 <span
                   className={
                     router.pathname === "/"
@@ -133,7 +134,7 @@ const Card: FC<TCard> = ({ product, id, seriesTitle, homepage }) => {
                 >
                   новинка
                 </span>
-              )}
+              ) : null}
               <h3 className={homepage ? `${styles.cardTitleHomepage} ${styles.cardTitle}` : `${styles.cardTitle}`}>{product.name}</h3>
               <span className={homepage ? `${styles.price} ${styles.priceHomepage}` : `${styles.price}`}>
                 от {maskPrice(product.price)} &#8381;

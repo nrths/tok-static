@@ -43,8 +43,9 @@ const Home: FC<THome> = () => {
     const newestProducts = products.filter(
       (product) => product.dateOfCreation === 2024
     );
+    const newestProductsWithoutKlin2 = newestProducts.filter((p) => p.title !== "klin-2");
     // const newestSofas = sofas.filter(p => p.dateOfCreation === 2024)
-    const result = [...newestProducts, ...newProducts, ...newestSeries];
+    const result = [...newestProductsWithoutKlin2, ...newProducts, ...newestSeries];
     setVisuals(result);
   }, []);
   return (

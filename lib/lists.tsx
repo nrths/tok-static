@@ -203,6 +203,18 @@ export const dignitysList = [
 
 const newModelsList: TNewModel[] = [
   {
+    name: "вельвет сл раздвижной",
+    description: "новая серия столов",
+    img: "/images/products/models__new/velvet-sl-r.jpg",
+    link: "/products/velvet-sl-razdvij",
+  },
+  {
+    name: "телега",
+    description: "новая серия столов",
+    img: "/images/products/models__new/telega.jpg",
+    link: "/products/telega",
+  },
+  {
     name: "баул раздвижной",
     description: "новая серия столов",
     img: "/images/products/models__new/baul-r.jpg",
@@ -249,16 +261,22 @@ const newModelsList: TNewModel[] = [
     description: "новая серия столов",
     img: "/images/products/models__new/klinker-b.jpg",
     link: "/products/series/ser-klinker-b",
-  },
-  {
-    name: "слайдер",
-    description: "новая серия столов",
-    img: "/images/products/models__new/slaider.jpg",
-    link: "/products/slaider",
-  },  
+  }, 
 ];
 
 const newModelsListMobile: TNewModel[] = [
+  {
+    name: "вельвет сл раздвижной",
+    description: "новая серия столов",
+    img: "/images/products/models__new/mobile/velvet-sl-r.jpg",
+    link: "/products/velvet-sl-razdvij",
+  },
+  {
+    name: "телега",
+    description: "новая серия столов",
+    img: "/images/products/models__new/mobile/telega.jpg",
+    link: "/products/telega",
+  },
   {
     name: "баул раздвижной",
     description: "новая серия столов",
@@ -300,12 +318,6 @@ const newModelsListMobile: TNewModel[] = [
     description: "новая серия столов",
     img: "/images/products/models__new/mobile/klinker-b.jpg",
     link: "/products/series/ser-klinker-b",
-  },
-  {
-    name: "слайдер",
-    description: "новая серия столов",
-    img: "/images/products/models__new/mobile/slaider.jpg",
-    link: "/products/slaider",
   },
 ];
 

@@ -58,6 +58,8 @@ import { takt_c8 } from "./products/takt/c8";
 import { takt_c9 } from "./products/takt/c9";
 import { takt_md } from "./products/takt/md";
 import { baul_razdvij } from "./products/baul-razdvij";
+import { velvet_sl_razdvij } from "./products/velvet_sl_razdvij";
+import { telega } from "./products/telega";
 
 export type TProject = {
   img: string;
@@ -135,7 +137,9 @@ export const products = [
   tviks_2,
   klin,
   klin_2,
-  baul_razdvij
+  baul_razdvij,
+  velvet_sl_razdvij,
+  telega
 ];
 
 export const sofas = [

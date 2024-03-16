@@ -45,7 +45,7 @@ const ProductsPage = ({ products }: any) => {
           {productsList.map((item: any) => {
             if (item.title.startsWith("ser")) {
               return <SeriesCard series={item} key={item.id} />;
-            } else if (item.category.includes("SOFA")) {
+            } else if (item.category.includes("SOFA") || item.title === 'klin-2') {
               return <SofaCard product={item} key={item.id} />;
             } else {
               return <Card product={item} key={item.id + 100} />;

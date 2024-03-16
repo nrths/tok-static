@@ -85,7 +85,7 @@ export const klin = {
   name: "клин",
   previewImg: "/images/products/klin/preview.jpg",
   position: 0,
-  sortedPosition: 0,
+  sortedPosition: -0.5,
   mobilePosition: 0,
   model: "https://disk.yandex.ru/d/NETrQcIlXsnzow",
   collage: "https://disk.yandex.ru/d/le-OCw3zhYeEuQ",
