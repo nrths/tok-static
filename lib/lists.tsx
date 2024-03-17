@@ -203,16 +203,16 @@ export const dignitysList = [
 
 const newModelsList: TNewModel[] = [
   {
-    name: "вельвет сл раздвижной",
-    description: "новая серия столов",
-    img: "/images/products/models__new/velvet-sl-r.jpg",
-    link: "/products/velvet-sl-razdvij",
-  },
-  {
     name: "телега",
     description: "новая серия столов",
     img: "/images/products/models__new/telega.jpg",
     link: "/products/telega",
+  },
+  {
+    name: "вельвет сл раздвижной",
+    description: "новая серия столов",
+    img: "/images/products/models__new/velvet-sl-r.jpg",
+    link: "/products/velvet-sl-razdvij",
   },
   {
     name: "баул раздвижной",
@@ -266,16 +266,16 @@ const newModelsList: TNewModel[] = [
 
 const newModelsListMobile: TNewModel[] = [
   {
-    name: "вельвет сл раздвижной",
-    description: "новая серия столов",
-    img: "/images/products/models__new/mobile/velvet-sl-r.jpg",
-    link: "/products/velvet-sl-razdvij",
-  },
-  {
     name: "телега",
     description: "новая серия столов",
     img: "/images/products/models__new/mobile/telega.jpg",
     link: "/products/telega",
+  },
+  {
+    name: "вельвет сл раздвижной",
+    description: "новая серия столов",
+    img: "/images/products/models__new/mobile/velvet-sl-r.jpg",
+    link: "/products/velvet-sl-razdvij",
   },
   {
     name: "баул раздвижной",
