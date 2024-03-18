@@ -13,11 +13,13 @@ export type TSofaCard = {
 
 const SofaCard: FC<TSofaCard> = ({ product, id, homepage }) => {
   const router = useRouter();
+  const href = product.title === 'klin-2' ? '/products/klin-2' : '/products/sofas';
+
       return (
       <>
         <div className={`${styles.card} ${styles.sofa}`} id={id}>
           <Link
-            href={`/products/sofas`}
+            href={href}
             className={styles.link}
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
