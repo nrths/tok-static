@@ -69,6 +69,13 @@ const FilterMenu = () => {
             title={"столики"}
           />
         </Link>
+        <Link href={hrefSofas}>
+          <MenuItem
+            disable={pathname === hrefSofas}
+            href={hrefSofas}
+            title={"диваны"}
+          />
+        </Link>
         <Link href={hrefBeds}>
           <MenuItem
             disable={pathname === hrefBeds}
@@ -81,13 +88,6 @@ const FilterMenu = () => {
             disable={pathname === hrefChairs}
             href={hrefChairs}
             title={"стулья"}
-          />
-        </Link>
-        <Link href={hrefSofas}>
-          <MenuItem
-            disable={pathname === hrefSofas}
-            href={hrefSofas}
-            title={"диваны"}
           />
         </Link>
       </div>

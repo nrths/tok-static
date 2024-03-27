@@ -77,7 +77,7 @@ const ContactsPage: NextPage = () => {
                   e-mail: <a className={styles.email} href="mailto:sales@tok-mebel.ru">sales@tok-mebel.ru</a>
                 </p>
                 <Link
-                href={"https://yandex.ru/maps/-/CDqdIOp2"}
+                href={"https://yandex.ru/maps/org/tok_mebel/219413383351/?ll=30.409661%2C59.941576&z=16"}
                 target='_blank'
                 className={styles.button__map_desktop}
               >
