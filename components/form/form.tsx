@@ -52,10 +52,10 @@ const Form: FC<TFormProps> = ({ id }) => {
   }
 
   const onHandleFormSubmit = async (data: any) => {
-    // console.log(data.copyemail)
+    console.log(data.copyemail)
     if (data.copyemail === "") {
       setFormData((prev: any) => ({ ...prev, ...data }));
-      // console.log(data);
+      console.log(data);
       sendForm(data);
       setSuccessBackCall(true);
     }

@@ -2,8 +2,8 @@ import sendEmail from "@/lib/mail";
 
 export default async function handler(req: any, res: any) {
   const message = {
-    to: 'admin@tokmebel.ru, sales@tok-mebel.ru',
-    // to: "admin@tokmebel.ru",
+    // to: 'admin@tokmebel.ru, sales@tok-mebel.ru',
+    to: "admin@tokmebel.ru",
     subject: `[${req.body.where}] Заказ обратного звонка от ${req.body.name}.`,
     text: `
             Имя: ${req.body.name},
@@ -15,6 +15,6 @@ export default async function handler(req: any, res: any) {
 
   sendEmail(message);
   console.log(req.body);
-  console.log(message);
+  // console.log(message);
   res.send(`Спасибо за заявку!`);
 }
