@@ -29,6 +29,7 @@ const Form: FC<TFormProps> = ({ id }) => {
       message: "Введите корректный номер телефона",
       excludeEmptyString: false,
     }),
+    copyemail: Yup.string(),
     email: Yup.string().email("Некорректный e-mail"),
     comment: Yup.string(),
   });
@@ -44,19 +45,23 @@ const Form: FC<TFormProps> = ({ id }) => {
   function sendForm(data: any) {
     try {
       axios.post("https://www.tok-mebel.ru/api/send-form", data);
+      // axios.post("http://localhost:3000/api/send-form", data);
     } catch (error) {
       console.log("Sending error", error);
     }
   }
 
   const onHandleFormSubmit = async (data: any) => {
-    setFormData((prev: any) => ({ ...prev, ...data }));
-    // console.log(data);
-    sendForm(data);
-    setSuccessBackCall(true);
+    // console.log(data.copyemail)
+    if (data.copyemail === "") {
+      setFormData((prev: any) => ({ ...prev, ...data }));
+      // console.log(data);
+      sendForm(data);
+      setSuccessBackCall(true);
+    }
 
-    setTimeout(() => setSuccessBackCall(false), 1000)
-    setTimeout(() => reset(), 2000)
+    setTimeout(() => setSuccessBackCall(false), 1000);
+    setTimeout(() => reset(), 2000);
   };
   return (
     <>
@@ -70,9 +75,16 @@ const Form: FC<TFormProps> = ({ id }) => {
       >
         <div className={styles.inputsContainer}>
           <input
+            id='copyemail'
+            {...register("copyemail")}
+            className={` ${styles.copyEmailInput}`}
+            type='email'
+          />
+
+          <input
             id='name'
             {...register("name")}
-            className={styles.input}
+            className={`${styles.input} ${styles.inputName}`}
             type='text'
             placeholder='Имя'
           />

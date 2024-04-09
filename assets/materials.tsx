@@ -2066,9 +2066,9 @@ export const Fabrics_EnjoyLux: TMaterialGroup = {
     },
     {
       id: 18,
-      name: "22",
+      name: "28",
       type: "enjoy lux",
-      img: "/images/materials/fabrics/enjoy_lux/22.jpg",
+      img: "/images/materials/fabrics/enjoy_lux/28.jpg",
     },
   ],
 };

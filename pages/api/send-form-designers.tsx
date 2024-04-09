@@ -3,7 +3,7 @@ import sendEmail from "@/lib/mail";
 
 export default async function handlerSendDesigner(req: any, res: any) {
 	const message = {
-		to: 'admin@tokmebel.ru, tokmebel@mail.ru, sales@tok-mebel.ru',
+		to: 'admin@tokmebel.ru, sales@tok-mebel.ru',
 		subject: `[Запрос сотрудничества] tok-mebel от ${req.body.firstName} ${req.body.lastName}.`,
 		text: `
             Имя: ${req.body.firstName},
