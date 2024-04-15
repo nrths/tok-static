@@ -22,6 +22,7 @@ export type TMaterialGroup = {
     | "ткань категория 1"
     | "ткань категория 2"
     | "ткань категория 3"
+    | "ткань категория 4"
     | "нержавеющая сталь";
   furnish: string;
   base?: string;
@@ -3150,7 +3151,7 @@ export const Fabrics_Puffy: TMaterialGroup = {
 
 export const Fabrics_Retro: TMaterialGroup = {
   id: 33,
-  title: "ткань категория 3",
+  title: "ткань категория 4",
   furnish: "ткани",
   base: "",
   hem: "",
@@ -3360,7 +3361,7 @@ export const Fabrics_Talia: TMaterialGroup = {
 
 export const Fabrics_Teddy: TMaterialGroup = {
   id: 36,
-  title: "ткань категория 3",
+  title: "ткань категория 4",
   furnish: "ткани",
   base: "",
   hem: "",
