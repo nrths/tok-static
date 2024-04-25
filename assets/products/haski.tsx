@@ -16,7 +16,10 @@ export const haski = {
   countertop: ["fenix ntm / массив дуба"],
   underframe: ["металл"],
   sizesSlider: ["/images/products/haski/sizes/1.jpg"],
-  visualisations: [],
+  visualisations: [
+    "/images/products/haski/interior/1.jpg",
+    "/images/products/haski/interior/2.jpg",
+  ],
   designersProjects: [
     {
       img: "/images/products/haski/projects/1.jpg",

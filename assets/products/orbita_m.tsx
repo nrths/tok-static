@@ -40,7 +40,6 @@ export const orbita_m = {
     "/images/products/orbita-m/interior/1.jpg",
     "/images/products/orbita-m/interior/2.jpg",
     "/images/products/orbita-m/interior/3.jpg",
-    "/images/products/orbita-m/interior/4.jpg",
   ],
   designersProjects: [],
   price: [49000],

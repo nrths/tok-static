@@ -24,7 +24,6 @@ export const hameleon = {
   visualisations: [
     "/images/products/hameleon/interior/1.jpg",
     "/images/products/hameleon/interior/2.jpg",
-    "/images/products/hameleon/interior/3.jpg",
   ],
   designersProjects: [
     {

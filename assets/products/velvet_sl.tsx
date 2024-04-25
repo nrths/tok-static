@@ -34,7 +34,6 @@ export const velvet_sl = {
   visualisations: [
     "/images/products/velvet-sl/interior/1.jpg",
     "/images/products/velvet-sl/interior/2.jpg",
-    "/images/products/velvet-sl/interior/3.jpg",
   ],
   designersProjects: [
     {

@@ -40,6 +40,9 @@ export const takt_c9 = {
       "/images/products/takt/c9/interior/2.jpg",
       "/images/products/takt/c9/interior/3.jpg",
       "/images/products/takt/c9/interior/4.jpg",
+      "/images/products/takt/c9/interior/5.jpg",
+      "/images/products/takt/c9/interior/6.jpg",
+      "/images/products/takt/c9/interior/7.jpg"
     ],
     designersProjects: [],
     price: [495600],

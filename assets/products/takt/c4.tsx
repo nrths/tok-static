@@ -37,6 +37,7 @@ export const takt_c4 = {
       "/images/products/takt/c4/interior/1.jpg",
       "/images/products/takt/c4/interior/2.jpg",
       "/images/products/takt/c4/interior/3.jpg",
+      "/images/products/takt/c4/interior/4.jpg",
     ],
     designersProjects: [],
     price: [352200],

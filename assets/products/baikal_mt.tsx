@@ -51,7 +51,6 @@ export const baikal_mt = {
     "/images/products/baikal-mt/interior/9.jpg",
     "/images/products/baikal-mt/interior/10.jpg",
     "/images/products/baikal-mt/interior/11.jpg",
-    "/images/products/baikal-mt/interior/12.jpg",
   ],
   designersProjects: [],
   price: [32900],

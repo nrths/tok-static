@@ -28,7 +28,13 @@ export const klinker_k25 = {
     "/images/products/klinker/sizes/1.jpg",
     "/images/products/klinker/sizes/2.jpg",
   ],
-  visualisations: [],
+  visualisations: [
+    "/images/products/klinker/interior/1.jpg",
+    "/images/products/klinker/interior/2.jpg",
+    "/images/products/klinker/interior/3.jpg",
+    "/images/products/klinker/interior/4.jpg",
+    "/images/products/klinker/interior/5.jpg",
+  ],
   designersProjects: [],
   price: [137700],
   params: {
@@ -115,7 +121,13 @@ export const klinker_k50 = {
     "/images/products/klinker/sizes/1.jpg",
     "/images/products/klinker/sizes/2.jpg",
   ],
-  visualisations: [],
+  visualisations: [
+    "/images/products/klinker/interior/1.jpg",
+    "/images/products/klinker/interior/2.jpg",
+    "/images/products/klinker/interior/3.jpg",
+    "/images/products/klinker/interior/4.jpg",
+    "/images/products/klinker/interior/5.jpg",
+  ],
   designersProjects: [],
   price: [132400],
   params: {
@@ -202,7 +214,13 @@ export const klinker_p25 = {
     "/images/products/klinker/sizes/1.jpg",
     "/images/products/klinker/sizes/2.jpg",
   ],
-  visualisations: [],
+  visualisations: [
+    "/images/products/klinker/interior/1.jpg",
+    "/images/products/klinker/interior/2.jpg",
+    "/images/products/klinker/interior/3.jpg",
+    "/images/products/klinker/interior/4.jpg",
+    "/images/products/klinker/interior/5.jpg",
+  ],
   designersProjects: [],
   price: [132400],
   params: {
@@ -292,6 +310,9 @@ export const klinker_p50 = {
   visualisations: [
     "/images/products/klinker/interior/1.jpg",
     "/images/products/klinker/interior/2.jpg",
+    "/images/products/klinker/interior/3.jpg",
+    "/images/products/klinker/interior/4.jpg",
+    "/images/products/klinker/interior/5.jpg",
   ],
   designersProjects: [],
   price: [124900],

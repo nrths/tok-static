@@ -58,6 +58,7 @@ export const baikal = {
     "/images/products/baikal/interior/7.jpg",
     "/images/products/baikal/interior/8.jpg",
     "/images/products/baikal/interior/9.jpg",
+    "/images/products/baikal/interior/10.jpg",
   ],
   designersProjects: [],
   price: [36900],

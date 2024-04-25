@@ -37,6 +37,8 @@ export const takt_c6 = {
       "/images/products/takt/c6/interior/1.jpg",
       "/images/products/takt/c6/interior/2.jpg",
       "/images/products/takt/c6/interior/3.jpg",
+      "/images/products/takt/c6/interior/4.jpg",
+      "/images/products/takt/c6/interior/5.jpg",
     ],
     designersProjects: [],
     price: [327900],

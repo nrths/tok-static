@@ -26,6 +26,7 @@ export const nori = {
     "/images/products/nori/interior/1.jpg",
     "/images/products/nori/interior/2.jpg",
     "/images/products/nori/interior/3.jpg",
+    "/images/products/nori/interior/4.jpg",
   ],
   designersProjects: [
     {

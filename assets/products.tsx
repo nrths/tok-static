@@ -120,7 +120,7 @@ export const products = [
   pud,
   ris,
   rol,
-  slaider,
+  // slaider,
   slot,
   velvet_krug,
   velvet_krug_fl,

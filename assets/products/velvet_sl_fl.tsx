@@ -23,7 +23,11 @@ export const velvet_sl_fl = {
     "/images/products/velvet-sl-fl/sizes/3.jpg",
     "/images/products/velvet-sl-fl/sizes/4.jpg",
   ],
-  visualisations: [],
+  visualisations: [
+    "/images/products/velvet-sl-fl/interior/1.jpg",
+    "/images/products/velvet-sl-fl/interior/2.jpg",
+    "/images/products/velvet-sl-fl/interior/3.jpg",
+  ],
   designersProjects: [
     {
       img: "/images/products/velvet-sl-fl/projects/1.jpg",
