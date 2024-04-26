@@ -5,6 +5,7 @@ import SeriesCard from "@/components/card/card__series";
 import { allSetsTakt } from "@/assets/products";
 import FilterMenu from "@/components/filter__menu/filter__menu";
 import Head from "next/head";
+import ConfigurationSofa from "@/components/configuration__sofa/configuration__sofa";
 
 const SofasPage = ({ products }: any) => {
   const result = products.sort(
@@ -24,7 +25,7 @@ const SofasPage = ({ products }: any) => {
       <Header />
       <FilterMenu />
       <div className={styles.empty}></div>
-      <div className={styles.container}></div>
+      {/* <div className={styles.container}></div> */}
       {result !== undefined && (
         <div className={styles.container}>
           {result.map((item: any) => {
@@ -34,6 +35,7 @@ const SofasPage = ({ products }: any) => {
               return <Card product={item} key={item.id + 100} />;
             }
           })}
+          <ConfigurationSofa />
         </div>
       )}
     </>

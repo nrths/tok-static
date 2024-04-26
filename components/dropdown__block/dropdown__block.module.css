@@ -6,8 +6,3 @@
     border-top: 1px solid var(--dropdownBorderColor);
     justify-content: space-between;
 }
-
-@media (max-width: 600px) {
-
-   
-}
