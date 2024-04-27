@@ -269,8 +269,16 @@
         padding-bottom: 20px;
         width: 100%;
     }
+}
 
-    .formSofasDescription {
-        padding-bottom: 60px;
+@media (min-width: 820px) {
+    .buttonConfig {
+        margin: 60px auto 30px;
+    }
+}
+
+@media (max-width: 492px) {
+    .buttonConfig {
+        margin: 60px auto 10px;
     }
 }
