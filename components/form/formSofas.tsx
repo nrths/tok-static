@@ -22,7 +22,7 @@ const FormSofas: FC<TFormProps> = ({ id, mobile }) => {
   const phoneRegExp = /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/;
   const validationSchema = Yup.object().shape({
     name: Yup.string().required("Введите Ваше имя"),
-    phone: Yup.string().matches(phoneRegExp, {
+    phone: Yup.string().required("Введите номер телефона").matches(phoneRegExp, {
       message: "Введите корректный номер телефона",
       excludeEmptyString: false,
     }),
